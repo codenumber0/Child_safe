@@ -6,7 +6,15 @@
 <mapper namespace="kr.childsafe.mapper.Childmapper">
     
     <!-- resultType은 갖고온걸 저기 vo에 묶어주는것임 -->
+    <!-- 회원정보 띄워볼려고 만들어놓은것  -->
 	<select id="memberList" resultType="kr.childsafe.domain.TMember">
-		select * from t_member
+	select * from t_member
 	</select>
+	
+    <!-- 회원가입  -->
+	<insert id="join" parameterType="kr.childsafe.domain.TMember">
+		insert into t_member(mem_id,mem_pw,mem_name,mem_birthdate,mem_phone, mem_email, mem_addr, mem_joindate, admin_yn) 
+		VALUES (#{mem_id}, #{mem_pw}, #{mem_name}, #{mem_birthdate}, #{mem_phone}, #{mem_email},#{mem_addr}, 'sysdate', 'N')    
+	</insert>
+	
 </mapper>

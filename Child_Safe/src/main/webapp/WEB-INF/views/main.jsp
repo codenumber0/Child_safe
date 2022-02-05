@@ -10,6 +10,7 @@
 </head>
 <body>
 <h1>프로젝트 시작</h1>
+<a href="${cpath}/join.do">회원가입</a>
     <table>
 		<tr>
 			<td>1</td>

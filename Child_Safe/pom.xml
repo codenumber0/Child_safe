@@ -136,14 +136,6 @@
 			<version>5.1.47</version>
 		</dependency>
 		
-		<!-- oracle 땜에 내가 추가해봄 -->
-		<dependency>
-			<groupId>com.oracle</groupId>
-			<artifactId>ojdbc6</artifactId>
-			<version>11.2.0.3</version>
-			<scope>system</scope>
-			<systemPath>${basedir}/src/main/webapp/WEB-INF/lib/ojdbc6.jar</systemPath>
-		</dependency>
 
 		<!-- https://mvnrepository.com/artifact/org.springframework/spring-jdbc -->
 		<dependency>
