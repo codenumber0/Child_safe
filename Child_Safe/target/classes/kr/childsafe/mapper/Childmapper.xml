@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+	<!-- 밑의 네임스페이스랑 파일네임이랑 인터페이스 이름이 같아야 메소드를 걸어준다 -->
+<mapper namespace="kr.childsafe.mapper.Childmapper">
+    
+    <!-- resultType은 갖고온걸 저기 vo에 묶어주는것임 -->
+	<select id="memberList" resultType="kr.childsafe.domain.TMember">
+		select * from t_member
+	</select>
+</mapper>
