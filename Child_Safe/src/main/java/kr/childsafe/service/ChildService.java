@@ -18,15 +18,19 @@ public class ChildService { //scan에 의해서 메모리에 올라가는데 con
 	//회원테이블조회
 	public List<TMember> memberList() {
 		List<TMember> list =mapper.memberList();
-		System.out.println("서비스"+list);
 		return list;
 	}
 	//회원가입
 	public void join(TMember vo){
+		System.out.println("service"+vo);
 		mapper.join(vo);
 	}
 	//로그인
 	public TMember login(TMember vo) {
 		return mapper.login(vo);
+	}
+	//회원정보 수정
+	public void memberUpdate(TMember vo) {
+		mapper.memberUpdate(vo);
 	}
 }

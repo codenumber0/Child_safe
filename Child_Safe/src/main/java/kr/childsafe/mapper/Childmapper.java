@@ -11,4 +11,6 @@ public interface Childmapper {
 	public void join(TMember vo);
 	//로그인
 	public TMember login(TMember vo);
+	//회원정보 수정
+	public void memberUpdate(TMember vo);
 }

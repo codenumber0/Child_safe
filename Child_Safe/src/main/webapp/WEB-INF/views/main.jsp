@@ -16,6 +16,9 @@
 		$("#joinBtn").on("click", function(){
 			location.href="${cpath}/join.do";
 		})
+		$("#memberUpdateBtn").on("click",function(){
+			location.href="${cpath}/mypage.do"
+		})
 	})
 </script>
 </head>
@@ -67,6 +70,7 @@
 			<div>
 				<p>${member.mem_id}님 환영 합니다.</p>
 				<button id="logoutBtn" type="button">로그아웃</button>
+				<button id="memberUpdateBtn" type="button">회원정보수정</button>
 			</div>
 		</c:if>
 		<c:if test="${msg == false}">

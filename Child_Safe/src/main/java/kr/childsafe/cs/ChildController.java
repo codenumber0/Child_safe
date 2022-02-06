@@ -34,7 +34,6 @@ public class ChildController {
 		List<TMember> list = service.memberList();
 		//객체바인딩
 		model.addAttribute("list",list);
-		System.out.println(list);
 		return "main";//jsp 이름(jsp*jstl+el)
 	}
 	
@@ -47,9 +46,10 @@ public class ChildController {
 	
 	//회원가입 완료 버튼 클릭
 	@RequestMapping(value = "/join.do",method = RequestMethod.POST)
-	public void join(TMember vo) {
+	public String join(TMember vo) {
 		service.join(vo);
-		System.out.println(vo);
+		System.out.println("회원가입 됬나"+vo);
+		return "main";
 	}
 	
 	//로그인
@@ -62,18 +62,33 @@ public class ChildController {
 			session.setAttribute("member", null);
 			rttr.addFlashAttribute("msg",false);
 			System.out.println("로그인 성공못함");
-		}else {
-			session.setAttribute("member", login);
+		}else{
+			session.setAttribute("member", login); //login 여기에 session vo값들을 저장
 			System.out.println("로그인 성공");
 		}
 		return "redirect:/main.do";
 	}
+	
 	//로그아웃
 	@RequestMapping(value = "/logout.do",method=RequestMethod.GET)
 	public String lougout(HttpSession session) {
 		session.invalidate();
 		System.out.println("로그아웃 성공");
 		return "redirect:/main.do";
+	}
+	
+	//회원정보 보기
+	@RequestMapping(value = "/mypage.do",method = RequestMethod.GET)
+	public String memberUpdateView() {
+		return "mypage";
+	}
+	//회원정보 수정
+	@RequestMapping(value = "/mypage.do",method = RequestMethod.POST)
+	public String memberUpdate(TMember vo,HttpSession session) {
+		service.memberUpdate(vo);
+		session.invalidate();
+		return "redirect:/main.do";//회원수정을 하면 세션이 끊어져서 로그아웃된 메인화면으로 이동
+		
 	}
 	
 }

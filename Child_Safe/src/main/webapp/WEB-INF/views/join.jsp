@@ -72,7 +72,7 @@
 		</div>
 		<div>
 			<label>생년월일</label> 
-			<input type="text" id="mem_birthdate" name="mem_birthdate" />
+			<input type="date" id="mem_birthdate" name="mem_birthdate" />
 		</div>
 		<div>
 			<label>핸드폰</label> 
