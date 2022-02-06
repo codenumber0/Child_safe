@@ -66,14 +66,14 @@ public class ChildController {
 			session.setAttribute("member", login);
 			System.out.println("로그인 성공");
 		}
-		return "main";
+		return "redirect:/main.do";
 	}
 	//로그아웃
 	@RequestMapping(value = "/logout.do",method=RequestMethod.GET)
 	public String lougout(HttpSession session) {
 		session.invalidate();
 		System.out.println("로그아웃 성공");
-		return "main";
+		return "redirect:/main.do";
 	}
 	
 }

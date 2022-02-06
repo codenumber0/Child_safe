@@ -35,15 +35,15 @@
 		</tr>
 		<c:forEach var="vo" items="${list}">
 			<tr>
-				<td>${vo.memId}</td>
-				<td>${vo.memPw}</td>
-				<td>${vo.memName}</td>
-				<td>${vo.memBirthdate}</td>
-				<td>${vo.memPhone}</td>
-				<td>${vo.memEmail}</td>
-				<td>${vo.memAddr}</td>
-				<td>${vo.memJoindate}</td>
-				<td>${vo.adminYn}</td>
+				<td>${vo.mem_id}</td>
+				<td>${vo.mem_pw}</td>
+				<td>${vo.mem_name}</td>
+				<td>${vo.mem_birthdate}</td>
+				<td>${vo.mem_phone}</td>
+				<td>${vo.mem_email}</td>
+				<td>${vo.mem_addr}</td>
+				<td>${vo.mem_joindate}</td>
+				<td>${vo.admin_yn}</td>
 			</tr>
 		</c:forEach>
 
@@ -51,12 +51,12 @@
 	<form action="${cpath}/login.do" method="post">
 		<c:if test="${member == null}">
 			<div>
-				<label for="memId"></label>
-				<input type="text" id="memId" name="memId">
+				<label for="mem_id"></label>
+				<input type="text" id="mem_id" name="mem_id">
 			</div>
 			<div>
-				<label for="memPw"></label>
-				<input type="password" id="memPw" name="memPw">
+				<label for="mem_pw"></label>
+				<input type="password" id="mem_pw" name="mem_pw">
 			</div>
 			<div>
 				<button type="submit">로그인</button>
@@ -65,7 +65,7 @@
 		</c:if>
 		<c:if test="${member != null }">
 			<div>
-				<p>${member.memId}님 환영 합니다.</p>
+				<p>${member.mem_id}님 환영 합니다.</p>
 				<button id="logoutBtn" type="button">로그아웃</button>
 			</div>
 		</c:if>

@@ -17,39 +17,39 @@
 		})
 
 		$("#submit").on("click", function() {
-			if ($("#memId").val() == "") {
+			if ($("#mem_id").val() == "") {
 				alert("아이디를 입력해주세요.");
-				$("#memId").focus();
+				$("#mem_id").focus();
 				return false;
 			}
-			if ($("#memPw").val() == "") {
+			if ($("#mem_pw").val() == "") {
 				alert("비밀번호를 입력해주세요.");
-				$("#memPw").focus();
+				$("#mem_pw").focus();
 				return false;
 			}
-			if ($("#memName").val() == "") {
+			if ($("#mem_name").val() == "") {
 				alert("성명을 입력해주세요.");
-				$("#memName").focus();
+				$("#mem_name").focus();
 				return false;
 			}
-			if ($("#memBirthdate").val() == "") {
+			if ($("#mem_birthdate").val() == "") {
 				alert("생일을 입력해주세요.");
-				$("#memBirthdate").focus();
+				$("#mem_birthdate").focus();
 				return false;
 			}
-			if ($("#memPhone").val() == "") {
+			if ($("#mem_phone").val() == "") {
 				alert("핸드폰 번호를 입력해주세요.");
-				$("#memPhone").focus();
+				$("#mem_phone").focus();
 				return false;
 			}
-			if ($("#memEmail").val() == "") {
+			if ($("#mem_email").val() == "") {
 				alert("이메일을 입력해주세요.");
-				$("#memEmail").focus();
+				$("#mem_email").focus();
 				return false;
 			}
-			if ($("#memAddr").val() == "") {
+			if ($("#mem_addr").val() == "") {
 				alert("주소를 입력해주세요.");
-				$("#memAddr").focus();
+				$("#mem_addr").focus();
 				return false;
 			}
 		});
@@ -60,31 +60,31 @@
 	<form action="${cpath}/join.do" method="post">
 		<div>
 			<label>아이디</label> 
-			<input type="text" id="memId" name="memId" />
+			<input type="text" id="mem_id" name="mem_id" />
 		</div>
 		<div>
 			<label>패스워드</label> 
-			<input type="password" id="memPw" name="memPw" />
+			<input type="password" id="mem_pw" name="mem_pw" />
 		</div>
 		<div>
 			<label>이름</label> 
-			<input type="text" id="memName" name="memName" />
+			<input type="text" id="mem_name" name="mem_name" />
 		</div>
 		<div>
 			<label>생년월일</label> 
-			<input type="text" id="memBirthdate" name="memBirthdate" />
+			<input type="text" id="mem_birthdate" name="mem_birthdate" />
 		</div>
 		<div>
 			<label>핸드폰</label> 
-			<input type="text" id="memPhone" name="memPhone" />
+			<input type="text" id="mem_phone" name="mem_phone" />
 		</div>
 		<div>
 			<label>이메일</label> 
-			<input type="text" id="memEmail" name="memEmail" />
+			<input type="text" id="mem_email" name="mem_email" />
 		</div>
 		<div>
 			<label>주소</label> 
-			<input type="text" id="memAddr" name="memAddr" />
+			<input type="text" id="mem_addr" name="mem_addr" />
 		</div>
 		<div>
 			<button type="submit" id="submit">회원가입</button>

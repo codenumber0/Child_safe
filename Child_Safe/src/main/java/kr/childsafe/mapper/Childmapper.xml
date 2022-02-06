@@ -14,11 +14,11 @@
     <!-- 회원가입  -->
 	<insert id="join" parameterType="kr.childsafe.domain.TMember">
 		insert into t_member(mem_id,mem_pw,mem_name,mem_birthdate,mem_phone, mem_email, mem_addr, mem_joindate, admin_yn) 
-		VALUES (#{memId}, #{memPw}, #{memName}, #{memBirthdate}, #{memPhone}, #{memEmail},#{memAddr}, 'sysdate', 'N')    
+		VALUES (#{mem_id}, #{mem_pw}, #{mem_name}, #{mem_birthdate}, #{mem_phone}, #{mem_email},#{mem_addr}, 'sysdate', 'N')    
 	</insert>
 	
 	<!-- 로그인 -->
 	<select id="login" resultType="kr.childsafe.domain.TMember">
-	   	select mem_Id,mem_Pw from t_member where mem_Id=#{memId} and mem_Pw =#{memPw}
+	   	select mem_Id,mem_Pw from t_member where mem_Id=#{mem_id} and mem_Pw =#{mem_pw}
 	</select>
 </mapper>
