@@ -25,5 +25,8 @@ public class ChildService { //scan에 의해서 메모리에 올라가는데 con
 	public void join(TMember vo){
 		mapper.join(vo);
 	}
-	
+	//로그인
+	public TMember login(TMember vo) {
+		return mapper.login(vo);
+	}
 }

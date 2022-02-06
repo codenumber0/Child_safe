@@ -11,10 +11,11 @@ CREATE TABLE t_member
     admin_yn         VARCHAR2(1)      DEFAULT 'N' NOT NULL, 
      PRIMARY KEY (mem_id)
 );
-select * from t_member;
+select * from t_member where mem_id=1 and mempw=2
+select mem_Id,mem_pw from t_member where mem_Id='1';
 select * from t_member 
 /
-INSERT INTO t_member (mem_id, mem_pw, mem_name, mem_birthdate, mem_phone, mem_email, mem_addr, mem_joindate, admin_yn) VALUES ('mem_id 1', 'mem_pw 1', 'mem_name 1', sysdate, 'mem_phone 1', 'mem_email 1', 'mem_addr 1', sysdate, 'N');
+INSERT INTO t_member (mem_id, mem_pw, mem_name, mem_birthdate, mem_phone, mem_email, mem_addr, mem_joindate, admin_yn) VALUES ('1', '2', 'mem_name 1', sysdate, 'mem_phone 1', 'mem_email 1', 'mem_addr 1', sysdate, 'N');
 INSERT INTO t_member (mem_id, mem_pw, mem_name, mem_birthdate, mem_phone, mem_email, mem_addr, mem_joindate, admin_yn) VALUES ('mem_id 2', 'mem_pw 2', 'mem_name 2', sysdate, 'mem_phone 2', 'mem_email 2', 'mem_addr 2', sysdate, 'N');
 INSERT INTO t_member (mem_id, mem_pw, mem_name, mem_birthdate, mem_phone, mem_email, mem_addr, mem_joindate, admin_yn) VALUES ('mem_id 3', 'mem_pw 3', 'mem_name 3', sysdate, 'mem_phone 3', 'mem_email 3', 'mem_addr 3', sysdate, 'N');
 

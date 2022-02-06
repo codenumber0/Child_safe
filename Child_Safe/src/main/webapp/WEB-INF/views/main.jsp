@@ -7,10 +7,20 @@
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$("#logoutBtn").on("click", function(){
+			location.href="${cpath}/logout.do";
+		})
+		$("#joinBtn").on("click", function(){
+			location.href="${cpath}/join.do";
+		})
+	})
+</script>
 </head>
 <body>
 <h1>프로젝트 시작</h1>
-<a href="${cpath}/join.do">회원가입</a>
     <table>
 		<tr>
 			<td>1</td>
@@ -38,5 +48,30 @@
 		</c:forEach>
 
 	</table>
+	<form action="${cpath}/login.do" method="post">
+		<c:if test="${member == null}">
+			<div>
+				<label for="memId"></label>
+				<input type="text" id="memId" name="memId">
+			</div>
+			<div>
+				<label for="memPw"></label>
+				<input type="password" id="memPw" name="memPw">
+			</div>
+			<div>
+				<button type="submit">로그인</button>
+				<button type="button" id="joinBtn">회원가입</button>
+			</div>
+		</c:if>
+		<c:if test="${member != null }">
+			<div>
+				<p>${member.memId}님 환영 합니다.</p>
+				<button id="logoutBtn" type="button">로그아웃</button>
+			</div>
+		</c:if>
+		<c:if test="${msg == false}">
+			<p style="color: red;">로그인 실패! 아이디와 비밀번호 확인해주세요.</p>
+		</c:if>
+	</form>
 </body>
 </html>

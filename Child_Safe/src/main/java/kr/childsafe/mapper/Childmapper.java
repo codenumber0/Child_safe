@@ -9,4 +9,6 @@ public interface Childmapper {
 	public List<TMember> memberList();
 	//회원가입
 	public void join(TMember vo);
+	//로그인
+	public TMember login(TMember vo);
 }
