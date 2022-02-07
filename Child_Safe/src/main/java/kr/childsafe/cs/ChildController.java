@@ -22,11 +22,11 @@ public class ChildController {
 	ChildService service;
 
 	//main 
-//	@RequestMapping("/main.do")
-//	public String main() {
-//		System.out.println(vo);
-//		return "main";
-//	}
+	@RequestMapping("/Zindex.do")
+	public String main() {
+
+	return "Zindex";
+	}
 	
 	//회원테이블조회
 	@RequestMapping("/main.do")
