@@ -6,14 +6,15 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <title>ChildSafe</title>
+<!-- plugins:css -->
 <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/skydash/vendors/feather/feather.css">
 <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/skydash/vendors/ti-icons/css/themify-icons.css">
 <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/skydash/vendors/css/vendor.bundle.base.css">
-<script src="https://kit.fontawesome.com/a81368914c.js"></script>
-
 <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/skydash/css/vertical-layout-light/style.css">
 <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/skydash/css/vertical-layout-light/table.css">
-
+<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+<script src="${pageContext.request.contextPath}/resources/skydash/js/post.js"></script>
 </head>
 
 <body>
@@ -22,7 +23,7 @@
 		<nav class="navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
 			<div
 				class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-center">
-				<a class="navbar-brand brand-logo mr-5" href="Zindex.html"><b>ChildSafe</b></a>
+				<a class="navbar-brand brand-logo mr-5" href="Zindex.do"><b>ChildSafe</b></a>
 			</div>
 			<div
 				class="navbar-menu-wrapper d-flex align-items-center justify-content-end">
@@ -46,7 +47,7 @@
 		<div class="container-fluid page-body-wrapper">
 			<nav class="sidebar sidebar-offcanvas" id="sidebar">
 				<ul class="nav">
-					<li class="nav-item"><a class="nav-link" href="Zindex.html">
+					<li class="nav-item"><a class="nav-link" href="Zindex.do">
 							<i class="icon-grid menu-icon"></i> <span class="menu-title">메인페이지</span>
 					</a></li>
 
@@ -99,7 +100,7 @@
 						<div class="collapse" id="tables">
 							<ul class="nav flex-column sub-menu">
 								<li class="nav-item"><a class="nav-link" href="Ztable.do">게시판</a></li>
-								<li class="nav-item"><a class="nav-link" href="Zwrite.do">글쓰기</a></li>
+								<li class="nav-item"><a class="nav-link" href="Ztable.do">글쓰기</a></li>
 							</ul>
 						</div></li>
 
@@ -110,8 +111,10 @@
 					</a>
 						<div class="collapse" id="auth">
 							<ul class="nav flex-column sub-menu">
-								<li class="nav-item"><a class="nav-link" href="Zlogin.do">로그인 </a></li>
-								<li class="nav-item"><a class="nav-link" href="Zjoin.do">회원가입 </a></li>
+								<li class="nav-item"><a class="nav-link" href="Zlogin.html">
+										로그인 </a></li>
+								<li class="nav-item"><a class="nav-link" href="Zjoin.html">
+										회원가입 </a></li>
 							</ul>
 						</div></li>
 
@@ -127,139 +130,46 @@
 								<div class="container-table100">
 									<div class="wrap-table100">
 										<div class="table100">
-											<h2>게시판</h2>
+											<h2>게시글 작성</h2>
 											<hr
 												style="height: 5px; border: none; color: #e8bf12; background-color: #e8bf12;" />
-											<table>
-												<thead>
-													<tr class="table100-head">
-														<th class="column1">날짜</th>
-														<th class="column2">글번호</th>
-														<th class="column3">제목</th>
-														<th class="column5">조회수</th>
-														<th class="column6">글쓴이</th>
-													</tr>
-												</thead>
-												<tbody>
-													<tr>
-														<td class="column1">2017-09-29 01:22</td>
-														<td class="column2">200398</td>
-														<td class="column3"><a href="Zpost.do"
-															style="color: #808080;">2차 프로젝트 첫글</a></td>
-														<td class="column5">1</td>
-														<td class="column6">진기혀니</td>
-													</tr>
-													<tr>
-														<td class="column1">2017-09-28 05:57</td>
-														<td class="column2">200397</td>
-														<td class="column3">2차 프로젝트 글7</td>
-														<td class="column5">1</td>
-														<td class="column6">진기혀니</td>
-													</tr>
-													<tr>
-														<td class="column1">2017-09-26 05:57</td>
-														<td class="column2">200396</td>
-														<td class="column3">2차 프로젝트 글8</td>
-														<td class="column5">2</td>
-														<td class="column6">진기혀니</td>
-													</tr>
-													<tr>
-														<td class="column1">2017-09-25 23:06</td>
-														<td class="column2">200392</td>
-														<td class="column3">2차 프로젝트 글9</td>
-														<td class="column5">3</td>
-														<td class="column6">진기혀니</td>
-													</tr>
-													<tr>
-														<td class="column1">2017-09-24 05:57</td>
-														<td class="column2">200391</td>
-														<td class="column3">2차 프로젝트 글10</td>
-														<td class="column5">6</td>
-														<td class="column6">진기혀니</td>
-													</tr>
-													<tr>
-														<td class="column1">2017-09-23 05:57</td>
-														<td class="column2">200390</td>
-														<td class="column3">2차 프로젝트 글11</td>
-														<td class="column5">1</td>
-														<td class="column6">진기혀니</td>
-													</tr>
-													<tr>
-														<td class="column1">2017-09-22 05:57</td>
-														<td class="column2">200389</td>
-														<td class="column3">2차 프로젝트 글12</td>
-														<td class="column5">1</td>
-														<td class="column6">진기혀니</td>
-													</tr>
-													<tr>
-														<td class="column1">2017-09-21 05:57</td>
-														<td class="column2">200388</td>
-														<td class="column3">2차 프로젝트 글13</td>
-														<td class="column5">1</td>
-														<td class="column6">진기혀니</td>
-													</tr>
-													<tr>
-														<td class="column1">2017-09-19 05:57</td>
-														<td class="column2">200387</td>
-														<td class="column3">2차 프로젝트 글14</td>
-														<td class="column5">1</td>
-														<td class="column6">진기혀니</td>
-													</tr>
-													<tr>
-														<td class="column1">2017-09-18 05:57</td>
-														<td class="column2">200386</td>
-														<td class="column3">2차 프로젝트 글1</td>
-														<td class="column5">1</td>
-														<td class="column6">진기혀니</td>
-													</tr>
-													<tr>
-														<td class="column1">2017-09-22 05:57</td>
-														<td class="column2">200389</td>
-														<td class="column3">2차 프로젝트 글2</td>
-														<td class="column5">1</td>
-														<td class="column6">진기혀니</td>
-													</tr>
-													<tr>
-														<td class="column1">2017-09-21 05:57</td>
-														<td class="column2">200388</td>
-														<td class="column3">2차 프로젝트 글3</td>
-														<td class="column5">1</td>
-														<td class="column6">진기혀니</td>
-													</tr>
-													<tr>
-														<td class="column1">2017-09-19 05:57</td>
-														<td class="column2">200387</td>
-														<td class="column3">2차 프로젝트 글4</td>
-														<td class="column5">1</td>
-														<td class="column6">진기혀니</td>
-													</tr>
-													<tr>
-														<td class="column1">2017-09-18 05:57</td>
-														<td class="column2">200386</td>
-														<td class="column3">2차 프로젝트 글5</td>
-														<td class="column5">1</td>
-														<td class="column6">진기혀니</td>
-													</tr>
-												</tbody>
-											</table>
-											<div>
-												<ul>
-													<br>
-													<li style="text-align: right;"><a href="Zwrite.html"
-														style="color: #808080;"><i class="far fa-edit"></i>글쓰기</a></li>
-												</ul>
-											</div>
-											<div class="paginate"
-												style="text-align: center; letter-spacing: 10px;">
-												<span class="num"> <br> <strong class="s-active"
-													title="현재위치">1</strong> <a href="#" style="color: #e8bf12;">2</a>
-													<a href="#" style="color: #e8bf12;">3</a> <a href="#"
-													style="color: #e8bf12;">4</a> <a href="#"
-													style="color: #e8bf12;">5</a> <a href="#"
-													style="color: #e8bf12;">></a>
+											<br>
+											<form class="contact100-form validate-form">
 
-												</span>
-											</div>
+												<!-- 제목 -->
+												<div class="wrap-input100 validate-input">
+													<input class="input100" type="text" name="name"
+														placeholder="제목"> <span class="focus-input100"></span>
+												</div>
+
+												<!-- 작성자는 받아와서 입력되게끔 하기 -->
+												<div class="wrap-input100 validate-input">
+													<input class="input100" type="text" name="nick"
+														placeholder="작성자"> <span class="focus-input100"></span>
+												</div>
+
+												<!-- 내용 -->
+												<div class="wrap-input100 validate-input">
+													<textarea class="input100" name="message" placeholder="내용"></textarea>
+													<span class="focus-input100"></span>
+												</div>
+
+												<!-- 파일첨부 -->
+												<div class="wrap-input100 validate-input">
+													<input type="file" class="form-control text-white "
+														style="border-radius: 31px; background-color: #6ebca8"
+														placeholder="Enter full name" /> <span
+														class="form-text text-muted"></span>
+												</div>
+
+												<div class="container-contact100-form-btn" id="confirmStart">
+													<button class="contact100-form-btn">
+														<a class="login100-form-btn"> <b style="color: #fff;">작성하기</b>
+														</a>
+													</button>
+												</div>
+											</form>
+
 
 										</div>
 									</div>
@@ -269,6 +179,9 @@
 					</div>
 				</div>
 			</div>
+
+
+
 
 		</div>
 	</div>
@@ -290,14 +203,21 @@
 	</div>
 	<!-- page-body-wrapper ends -->
 	</div>
-
-
+	<!-- container-scroller -->
+	<!-- plugins:js -->
 	<script src="${pageContext.request.contextPath}/resources/skydash/vendors/js/vendor.bundle.base.js"></script>
+	<!-- endinject -->
+	<!-- Plugin js for this page -->
+	<!-- End plugin js for this page -->
+	<!-- inject:js -->
 	<script src="${pageContext.request.contextPath}/resources/skydash/js/off-canvas.js"></script>
 	<script src="${pageContext.request.contextPath}/resources/skydash/js/hoverable-collapse.js"></script>
 	<script src="${pageContext.request.contextPath}/resources/skydash/js/template.js"></script>
 	<script src="${pageContext.request.contextPath}/resources/skydash/js/settings.js"></script>
 
+	<!-- endinject -->
+	<!-- Custom js for this page-->
+	<!-- End custom js for this page-->
 </body>
 
 </html>

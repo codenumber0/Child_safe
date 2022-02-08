@@ -100,4 +100,14 @@ public class ChildController {
 	public void table() {
 	}
 	
+	@RequestMapping(value = "/Zwrite.do",method = RequestMethod.GET)
+	public void write() {
+	}
+	
+	
+	@RequestMapping(value = "/Zpost.do",method = RequestMethod.GET)
+	public void post() {
+	}
+	
+	
 }
