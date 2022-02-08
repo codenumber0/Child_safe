@@ -95,4 +95,9 @@ public class ChildController {
 		
 	}
 	
+	// 게시판
+	@RequestMapping(value = "/Ztable.do",method = RequestMethod.GET)
+	public void table() {
+	}
+	
 }
