@@ -16,8 +16,8 @@
   <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/skydash/js/select.dataTables.min.css">
   <!-- End plugin css for this page -->
   <!-- inject:css -->
-  <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/skydash/css/style.css">
-  <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/skydash/css/sub.css">
+  <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/skydash/css/vertical-layout-light/style.css">
+  <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/skydash/css/vertical-layout-light/sub.css">
   <!-- endinject -->
 
 </head>
