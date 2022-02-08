@@ -40,12 +40,12 @@ public class ChildController {
 	
 	
 	//회원가입창 클릭
-	@RequestMapping(value = "/join.do",method = RequestMethod.GET)
+	@RequestMapping(value = "/Zjoin.do",method = RequestMethod.GET)
 	public void join() {
 	}
 	
 	//회원가입 완료 버튼 클릭
-	@RequestMapping(value = "/join.do",method = RequestMethod.POST)
+	@RequestMapping(value = "/Zjoin.do",method = RequestMethod.POST)
 	public String join(TMember vo) {
 		service.join(vo);
 		System.out.println("회원가입 됬나"+vo);
@@ -53,7 +53,11 @@ public class ChildController {
 	}
 	
 	//로그인
-	@RequestMapping(value ="/login.do",method = RequestMethod.POST)
+	@RequestMapping(value = "/Zlogin.do",method = RequestMethod.GET)
+	public void login() {
+	}
+	
+	@RequestMapping(value ="/Zlogin.do",method = RequestMethod.POST)
 	public String login(TMember vo,HttpServletRequest req, RedirectAttributes rttr) {
 		HttpSession session = req.getSession();
 		TMember login = service.login(vo);
@@ -66,7 +70,7 @@ public class ChildController {
 			session.setAttribute("member", login); //login 여기에 session vo값들을 저장
 			System.out.println("로그인 성공");
 		}
-		return "redirect:/main.do";
+		return "redirect:/Zindex.do";
 	}
 	
 	//로그아웃

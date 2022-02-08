@@ -116,8 +116,8 @@
             </a>
             <div class="collapse" id="auth">
               <ul class="nav flex-column sub-menu">
-                <li class="nav-item"> <a class="nav-link" href="Zlogin.html"> 로그인 </a></li>
-                <li class="nav-item"> <a class="nav-link" href="Zjoin.html"> 회원가입 </a></li>
+                <li class="nav-item"> <a class="nav-link" href="Zlogin.do"> 로그인 </a></li>
+                <li class="nav-item"> <a class="nav-link" href="Zjoin.do"> 회원가입 </a></li>
               </ul>
             </div>
           </li>
