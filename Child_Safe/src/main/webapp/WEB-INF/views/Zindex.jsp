@@ -3,20 +3,21 @@
 <!DOCTYPE html>
 <html>
 <head>
+ <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta charset="UTF-8">
  <title>ChildSafe</title>
-  <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/vendors/feather/feather.css">
-  <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/vendors/ti-icons/css/themify-icons.css">
-  <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/vendors/css/vendor.bundle.base.css">
+  <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/skydash/vendors/feather/feather.css">
+  <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/skydash/vendors/ti-icons/css/themify-icons.css">
+  <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/skydash/vendors/css/vendor.bundle.base.css">
   <!-- endinject -->
   <!-- Plugin css for this page -->
-  <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/vendors/datatables.net-bs4/dataTables.bootstrap4.css">
-  <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/vendors/ti-icons/css/themify-icons.css">
-  <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/js/select.dataTables.min.css">
+  <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/skydash/vendors/datatables.net-bs4/dataTables.bootstrap4.css">
+  <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/skydash/vendors/ti-icons/css/themify-icons.css">
+  <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/skydash/js/select.dataTables.min.css">
   <!-- End plugin css for this page -->
   <!-- inject:css -->
-  <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/style.css">
-  <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/sub.css">
+  <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/skydash/css/style.css">
+  <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/skydash/css/sub.css">
   <!-- endinject -->
 
 </head>
@@ -140,7 +141,7 @@
             <div class="col-md-6 grid-margin stretch-card">
               <div class="card tale-bg">
                 <div class="card-people mt-auto">
-                  <img src="${pageContext.request.contextPath}/resources/images/main2.png" alt="people">
+                  <img src="${pageContext.request.contextPath}/resources/skydash/images/main2.png" alt="people">
 
                 </div>
               </div>
@@ -155,7 +156,7 @@
                         <hr>
                         <p style="font-size: 15px;">지역별, 경찰서별, 교통사고 정보 조회 및 GIS 공간분석 기능 제공</p>
                       </div>
-                      <a href="javascript:openPopupPage(&#39;WEB&#39;,&#39;http://naver.com&#39;)" class="more" style="position:absolute;right:15px;top:24px;width:22px;height:22px;background: url(${pageContext.request.contextPath}/resources//images/5800493.png) no-repeat;text-indent:-9999px;">더보기</a>
+                      <a href="javascript:openPopupPage(&#39;WEB&#39;,&#39;http://naver.com&#39;)" class="more" style="position:absolute;right:15px;top:24px;width:22px;height:22px;background: url(${pageContext.request.contextPath}/resources/skydash//images/5800493.png) no-repeat;text-indent:-9999px;">더보기</a>
                     </div>
                   </div>
                 </div>
@@ -167,7 +168,7 @@
                         <hr>
                         <p style="font-size: 15px;">지역별, 경찰서별, 교통사고 정보 조회 및 GIS 공간분석 기능 제공</p>
                       </div>
-                      <a href="javascript:openPopupPage(&#39;WEB&#39;,&#39;http://naver.com&#39;)" class="more" style="position:absolute;right:15px;top:24px;width:22px;height:22px;background: url(${pageContext.request.contextPath}/resources/images/5800493.png) no-repeat;text-indent:-9999px;">더보기</a>
+                      <a href="javascript:openPopupPage(&#39;WEB&#39;,&#39;http://naver.com&#39;)" class="more" style="position:absolute;right:15px;top:24px;width:22px;height:22px;background: url(${pageContext.request.contextPath}/resources/skydash/images/5800493.png) no-repeat;text-indent:-9999px;">더보기</a>
                     </div>
                   </div>
                 </div>
@@ -181,7 +182,7 @@
                         <hr>
                         <p style="font-size: 15px;">지역별, 경찰서별, 교통사고 정보 조회 및 GIS 공간분석 기능 제공</p>
                       </div>
-                      <a href="javascript:openPopupPage(&#39;WEB&#39;,&#39;http://naver.com&#39;)" class="more" style="position:absolute;right:15px;top:24px;width:22px;height:22px;background: url(${pageContext.request.contextPath}/resources/images/5800493.png) no-repeat;text-indent:-9999px;">더보기</a>
+                      <a href="javascript:openPopupPage(&#39;WEB&#39;,&#39;http://naver.com&#39;)" class="more" style="position:absolute;right:15px;top:24px;width:22px;height:22px;background: url(${pageContext.request.contextPath}/resources/skydash/images/5800493.png) no-repeat;text-indent:-9999px;">더보기</a>
                     </div>
                   </div>
                 </div>
@@ -193,7 +194,7 @@
                         <hr>
                         <p style="font-size: 15px;">지역별, 경찰서별, 교통사고 정보 조회 및 GIS 공간분석 기능 제공</p>
                       </div>
-                      <a href="javascript:openPopupPage(&#39;WEB&#39;,&#39;http://naver.com&#39;)" class="more" style="position:absolute;right:15px;top:24px;width:22px;height:22px;background: url(${pageContext.request.contextPath}/resources/images/5800493.png) no-repeat;text-indent:-9999px;">더보기</a>
+                      <a href="javascript:openPopupPage(&#39;WEB&#39;,&#39;http://naver.com&#39;)" class="more" style="position:absolute;right:15px;top:24px;width:22px;height:22px;background: url(${pageContext.request.contextPath}/resources/skydash/images/5800493.png) no-repeat;text-indent:-9999px;">더보기</a>
                     </div>
                   </div>
                 </div>
@@ -210,7 +211,7 @@
                           <div class="row">
                             <div class="col-md-12 col-xl-3 d-flex flex-column justify-content-start">
                               <div class="ml-xl-4 mt-3">
-                                <img src="${pageContext.request.contextPath}/resources/images/po1.png" alt="" style="width: 900px;">
+                                <img src="${pageContext.request.contextPath}/resources/skydash/images/po1.png" alt="" style="width: 900px;">
                               </div>  
                               </div>
                             <div class="col-md-12 col-xl-9">
@@ -221,7 +222,7 @@
                                   </div>
                                 </div>
                                 <div class="col-md-6 mt-3">
-                                  <img src="${pageContext.request.contextPath}/resources/images/그래프1.png" alt="">
+                                  <img src="${pageContext.request.contextPath}/resources/skydash/images/그래프1.png" alt="">
                                   <div id="south-america-legend"></div>
                                 </div>
                               </div>
@@ -234,7 +235,7 @@
                         <div class="row">
                           <div class="col-md-12 col-xl-3 d-flex flex-column justify-content-start">
                             <div class="ml-xl-4 mt-3">
-                              <img src="${pageContext.request.contextPath}/resources/images/po2.png" alt="" style="width: 900px;">
+                              <img src="${pageContext.request.contextPath}/resources/skydash/images/po2.png" alt="" style="width: 900px;">
                             </div>  
                             </div>
                           <div class="col-md-12 col-xl-9">
@@ -245,7 +246,7 @@
                                 </div>
                               </div>
                               <div class="col-md-6 mt-3">
-                                <img src="${pageContext.request.contextPath}/resources/images/그래프2.png" alt="">
+                                <img src="${pageContext.request.contextPath}/resources/skydash/images/그래프2.png" alt="">
                                 <div id="south-america-legend"></div>
                               </div>
                             </div>
@@ -257,7 +258,7 @@
                         <div class="row">
                           <div class="col-md-12 col-xl-3 d-flex flex-column justify-content-start">
                             <div class="ml-xl-4 mt-3">
-                              <img src="${pageContext.request.contextPath}/resources/images/po3.png" alt="" style="width: 900px;">
+                              <img src="${pageContext.request.contextPath}/resources/skydash/images/po3.png" alt="" style="width: 900px;">
                             </div>  
                             </div>
                           <div class="col-md-12 col-xl-9">
@@ -268,7 +269,7 @@
                                 </div>
                               </div>
                               <div class="col-md-6 mt-3">
-                                <img src="${pageContext.request.contextPath}/resources/images/그래프3.png" alt="">
+                                <img src="${pageContext.request.contextPath}/resources/skydash/images/그래프3.png" alt="">
                                 <div id="south-america-legend"></div>
                               </div>
                             </div>
@@ -280,7 +281,7 @@
                         <div class="row">
                           <div class="col-md-12 col-xl-3 d-flex flex-column justify-content-start">
                             <div class="ml-xl-4 mt-3">
-                              <img src="${pageContext.request.contextPath}/resources/images/po4.png" alt="" style="width: 900px;">
+                              <img src="${pageContext.request.contextPath}/resources/skydash/images/po4.png" alt="" style="width: 900px;">
                             </div>  
                             </div>
                           <div class="col-md-12 col-xl-9">
@@ -291,7 +292,7 @@
                                 </div>
                               </div>
                               <div class="col-md-6 mt-3">
-                                <img src="${pageContext.request.contextPath}/resources/images/그래프4.png" alt="">
+                                <img src="${pageContext.request.contextPath}/resources/skydash/images/그래프4.png" alt="">
                                 <div id="south-america-legend"></div>
                               </div>
                             </div>
@@ -303,7 +304,7 @@
                         <div class="row">
                           <div class="col-md-12 col-xl-3 d-flex flex-column justify-content-start">
                             <div class="ml-xl-4 mt-3">
-                              <img src="${pageContext.request.contextPath}/resources/images/po5.png" alt="" style="width: 900px;">
+                              <img src="${pageContext.request.contextPath}/resources/skydash/images/po5.png" alt="" style="width: 900px;">
                             </div>  
                             </div>
                           <div class="col-md-12 col-xl-9">
@@ -314,7 +315,7 @@
                                 </div>
                               </div>
                               <div class="col-md-6 mt-3">
-                                <img src="${pageContext.request.contextPath}/resources/images/그래프5.png" alt="">
+                                <img src="${pageContext.request.contextPath}/resources/skydash/images/그래프5.png" alt="">
                                 <div id="south-america-legend"></div>
                               </div>
                             </div>
@@ -360,25 +361,25 @@
   <!-- container-scroller -->
 
   <!-- plugins:js -->
-  <script src="${pageContext.request.contextPath}/resources/vendors/js/vendor.bundle.base.js"></script>
+  <script src="${pageContext.request.contextPath}/resources/skydash/vendors/js/vendor.bundle.base.js"></script>
   <!-- endinject -->
   <!-- Plugin js for this page -->
-  <script src="${pageContext.request.contextPath}/resources/vendors/chart.js/Chart.min.js"></script>
-  <script src="${pageContext.request.contextPath}/resources/vendors/datatables.net/jquery.dataTables.js"></script>
-  <script src="${pageContext.request.contextPath}/resources/vendors/datatables.net-bs4/dataTables.bootstrap4.js"></script>
-  <script src="${pageContext.request.contextPath}/resources/js/dataTables.select.min.js"></script>
+  <script src="${pageContext.request.contextPath}/resources/skydash/vendors/chart.js/Chart.min.js"></script>
+  <script src="${pageContext.request.contextPath}/resources/skydash/vendors/datatables.net/jquery.dataTables.js"></script>
+  <script src="${pageContext.request.contextPath}/resources/skydash/vendors/datatables.net-bs4/dataTables.bootstrap4.js"></script>
+  <script src="${pageContext.request.contextPath}/resources/skydash/js/dataTables.select.min.js"></script>
 
   <!-- End plugin js for this page -->
   <!-- inject:js -->
-  <script src="${pageContext.request.contextPath}/resources/js/off-canvas.js"></script>
-  <script src="${pageContext.request.contextPath}/resources/js/hoverable-collapse.js"></script>
-  <script src="${pageContext.request.contextPath}/resources/js/template.js"></script>
-  <script src="${pageContext.request.contextPath}/resources/js/settings.js"></script>
-  <script src="${pageContext.request.contextPath}/resources/js/todolist.js"></script>
+  <script src="${pageContext.request.contextPath}/resources/skydash/js/off-canvas.js"></script>
+  <script src="${pageContext.request.contextPath}/resources/skydash/js/hoverable-collapse.js"></script>
+  <script src="${pageContext.request.contextPath}/resources/skydash/js/template.js"></script>
+  <script src="${pageContext.request.contextPath}/resources/skydash/js/settings.js"></script>
+  <script src="${pageContext.request.contextPath}/resources/skydash/js/todolist.js"></script>
   <!-- endinject -->
   <!-- Custom js for this page-->
-  <script src="${pageContext.request.contextPath}/resources/js/dashboard.js"></script>
-  <script src="${pageContext.request.contextPath}/resources/js/Chart.roundedBarCharts.js"></script>
+  <script src="${pageContext.request.contextPath}/resources/skydash/js/dashboard.js"></script>
+  <script src="${pageContext.request.contextPath}/resources/skydash/js/Chart.roundedBarCharts.js"></script>
   <!-- End custom js for this page-->
   <script type="text/javascript">
     function openPopupPage(title,url){
