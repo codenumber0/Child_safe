@@ -202,7 +202,7 @@
             </div>
           </div>
           <div class="row">
-            <div class="col-md-12 grid-margin stretch-card">
+            <div class="col-md-12 grid-margin stretch-card" id="sseung">
               <div class="card position-relative">
                 <div class="card-body">
                   <div id="detailedReports" class="carousel slide detailed-report-carousel position-static pt-2" data-ride="carousel">
