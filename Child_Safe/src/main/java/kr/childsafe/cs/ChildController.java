@@ -109,5 +109,8 @@ public class ChildController {
 	public void post() {
 	}
 	
-	
+	// 지도
+	@RequestMapping(value = "/Zmap1.do",method = RequestMethod.GET)
+	public void map1() {
+	}
 }
