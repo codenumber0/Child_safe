@@ -54,42 +54,25 @@
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" data-toggle="collapse" href="#ui-basic" aria-expanded="false" aria-controls="ui-basic">
+            <a class="nav-link"  href="#차트페이지" aria-expanded="false" aria-controls="ui-basic">
               <i class="icon-layout menu-icon"></i>
               <span class="menu-title">한눈에 보는 통계</span>
               <i class="menu-arrow"></i>
             </a>
-            <div class="collapse" id="ui-basic">
-              <ul class="nav flex-column sub-menu">
-                <li class="nav-item"> <a class="nav-link" href="Zmap1.do">Buttons</a></li>
-                <li class="nav-item"> <a class="nav-link" href="pages/ui-features/dropdowns.html">Dropdowns</a></li>
-                <li class="nav-item"> <a class="nav-link" href="pages/ui-features/typography.html">Typography</a></li>
-              </ul>
-            </div>
           </li>
 
           <li class="nav-item">
             <a class="nav-link" data-toggle="collapse" href="#form-elements" aria-expanded="false" aria-controls="form-elements">
               <i class="icon-columns menu-icon"></i>
-              <span class="menu-title">스쿨존 현황</span>
+              <span class="menu-title">GIS 분석</span>
               <i class="menu-arrow"></i>
             </a>
             <div class="collapse" id="form-elements">
               <ul class="nav flex-column sub-menu">
-                <li class="nav-item"><a class="nav-link" href="pages/forms/basic_elements.html">Basic Elements</a></li>
-              </ul>
-            </div>
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link" data-toggle="collapse" href="#charts" aria-expanded="false" aria-controls="charts">
-              <i class="icon-bar-graph menu-icon"></i>
-              <span class="menu-title">어린이 사고</span>
-              <i class="menu-arrow"></i>
-            </a>
-            <div class="collapse" id="charts">
-              <ul class="nav flex-column sub-menu">
-                <li class="nav-item"> <a class="nav-link" href="pages/charts/chartjs.html">ChartJs</a></li>
+                <li class="nav-item"><a class="nav-link" href="Zmap1.do">스쿨존 현황</a></li>
+                <li class="nav-item"><a class="nav-link" href="Zmap2.do">어린이 사고 지점</a></li>
+                <li class="nav-item"><a class="nav-link" href="Zmap3.do">어린이 사고 다발지점</a></li>
+                <li class="nav-item"><a class="nav-link" href="Zmap4.do">어린이 인구 밀도</a></li>
               </ul>
             </div>
           </li>
@@ -131,7 +114,7 @@
             <div class="col-md-12 grid-margin">
               <div class="row">
                 <div class="col-12 col-xl-8 mb-4 mb-xl-0">
-                  <h2 class="font-weight-bold" style="font-family: 'NanumSquareRound';"><p>&nbsp;</p>데이터 분석을 활용한 어린이 교통사고 <br> 예측 및 보호구역 지정 서비스</h2>
+                  <h2 class="font-weight-bold" style="font-family: 'NanumSquareRound';"><p>&nbsp;</p>교통사고 데이터 분석을 활용한<br>스쿨존 지정 예측 서비스</h2>
                 </div>
 
               </div>
@@ -152,11 +135,11 @@
                   <div class="card card-tale">
                     <div class="card-body">
                       <div class="innerbox">
-                        <h3>교통사고 분석</h3>
+                        <h3>스쿨존 현황</h3>
                         <hr>
-                        <p style="font-size: 15px;">지역별, 경찰서별, 교통사고 정보 조회 및 GIS 공간분석 기능 제공</p>
+                        <p style="font-size: 12px;">교통사고의 위험으로부터 어린이를 보호하기 위하여 주변도로 가운데 일정구간을 어린이 보호구역으로 지정,관리 현황</p>
                       </div>
-                      <a href="javascript:openPopupPage(&#39;WEB&#39;,&#39;http://naver.com&#39;)" class="more" style="position:absolute;right:15px;top:24px;width:22px;height:22px;background: url(${pageContext.request.contextPath}/resources/skydash//images/5800493.png) no-repeat;text-indent:-9999px;">더보기</a>
+                      <a href="javascript:openPopupPage(&#39;WEB&#39;,&#39;http://localhost:8081/cs/Zmap1.do&#39;)" class="more" style="position:absolute;right:15px;top:24px;width:22px;height:22px;background: url(${pageContext.request.contextPath}/resources/skydash//images/5800493.png) no-repeat;text-indent:-9999px;">더보기</a>
                     </div>
                   </div>
                 </div>
@@ -164,11 +147,11 @@
                   <div class="card card-dark-blue">
                     <div class="card-body">
                       <div class="innerbox">
-                        <h3>교통사고 통계</h3>
+                        <h3>어린이 사고 지점</h3>
                         <hr>
-                        <p style="font-size: 15px;">지역별, 경찰서별, 교통사고 정보 조회 및 GIS 공간분석 기능 제공</p>
+                        <p style="font-size: 12px;">시군별 스쿨존 내 어린이 사고다발지에 대한 관할경찰서, 사고 위치정보, 발생건수 등의 현황</p>
                       </div>
-                      <a href="javascript:openPopupPage(&#39;WEB&#39;,&#39;http://naver.com&#39;)" class="more" style="position:absolute;right:15px;top:24px;width:22px;height:22px;background: url(${pageContext.request.contextPath}/resources/skydash/images/5800493.png) no-repeat;text-indent:-9999px;">더보기</a>
+                      <a href="javascript:openPopupPage(&#39;WEB&#39;,&#39;http://localhost:8081/cs/Zmap2.do&#39;)" class="more" style="position:absolute;right:15px;top:24px;width:22px;height:22px;background: url(${pageContext.request.contextPath}/resources/skydash/images/5800493.png) no-repeat;text-indent:-9999px;">더보기</a>
                     </div>
                   </div>
                 </div>
@@ -178,11 +161,11 @@
                   <div class="card card-light-blue">
                     <div class="card-body">
                       <div class="innerbox">
-                        <h3>스쿨존 현황</h3>
+                        <h3>어린이 사고 다발지점</h3>
                         <hr>
-                        <p style="font-size: 15px;">지역별, 경찰서별, 교통사고 정보 조회 및 GIS 공간분석 기능 제공</p>
+                        <p style="font-size: 12px;">반경 200m에서 12세 이하 보행어린이사고가 3건 이상 또는 사망사고 2건 이상 지점 현황</p>
                       </div>
-                      <a href="javascript:openPopupPage(&#39;WEB&#39;,&#39;http://naver.com&#39;)" class="more" style="position:absolute;right:15px;top:24px;width:22px;height:22px;background: url(${pageContext.request.contextPath}/resources/skydash/images/5800493.png) no-repeat;text-indent:-9999px;">더보기</a>
+                      <a href="javascript:openPopupPage(&#39;WEB&#39;,&#39;http://localhost:8081/cs/Zmap3.do&#39;)" class="more" style="position:absolute;right:15px;top:24px;width:22px;height:22px;background: url(${pageContext.request.contextPath}/resources/skydash/images/5800493.png) no-repeat;text-indent:-9999px;">더보기</a>
                     </div>
                   </div>
                 </div>
@@ -190,11 +173,11 @@
                   <div class="card card-light-danger">
                     <div class="card-body">
                       <div class="innerbox">
-                        <h3>어린이 사고 집계</h3>
+                        <h3>어린이 인구 밀도</h3>
                         <hr>
-                        <p style="font-size: 15px;">지역별, 경찰서별, 교통사고 정보 조회 및 GIS 공간분석 기능 제공</p>
+                        <p style="font-size: 12px;">아동복지법 제3조 제1호에서 규정하고 있는 18세 미만인 사람의 인구 밀도 현황</p>
                       </div>
-                      <a href="javascript:openPopupPage(&#39;WEB&#39;,&#39;http://naver.com&#39;)" class="more" style="position:absolute;right:15px;top:24px;width:22px;height:22px;background: url(${pageContext.request.contextPath}/resources/skydash/images/5800493.png) no-repeat;text-indent:-9999px;">더보기</a>
+                      <a href="javascript:openPopupPage(&#39;WEB&#39;,&#39;http://localhost:8081/cs/Zmap4.do&#39;)" class="more" style="position:absolute;right:15px;top:24px;width:22px;height:22px;background: url(${pageContext.request.contextPath}/resources/skydash/images/5800493.png) no-repeat;text-indent:-9999px;">더보기</a>
                     </div>
                   </div>
                 </div>

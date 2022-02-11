@@ -113,4 +113,14 @@ public class ChildController {
 	@RequestMapping(value = "/Zmap1.do",method = RequestMethod.GET)
 	public void map1() {
 	}
+	@RequestMapping(value = "/Zmap2.do",method = RequestMethod.GET)
+	public void map2() {
+	}
+	@RequestMapping(value = "/Zmap3.do",method = RequestMethod.GET)
+	public void map3() {
+	}
+	@RequestMapping(value = "/Zmap4.do",method = RequestMethod.GET)
+	public void map4() {
+	}
+	
 }

@@ -31,7 +31,7 @@
     <header class="menu menu">
         <div class="title">
             <h1><a href="#" target="_self">GIS분석</a></h1>
-            <button type="button" title="스쿨존 현황" class="currentMap" onclick="$('header.menu').toggleClass('on');" id="thisMapTitle">스쿨존 현황</button>
+            <button type="button" title="통합지도 검색" class="currentMap" onclick="$('header.menu').toggleClass('on');" id="thisMapTitle">어린이 인구 밀도</button>
             <button type="button" title="지도보기" class="viewMap" onclick="$('main.map, header.menu').toggleClass('_viewMap');">지도보기<i></i></button>
             <button type="button" title="메뉴보기" class="menu" onclick="$('header.menu').toggleClass('on');">메뉴보기<i></i></button>
         </div>
@@ -76,18 +76,18 @@
             <!-- 지도 넣기 END-->
         </div>
         <aside class="left">
-            <!-- 어린이집 TAB -->
+            <!-- 전체 TAB -->
             <div id="tab1" class="tabcontent current">
-            <div id="arine">
-                <section class="search">
+            <div id="totalSearch">
+                <section class="search" style="height: 180px;">
                     <ul class = "tap">
                     <nav class="tab">
-                        <li class="current" data-tab="tab1"><button type="button" class="on">어린이집</button></li>
-                        <li data-tab="tab2"><button type="button">유치원</button></li>
-                        <li data-tab="tab3"><button type="button" class="long">초등학교</button></li>
+                        <li class="current" data-tab="tab1"><button type="button" class="on">전체</button></li>
+                        <li data-tab="tab2"><button type="button">어린이</button></li>
+                        <li data-tab="tab3"><button type="button" class="long">유아</button></li>
                     </nav>
                     </ul>
-                    <div class="inputs ea5">
+                    <div class="inputs ea5" style="height: 120px;">
                         <div class="keyword on">
                             <ul class="condition" style="padding: 0px;">
                                 <li class="1_00_001">
@@ -111,30 +111,40 @@
                                         <option>제주시</option>
                                     </select>
                                 </li>
-                                </ul>
-                            <div class="wrap">
-                                <input type="text" id="totalSearchKeyword" placeholder="검색어를 입력해주세요">
-                                <button type="button" id="btnTotalSearch" class="search">검색</button>
-                            </div>
-                        </div>
+                                <li class="1_00_001">
+                                    <select name="sigungu_text_area" style="border: 1px solid #e1e1e1;">
+                                        <option value="">시군구 전체</option>
+                                        <option>동구</option>
+                                        <option>서구</option>
+                                        <option>남구</option>
+                                        <option>북구</option>
+                                        <option>광산구</option>
 
-                    </div>
+                                    </select>
+                                </li>
+                                </ul>
+                                <div class="wrap">
+                                    <input type="text" id="controlPointKeyword" placeholder="검색어를 입력해주세요">
+                                    <button type="button" id="btnControlPointSearch" class="search">검색</button>
+                                </div>
+                            </div>
+                            </div>
                 </section>
             </div>
         </div>
 
-            <!-- 유치원 TAB -->
+            <!-- 어린이 TAB -->
             <div id="tab2" class="tabcontent">
-            <div id="uchiwon">
-                <section class="search">
+            <div id="totalControlPoint">
+                <section class="search" style="height: 180px;">
                     <ul class="tap">
                     <nav class="tab">
-                        <li class="current" data-tab="tab1"><button type="button">어린이집</button></li>
-                        <li data-tab="tab2"><button type="button" class="on">유치원</button></li>
-                        <li data-tab="tab3"><button type="button" class="long">초등학교</button></li>
+                        <li class="current" data-tab="tab1"><button type="button">전체</button></li>
+                        <li data-tab="tab2"><button type="button" class="on">어린이</button></li>
+                        <li data-tab="tab3"><button type="button" class="long">유아</button></li>
                     </nav>
                     </ul>
-                    <div class="inputs ea5">
+                    <div class="inputs ea5" style="height: 120px;">
                         <div class="keyword on">
                             <ul class="condition" style="padding: 0px;">
                                 <li class="1_00_002">
@@ -158,31 +168,40 @@
                                         <option>제주시</option>
                                     </select>
                                 </li>
-                                </ul>
-                            <div class="wrap">
-                                <input type="text" id="controlPointKeyword" placeholder="검색어를 입력해주세요">
-                                <button type="button" id="btnControlPointSearch" class="search">검색</button>
+                                <li class="1_00_002">
+                                    <select name="sigungu_text_area" style="border: 1px solid #e1e1e1;">
+                                        <option value="">시군구 전체</option>
+                                        <option>동구</option>
+                                        <option>서구</option>
+                                        <option>남구</option>
+                                        <option>북구</option>
+                                        <option>광산구</option>
 
+                                    </select>
+                                </li>
+                                </ul>
+                                <div class="wrap">
+                                    <input type="text" id="controlPointKeyword" placeholder="검색어를 입력해주세요">
+                                    <button type="button" id="btnControlPointSearch" class="search">검색</button>
+                                </div>
                             </div>
-                        </div>
-                    </div>
+                            </div>
                 </section>
             </div>
         </div>
 
-            <!-- 초등학교 TAB -->
+            <!-- 유아 TAB -->
             <div id="tab3" class="tabcontent">
-            <div id="elementary">
-                <section class="search">
+            <div id="totalInterest">
+                <section class="search" style="height: 180px;">
                     <ul class ="tap">
                     <nav class="tab">
-                        <li class="current" data-tab="tab1"><button type="button">어린이집</button></li>
-                        <li data-tab="tab2"><button type="button" >유치원</button></li>
-                        <li data-tab="tab3"><button type="button" class="long on">초등학교</button></li>
+                        <li class="current" data-tab="tab1"><button type="button">전체</button></li>
+                        <li data-tab="tab2"><button type="button" >어린이</button></li>
+                        <li data-tab="tab3"><button type="button" class="long on">유아</button></li>
                     </nav>
                     </ul>
-                    <!-- 검색영역 -->
-                    <div class="inputs ea5">
+                    <div class="inputs ea5" style="height: 120px;">
                         <div class="keyword on">
                             <ul class="condition" style="padding: 0px;">
                                 <li class="1_00_003">
@@ -204,6 +223,17 @@
                                         <option>경상남도</option>
                                         <option>경상북도</option>
                                         <option>제주시</option>
+                                    </select>
+                                </li>
+                                <li class="1_00_003">
+                                    <select name="sigungu_text_area" style="border: 1px solid #e1e1e1;">
+                                        <option value="">시군구 전체</option>
+                                        <option>동구</option>
+                                        <option>서구</option>
+                                        <option>남구</option>
+                                        <option>북구</option>
+                                        <option>광산구</option>
+
                                     </select>
                                 </li>
                                 </ul>

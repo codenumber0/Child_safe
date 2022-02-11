@@ -64,7 +64,7 @@ input[type='text'],
 input[type='password'],
 input[type='file'] { padding: 2px 3px 4px 9px; }
 textarea { height: auto; }
-select { -moz-appearance: none; -webkit-appearance: none; appearance: none; padding-right: 20px; width: auto; min-width: 200px; background: url('/resources/skydash/images_renew/common/select.png') right center no-repeat; min-width: 0; }
+select { -moz-appearance: none; -webkit-appearance: none; appearance: none; padding-right: 20px; width: auto; min-width: 200px; background: url('../images_renew/common/select.png') right center no-repeat; min-width: 0; }
 select::-ms-expand { display: none; }
 *:focus { outline: 0 none; }
 
@@ -109,7 +109,7 @@ label input[type=radio]:checked+i:before { width: 9px; height: 9px; opacity: 1; 
 .responsive__video+label { margin-top: .5em; }
 
 input._datepicker,
-input._daterangepicker { background: url('/resources/skydash/images_renew/common/icon-calendar-bg.png') right center no-repeat; transition: background-color .2s; padding-right: 34px; letter-spacing: 0; max-width: 240px; }
+input._daterangepicker { background: url('../images_renew/common/icon-calendar-bg.png') right center no-repeat; transition: background-color .2s; padding-right: 34px; letter-spacing: 0; max-width: 240px; }
 .loaded input._datepicker,
 .loaded input._daterangepicker { background-color: #ccc; }
 .daterangepicker .ranges ul { width: auto; }
@@ -157,13 +157,13 @@ table.map td { padding-top: 4px; padding-bottom: 4px; }
 table.map th+td { text-align: left; padding-left: 5px; }
 3table.map th.sub+td {padding-left: 10px; }
 table.map td.noData { height: 89px; text-align: center; }
-table.map caption { padding-left: 20px; background: url('/resources/skydash/images_renew/map/icon-detailinfo.png') left center no-repeat; line-height: 35px; font-size: 15px; color: #111; text-align: left; }
+table.map caption { padding-left: 20px; background: url('../images_renew/map/icon-detailinfo.png') left center no-repeat; line-height: 35px; font-size: 15px; color: #111; text-align: left; }
 table.map *[onclick] { cursor: pointer; }
-table.map caption.mapReport { background-image: url('/resources/skydash/images_renew/map/icon-mapreport.png'); }
-table.map caption.mapInfo { padding-left: 22px;  background-image: url('/resources/skydash/images_renew/map/icon-mapinfo.png'); }
-table.map caption.mapSurvey { padding-left: 22px;  background-image: url('/resources/skydash/images_renew/map/icon-mapsurvey.png'); }
-table.map caption.mapAchievement { padding-left: 22px;  background-image: url('/resources/skydash/images_renew/map/icon-mapachievement.png'); }
-table.map caption.mapImage { padding-left: 22px;  background-image: url('/resources/skydash/images_renew/map/icon-mapimage.png'); }
+table.map caption.mapReport { background-image: url('../images_renew/map/icon-mapreport.png'); }
+table.map caption.mapInfo { padding-left: 22px;  background-image: url('../images_renew/map/icon-mapinfo.png'); }
+table.map caption.mapSurvey { padding-left: 22px;  background-image: url('../images_renew/map/icon-mapsurvey.png'); }
+table.map caption.mapAchievement { padding-left: 22px;  background-image: url('../images_renew/map/icon-mapachievement.png'); }
+table.map caption.mapImage { padding-left: 22px;  background-image: url('../images_renew/map/icon-mapimage.png'); }
 table.map th.line { border-right: 1px solid #e1e1e1; background: transparent; color: #888; font-weight: 400; }
 table.map th.line+td { text-align: center; }
 table.map.write td { padding-left: 4px; padding-right: 4px; }
@@ -180,7 +180,7 @@ p.attention:before { content: '※ '; }
 
 ul.path { font-size: 0; }
 ul.path li { display: inline-block; vertical-align: baseline; font-size: 13px; }
-ul.path li+li { padding-left: 8px; margin-left: 4px; background: url('/resources/skydash/images_renew/map/arrow-depth.png') left center no-repeat; }
+ul.path li+li { padding-left: 8px; margin-left: 4px; background: url('../images_renew/map/arrow-depth.png') left center no-repeat; }
 
 nav.tab { padding-top: 1px; padding-left: 1px; }
 nav.tab:after { content: ''; display: block; clear: both; }
@@ -211,42 +211,42 @@ header.menu .title,
 header.menu nav button { background: #e8bf12; width: 80px; height: auto; display: block; text-align: center; padding: 54px 0 10px; box-sizing: border-box; line-height: 16px; font-weight: 500; color: #fff; position: relative; }
 header.menu .title h1 a:before,
 header.menu nav button:before { content: ''; display: block; position: absolute; left: 0; right: 0; top: 0; height: 56px; background: center no-repeat; }
-header.menu .title h1 a:before { background-image: url('/resources/skydash/images_renew/map/logo.png'); }
+header.menu .title h1 a:before { background-image: url('../images_renew/map/logo.png'); }
 header.menu .title h1 a { display: block; width: 100%; height: 100%; z-index: 1; }
 header.menu .title button { display: none; }
 header.menu nav button { border-top: 1px solid #e4bf1c; border-bottom: 1px solid #e4bf1c; padding-top: 52px; }
 header.menu nav button:hover {background-color: #6ebca8;}
 header.menu nav button:before { opacity: .5; transition: opacity .3s; }
-header.menu nav button.total:before { background-image: url('/resources/skydash/images_renew/map/menu-total.png'); }
-header.menu nav button.statistics:before { background-image: url('/resources/skydash/images_renew/map/menu-statistics.png'); }
-header.menu nav button.change:before { background-image: url('/resources/skydash/images_renew/map/menu-change.png'); }
-header.menu nav button.history:before { background-image: url('/resources/skydash/images_renew/map/menu-history.png'); }
-header.menu nav button.north:before { background-image: url('/resources/skydash/images_renew/map/menu-north.png'); }
-header.menu nav button.hdmap:before { background-image: url('/resources/skydash/images_renew/map/menu-hdmap.png'); }	/* 정밀도로지도 추가  */
-header.menu nav button.world:before { background-image: url('/resources/skydash/images_renew/map/menu-info-world.png'); }
-header.menu nav button.neighbor:before { background-image: url('/resources/skydash/images_renew/map/menu-info-neighbor.png'); }
-header.menu nav button.complete:before { background-image: url('/resources/skydash/images_renew/map/menu-info-complete.png'); }
-header.menu nav button.download:before { background-image: url('/resources/skydash/images_renew/map/menu-info-download.png'); }
-header.menu nav button.subject:before { background-image: url('/resources/skydash/images_renew/map/menu-polar-subject.png'); }
-header.menu nav button.sPosition:before { background-image: url('/resources/skydash/images_renew/map/menu-polar-sposition.png'); }
-header.menu nav button.sInfo:before { background-image: url('/resources/skydash/images_renew/map/menu-polar-sinfo.png'); }
-header.menu nav button.sState:before { background-image: url('/resources/skydash/images_renew/map/menu-polar-sstate.png'); }
-header.menu nav button.nWeather:before { background-image: url('/resources/skydash/images_renew/map/menu-polar-nweather.png'); }
-header.menu nav button.nRoad:before { background-image: url('/resources/skydash/images_renew/map/menu-polar-nroad.png'); }
-header.menu nav button.korean:before { background-image: url('/resources/skydash/images_renew/map/menu-korean.png'); }
-header.menu nav button.english:before { background-image: url('/resources/skydash/images_renew/map/menu-english.png'); }
-header.menu nav button.legend:before { background-image: url('/resources/skydash/images_renew/map/menu-legend.png'); }
-header.menu nav button.position:before { background-image: url('/resources/skydash/images_renew/map/menu-position.png'); }
-header.menu nav button.survey:before { background-image: url('/resources/skydash/images_renew/map/menu-survey.png'); }
-header.menu nav button.daedong:before { background-image: url('/resources/skydash/images_renew/map/menu-daedong.png'); }
-header.menu nav button.samil:before { background-image: url('/resources/skydash/images_renew/map/menu-threeone.png'); }
-header.menu nav button.ancient:before { background-image: url('/resources/skydash/images_renew/map/menu-oldmap.png'); }
-header.menu nav button.landSatellite:before { background-image: url('/resources/skydash/images_renew/map/menu-landsatellite.png'); }
+header.menu nav button.total:before { background-image: url('../images_renew/map/menu-total.png'); }
+header.menu nav button.statistics:before { background-image: url('../images_renew/map/menu-statistics.png'); }
+header.menu nav button.change:before { background-image: url('../images_renew/map/menu-change.png'); }
+header.menu nav button.history:before { background-image: url('../images_renew/map/menu-history.png'); }
+header.menu nav button.north:before { background-image: url('../images_renew/map/menu-north.png'); }
+header.menu nav button.hdmap:before { background-image: url('../images_renew/map/menu-hdmap.png'); }	/* 정밀도로지도 추가  */
+header.menu nav button.world:before { background-image: url('../images_renew/map/menu-info-world.png'); }
+header.menu nav button.neighbor:before { background-image: url('../images_renew/map/menu-info-neighbor.png'); }
+header.menu nav button.complete:before { background-image: url('../images_renew/map/menu-info-complete.png'); }
+header.menu nav button.download:before { background-image: url('../images_renew/map/menu-info-download.png'); }
+header.menu nav button.subject:before { background-image: url('../images_renew/map/menu-polar-subject.png'); }
+header.menu nav button.sPosition:before { background-image: url('../images_renew/map/menu-polar-sposition.png'); }
+header.menu nav button.sInfo:before { background-image: url('../images_renew/map/menu-polar-sinfo.png'); }
+header.menu nav button.sState:before { background-image: url('../images_renew/map/menu-polar-sstate.png'); }
+header.menu nav button.nWeather:before { background-image: url('../images_renew/map/menu-polar-nweather.png'); }
+header.menu nav button.nRoad:before { background-image: url('../images_renew/map/menu-polar-nroad.png'); }
+header.menu nav button.korean:before { background-image: url('../images_renew/map/menu-korean.png'); }
+header.menu nav button.english:before { background-image: url('../images_renew/map/menu-english.png'); }
+header.menu nav button.legend:before { background-image: url('../images_renew/map/menu-legend.png'); }
+header.menu nav button.position:before { background-image: url('../images_renew/map/menu-position.png'); }
+header.menu nav button.survey:before { background-image: url('../images_renew/map/menu-survey.png'); }
+header.menu nav button.daedong:before { background-image: url('../images_renew/map/menu-daedong.png'); }
+header.menu nav button.samil:before { background-image: url('../images_renew/map/menu-threeone.png'); }
+header.menu nav button.ancient:before { background-image: url('../images_renew/map/menu-oldmap.png'); }
+header.menu nav button.landSatellite:before { background-image: url('../images_renew/map/menu-landsatellite.png'); }
 
 
 header.menu .sw_bottom{position:absolute;bottom:0;width:100%;}
 header.menu .sw_bottom button{display:block;text-align:center;width:100%;height: auto;padding: 38px 0 5px;border-top: 1px solid #000000;background:#111d1b}
-header.menu .sw_bottom button:before{content: ''; display: block; position: absolute; left: 0; right: 0; top: 0; height: 45px; background: center no-repeat;opacity: .5; transition: opacity .3s; background-image: url('/resources/skydash/images_renew/map/menu-swdown.png');}
+header.menu .sw_bottom button:before{content: ''; display: block; position: absolute; left: 0; right: 0; top: 0; height: 45px; background: center no-repeat;opacity: .5; transition: opacity .3s; background-image: url('../images_renew/map/menu-swdown.png');}
 header.menu .sw_bottom button:hover,
 header.menu .sw_bottom button:focus { color: #fff; }
 header.menu .sw_bottom button:hover:before,
@@ -290,7 +290,7 @@ body:not(.noResponsive) header.menu .title button.currentMap:before { content: '
 main.map,
 .info main.download { position: absolute; left: 80px; right: 0; top: 0; bottom: 0; background: #ccc; overflow: hidden; }
 i.POI,
-button.POI { position: absolute; display: block; width: 26px; height: 32px; background: url('/resources/skydash/images_renew/common/poi.png') center no-repeat; color: #fff; font-size: 12px; font-weight: 700; text-align: center; line-height: 25px; }
+button.POI { position: absolute; display: block; width: 26px; height: 32px; background: url('../images_renew/common/poi.png') center no-repeat; color: #fff; font-size: 12px; font-weight: 700; text-align: center; line-height: 25px; }
 button.POI { text-indent: -999px; overflow: hidden; position: static; }
 section.detailPannel,
 ._detailOn._viewMap section.detailPannel { position: absolute; width: 500px; box-sizing: border-box; box-shadow: 0 0 10px rgba(0,0,0,.2); opacity: 0; margin-top: -10px; transition: opacity .3s, margin .3s, top 0s .3s; z-index: 11; }
@@ -309,7 +309,7 @@ section.detailPannel article dd { font-size: 15px; line-height: 24px; color: #88
 section.detailPannel article dl.strong dt { color: #fff; background: #333; }
 section.detailPannel article dl.strong dd { color: #333; }
 section.detailPannel dd ol li { display: inline-block; }
-section.detailPannel dd ol li+li { border: 0 none; padding-left: 9px; background: url('/resources/skydash/images_renew/map/arrow-depth-big.png') left center no-repeat; }
+section.detailPannel dd ol li+li { border: 0 none; padding-left: 9px; background: url('../images_renew/map/arrow-depth-big.png') left center no-repeat; }
 
 aside.left { position: absolute; left: 0; top: 0; bottom: 0; overflow: visible; opacity: 1; transition: opacity .3s, top .3s, left .3s, bottom .3s; z-index: 11; }
 button.stepControl { display: none; }
@@ -347,13 +347,13 @@ section.search .keyword { border-radius: 3px; border: 1px solid #F3797E; padding
 section.search .keyword input[type=text] { display: block; width: 100%; box-sizing: border-box; padding: 4px 33px 6px 10px; line-height: 21px; border: 0 none; border-radius: 3px 0 0 3px; height: 33px; color: #111; }
 section.search .keyword select { border: 0 none; padding-top: 2px; padding-bottom: 2px; width: 75px; min-width: 0; float: left; }
 section.search .keyword select+input[type=text] { width: calc(100% - 75px); }
-section.search .keyword button.search { position: absolute; right: 0; bottom: 0; top: 0; width: 34px; background: #F3797E url('/resources/skydash/images_renew/map/button-search.png') center no-repeat; text-indent: -999px; border-radius: 0 2px 2px 0; overflow: hidden; }
+section.search .keyword button.search { position: absolute; right: 0; bottom: 0; top: 0; width: 34px; background: #F3797E url('../images_renew/map/button-search.png') center no-repeat; text-indent: -999px; border-radius: 0 2px 2px 0; overflow: hidden; }
 section.search .keyword button.help,
 section.result button.help,
 section.search .keyword .button.help,
 section.result .button.help,
-section.search .keyword button.reset { position: absolute; right: 45px; top: 0; bottom: 0; margin: auto 0; text-indent: -999px; width: 18px; height: 19px; background: #ccc url('/resources/skydash/images_renew/map/button-help.png') center top no-repeat; border-radius: 50%; z-index: 9; overflow: visible; }
-section.search .keyword button.reset { background-image: url('/resources/skydash/images_renew/map/button-reset.png'); background-position: center -1px; }
+section.search .keyword button.reset { position: absolute; right: 45px; top: 0; bottom: 0; margin: auto 0; text-indent: -999px; width: 18px; height: 19px; background: #ccc url('../images_renew/map/button-help.png') center top no-repeat; border-radius: 50%; z-index: 9; overflow: visible; }
+section.search .keyword button.reset { background-image: url('../images_renew/map/button-reset.png'); background-position: center -1px; }
 section.result button.help,
 section.result .button.help { position: relative; right: 0; top: 1px; }
 section.search .keyword button.help:hover,
@@ -400,10 +400,10 @@ section.search .inputs .simple .options>li:first-child { width: 25%; }
 section.search .inputs .simple .options>li+li { margin-left: 2px; }
 section.search .inputs .simple .options button { width: 100%; height: 35px; color: #fff; font-size: 12px; font-weight: 500; padding-top: 1px; display: block; }
 section.search .inputs .simple .options>li>button:before { display: inline-block; vertical-align: middle; margin-right: 3px; }
-section.search .inputs .simple .options .index>button:before { content: url('/resources/skydash/images_renew/map/search-total-simple-index.png'); }
-section.search .inputs .simple .options .area>button:before { content: url('/resources/skydash/images_renew/map/search-total-simple-area.png'); }
-section.search .inputs .simple .options .range>button:before { content: url('/resources/skydash/images_renew/map/search-total-simple-range.png'); }
-section.search .inputs .simple .options .seletion>button:before { content: url('/resources/skydash/images_renew/map/search-total-simple-seletion.png'); }
+section.search .inputs .simple .options .index>button:before { content: url('../images_renew/map/search-total-simple-index.png'); }
+section.search .inputs .simple .options .area>button:before { content: url('../images_renew/map/search-total-simple-area.png'); }
+section.search .inputs .simple .options .range>button:before { content: url('../images_renew/map/search-total-simple-range.png'); }
+section.search .inputs .simple .options .seletion>button:before { content: url('../images_renew/map/search-total-simple-seletion.png'); }
 section.search .inputs .simple .options li.on { background: #333; }
 
 .searchBanner {padding:10px 14px 0 14px}
@@ -477,10 +477,10 @@ section.search .inputs button.switch { background: #0d624f no-repeat; color: #ff
 section.search .inputs button.switch.blue { background-color: #3181bd; right:auto !important;}
 section.search .inputs .keyword button.switch,
 section.search .inputs .pannel1 button.switch,
-section.search .inputs .pannel3 button.switch { border-radius: 3px 0 0 3px; right: 0; padding: 0 30px 0 15px; background-image: url('/resources/skydash/images_renew/map/search-switch-arrow-right.png'); background-position: right center; }
+section.search .inputs .pannel3 button.switch { border-radius: 3px 0 0 3px; right: 0; padding: 0 30px 0 15px; background-image: url('../images_renew/map/search-switch-arrow-right.png'); background-position: right center; }
 section.search .inputs .simple button.switch,
 section.search .inputs .pannel2 button.switch,
-section.search .inputs .pannel1 button.switch+button.switch { border-radius: 0 3px 3px 0; padding: 0 15px 0 30px; background-image: url('/resources/skydash/images_renew/map/search-switch-arrow-left.png'); background-position: left center; left: 0; top: 70px; }
+section.search .inputs .pannel1 button.switch+button.switch { border-radius: 0 3px 3px 0; padding: 0 15px 0 30px; background-image: url('../images_renew/map/search-switch-arrow-left.png'); background-position: left center; left: 0; top: 70px; }
 section.search .inputs .simple nav.method { margin-top: -35px; margin-bottom: 2px; }
 section.search .inputs .simple nav.method:after { content: ''; display: block; clear: both; }
 section.search .inputs .simple nav.method button { float: left; width: 20%; color: #fff; height: 35px; border-radius: 3px; background: #999; }
@@ -500,11 +500,11 @@ section.search .inputs .simple ul.method button:hover,
 section.search .inputs .simple ul.method button:focus { color: #ff96a3; background: #222; }
 section.search .inputs .simple ul.method .on button { background: #000; border-radius: 0; color: #ff96a3; }
 section.search .inputs .simple ul.method .on button:before { content: ''; display: block; position: absolute; left: 3px; top: 3px; bottom: 3px; right: 3px; border: 1px solid #ff96a3; border-radius: 3px; }
-section.search .inputs .simple ul.method select { width: 100%; border: 0 none; color: #fff; font-size: 12px; background-image: url('/resources/skydash/images_renew/common/select-white.png'); }
+section.search .inputs .simple ul.method select { width: 100%; border: 0 none; color: #fff; font-size: 12px; background-image: url('../images_renew/common/select-white.png'); }
 section.search .inputs .simple ul.method option { background: #fff; color: #333; }
 section.search button.download { display: block; width: 100%; border: 1px solid #0d624f; border: 1px solid #0d624f; border-radius: 3px; background: #fff; color: #0d624f; height: 50px; font-size: 15px; text-align: left; padding: 0 15px; position: relative; }
 section.search button.download+button.download { margin-top: 10px; }
-section.search button.download:after { content: ''; display: block; width: 24px; height: 24px; position: absolute; right: 14px; top: 0; bottom: 0; margin: auto 0; background: url('/resources/skydash/images_renew/map/search-download.png') center no-repeat; }
+section.search button.download:after { content: ''; display: block; width: 24px; height: 24px; position: absolute; right: 14px; top: 0; bottom: 0; margin: auto 0; background: url('../images_renew/map/search-download.png') center no-repeat; }
 section.search label { margin: 8px 0 0 14px; display: block; height: 17px; line-height: 17px; }
 section.search .topic { margin: -15px -1px; font-size: 0; }
 section.search .topic li { display: inline-block; height: 60px; margin-right: -1px; }
@@ -532,36 +532,36 @@ section.search .topic.ea9 li:nth-child(3)~li { margin-top: -1px; }
 section.search .topic li.on button { background: #6ebca8; border-color: #F3797E; color: #fff; z-index: 1; }
 section.search .topic li.on button:before { opacity: 0; }
 section.search .topic li.on button:after { opacity: 1; }
-section.search .topic .facility button:before { background-image: url('/resources/skydash/images_renew/map/sinfo-icon-1.png'); }
-section.search .topic .facility button:after { background-image: url('/resources/skydash/images_renew/map/sinfo-icon-1-w.png'); }
-section.search .topic .ecology button:before { background-image: url('/resources/skydash/images_renew/map/sinfo-icon-2.png'); }
-section.search .topic .ecology button:after { background-image: url('/resources/skydash/images_renew/map/sinfo-icon-2-w.png'); }
-section.search .topic .landscape button:before { background-image: url('/resources/skydash/images_renew/map/sinfo-icon-3.png'); }
-section.search .topic .landscape button:after { background-image: url('/resources/skydash/images_renew/map/sinfo-icon-3-w.png'); }
-section.search .topic .expedition button:before { background-image: url('/resources/skydash/images_renew/map/sinfo-icon-4.png'); }
-section.search .topic .expedition button:after { background-image: url('/resources/skydash/images_renew/map/sinfo-icon-4-w.png'); }
-section.search .topic .araon button:before { background-image: url('/resources/skydash/images_renew/map/sinfo-icon-5.png'); }
-section.search .topic .araon button:after { background-image: url('/resources/skydash/images_renew/map/sinfo-icon-5-w.png'); }
-section.search .topic .research button:before { background-image: url('/resources/skydash/images_renew/map/sinfo-icon-6.png'); }
-section.search .topic .research button:after { background-image: url('/resources/skydash/images_renew/map/sinfo-icon-6-w.png'); }
-section.search .topic .standard button:before { background-image: url('/resources/skydash/images_renew/map/sstate-icon-1.png'); }
-section.search .topic .standard button:after { background-image: url('/resources/skydash/images_renew/map/sstate-icon-1-w.png'); }
-section.search .topic .observe button:before { background-image: url('/resources/skydash/images_renew/map/sstate-icon-2.png'); }
-section.search .topic .observe button:after { background-image: url('/resources/skydash/images_renew/map/sstate-icon-2-w.png'); }
-section.search .topic .record button:before { background-image: url('/resources/skydash/images_renew/map/sstate-icon-3.png'); }
-section.search .topic .record button:after { background-image: url('/resources/skydash/images_renew/map/sstate-icon-3-w.png'); }
-section.search .topic .base button:before { background-image: url('/resources/skydash/images_renew/map/sstate-icon-4.png'); }
-section.search .topic .base button:after { background-image: url('/resources/skydash/images_renew/map/sstate-icon-4-w.png'); }
-section.search .topic .landName button:before { background-image: url('/resources/skydash/images_renew/map/sstate-icon-5.png'); }
-section.search .topic .landName button:after { background-image: url('/resources/skydash/images_renew/map/sstate-icon-5-w.png'); }
-section.search .topic .iceForm button:before { background-image: url('/resources/skydash/images_renew/map/sstate-icon-6.png'); }
-section.search .topic .iceForm button:after { background-image: url('/resources/skydash/images_renew/map/sstate-icon-6-w.png'); }
-section.search .topic .geology button:before { background-image: url('/resources/skydash/images_renew/map/sstate-icon-7.png'); }
-section.search .topic .geology button:after { background-image: url('/resources/skydash/images_renew/map/sstate-icon-7-w.png'); }
-section.search .topic .ocean button:before { background-image: url('/resources/skydash/images_renew/map/sstate-icon-8.png'); }
-section.search .topic .ocean button:after { background-image: url('/resources/skydash/images_renew/map/sstate-icon-8-w.png'); }
-section.search .topic .iceChange button:before { background-image: url('/resources/skydash/images_renew/map/sstate-icon-9.png'); }
-section.search .topic .iceChange button:after { background-image: url('/resources/skydash/images_renew/map/sstate-icon-9-w.png'); }
+section.search .topic .facility button:before { background-image: url('../images_renew/map/sinfo-icon-1.png'); }
+section.search .topic .facility button:after { background-image: url('../images_renew/map/sinfo-icon-1-w.png'); }
+section.search .topic .ecology button:before { background-image: url('../images_renew/map/sinfo-icon-2.png'); }
+section.search .topic .ecology button:after { background-image: url('../images_renew/map/sinfo-icon-2-w.png'); }
+section.search .topic .landscape button:before { background-image: url('../images_renew/map/sinfo-icon-3.png'); }
+section.search .topic .landscape button:after { background-image: url('../images_renew/map/sinfo-icon-3-w.png'); }
+section.search .topic .expedition button:before { background-image: url('../images_renew/map/sinfo-icon-4.png'); }
+section.search .topic .expedition button:after { background-image: url('../images_renew/map/sinfo-icon-4-w.png'); }
+section.search .topic .araon button:before { background-image: url('../images_renew/map/sinfo-icon-5.png'); }
+section.search .topic .araon button:after { background-image: url('../images_renew/map/sinfo-icon-5-w.png'); }
+section.search .topic .research button:before { background-image: url('../images_renew/map/sinfo-icon-6.png'); }
+section.search .topic .research button:after { background-image: url('../images_renew/map/sinfo-icon-6-w.png'); }
+section.search .topic .standard button:before { background-image: url('../images_renew/map/sstate-icon-1.png'); }
+section.search .topic .standard button:after { background-image: url('../images_renew/map/sstate-icon-1-w.png'); }
+section.search .topic .observe button:before { background-image: url('../images_renew/map/sstate-icon-2.png'); }
+section.search .topic .observe button:after { background-image: url('../images_renew/map/sstate-icon-2-w.png'); }
+section.search .topic .record button:before { background-image: url('../images_renew/map/sstate-icon-3.png'); }
+section.search .topic .record button:after { background-image: url('../images_renew/map/sstate-icon-3-w.png'); }
+section.search .topic .base button:before { background-image: url('../images_renew/map/sstate-icon-4.png'); }
+section.search .topic .base button:after { background-image: url('../images_renew/map/sstate-icon-4-w.png'); }
+section.search .topic .landName button:before { background-image: url('../images_renew/map/sstate-icon-5.png'); }
+section.search .topic .landName button:after { background-image: url('../images_renew/map/sstate-icon-5-w.png'); }
+section.search .topic .iceForm button:before { background-image: url('../images_renew/map/sstate-icon-6.png'); }
+section.search .topic .iceForm button:after { background-image: url('../images_renew/map/sstate-icon-6-w.png'); }
+section.search .topic .geology button:before { background-image: url('../images_renew/map/sstate-icon-7.png'); }
+section.search .topic .geology button:after { background-image: url('../images_renew/map/sstate-icon-7-w.png'); }
+section.search .topic .ocean button:before { background-image: url('../images_renew/map/sstate-icon-8.png'); }
+section.search .topic .ocean button:after { background-image: url('../images_renew/map/sstate-icon-8-w.png'); }
+section.search .topic .iceChange button:before { background-image: url('../images_renew/map/sstate-icon-9.png'); }
+section.search .topic .iceChange button:after { background-image: url('../images_renew/map/sstate-icon-9-w.png'); }
 
 section.result,
 section.result2 { top: 100vh; opacity: 0; left: 20px; margin-left: -370px; transition: top 0s .3s, opacity .3s, margin .3s, height .3s; overflow: hidden; }
@@ -618,21 +618,21 @@ section.result2 .wrap { overflow: auto; opacity: 1; transition: all .3s; }
 section.result .list li+li { border-top: 1px solid #e1e1e1; }
 section.result .list button { display: block; width: 100%; text-align: left; padding: 10px 14px; }
 section.result .list .on button { background: #f5f5f5; }
-section.result .list .poi { float: left; display: block; width: 26px; height: 32px; background: url('/resources/skydash/images_renew/common/poi.png') center no-repeat; color: #fff; font-size: 12px; font-weight: 700; text-align: center; line-height: 25px; margin-right: 9px; margin-bottom: 5px; }
+section.result .list .poi { float: left; display: block; width: 26px; height: 32px; background: url('../images_renew/common/poi.png') center no-repeat; color: #fff; font-size: 12px; font-weight: 700; text-align: center; line-height: 25px; margin-right: 9px; margin-bottom: 5px; }
 section.result .list p { font-size: 15px; color: #333; font-weight: 500; line-height: 1.3em; overflow: hidden; padding: 5px 0; }
 section.result .list dl { clear: both; line-height: 18px; }
 section.result .list dt { color: #333; font-weight: 700; float: left; width: 47px; }
 section.result .list dd { overflow: hidden; }
 section.result .list dd ol li { display: inline-block; }
-section.result .list dd ol li+li { border: 0 none; padding-left: 8px; background: url('/resources/skydash/images_renew/map/arrow-depth.png') left center no-repeat; }
+section.result .list dd ol li+li { border: 0 none; padding-left: 8px; background: url('../images_renew/map/arrow-depth.png') left center no-repeat; }
 section.result.off { display: none; }
 section.result.table header { border-bottom: 0 none; }
 section.result.table .wrap { padding-left: 14px; padding-right: 14px; word-break: break-all; }
 section.result.table .paging { border-top: 0 none; }
 section.result.table .wrap:last-child { padding-bottom: 14px; }
 section.result.noResult .wrap { height: 200px; text-align: center; position: relative; line-height: 272px; overflow: hidden; }
-section.result.noResult .wrap:before { content: ''; display: block; background: url('/resources/skydash/images_renew/map/icon-noresult.png') center no-repeat; font-size: 15px; width: 82px; height: 81px; top: 0; bottom: 0; left: 0; right: 0; margin: auto; position: absolute; bottom: 48px; }
-section.result.table .POI { display: inline-block; padding-left: 15px; height: 16px; background: url('/resources/skydash/images_renew/common/poi.png') left center no-repeat; font-size: 12px; font-weight: 700; line-height: 16px; vertical-align: -2px; background-size: auto 100%; text-indent: 0; color: #888; width: auto; font-weight: 400; font-size: 11px; }
+section.result.noResult .wrap:before { content: ''; display: block; background: url('../images_renew/map/icon-noresult.png') center no-repeat; font-size: 15px; width: 82px; height: 81px; top: 0; bottom: 0; left: 0; right: 0; margin: auto; position: absolute; bottom: 48px; }
+section.result.table .POI { display: inline-block; padding-left: 15px; height: 16px; background: url('../images_renew/common/poi.png') left center no-repeat; font-size: 12px; font-weight: 700; line-height: 16px; vertical-align: -2px; background-size: auto 100%; text-indent: 0; color: #888; width: auto; font-weight: 400; font-size: 11px; }
 section.result.table input,
 section.result.table button.fn,
 section.result.table select,
@@ -668,8 +668,8 @@ section.result.table input._datepicker { max-width: none; background-position: c
 .paging .on { z-index: 1; position: relative; }
 .paging .on button { background: #F3797E; border-color: #F3797E; color: #fff; font-weight: 700; padding-bottom: 2px; line-height: 22px; margin: 0 -1px; }
 .paging .arrow { text-indent: -999px; overflow: hidden; background-position: center; background-repeat: no-repeat; }
-.paging .arrow.prev { background-image: url('/resources/skydash/images_renew/map/paging-prev.png'); }
-.paging .arrow.next { background-image: url('/resources/skydash/images_renew/map/paging-next.png'); }
+.paging .arrow.prev { background-image: url('../images_renew/map/paging-prev.png'); }
+.paging .arrow.next { background-image: url('../images_renew/map/paging-next.png'); }
 
 nav.category { left: 20px; margin-left: -350px; width: 170px; position: absolute; top: 100vh; opacity: 0; transition: top 0s .3s, margin .3s, opacity .3s; }
 section.result~nav.category,
@@ -682,9 +682,9 @@ nav.category .information { box-sizing: border-box; border: 1px solid #999; bord
 ._resultOn nav.category,
 ._categoryOn nav.category { margin: 0; opacity: 1; transition-delay: 0s; }
 nav.category button { border-radius: 3px; height: 30px; padding: 0 15px 0 5px; box-sizing: border-box; width: 100%; text-align: left; background: 130px center no-repeat; }
-_categoryOn button { background-image: url('/resources/skydash/images_renew/map/arrow-right-gray.png') ; }
+_categoryOn button { background-image: url('../images_renew/map/arrow-right-gray.png') ; }
 ._categoryOn nav.category .map button strong { color: #F3797E; transition: color .3s; }
-._categoryOn nav.category .map .on button { background-color: #6ebca8; color: #fff; background-image: url('/resources/skydash/images_renew/map/arrow-right-white.png'); }
+._categoryOn nav.category .map .on button { background-color: #6ebca8; color: #fff; background-image: url('../images_renew/map/arrow-right-white.png'); }
 nav.category .map button strong,
 ._categoryOn nav.category .map .on button strong { color: #fff; }
 nav.category .information { position: absolute; margin-top: 0; border-radius: 5px; overflow: hidden; height: 40px; padding: 0; background: #223b37; opacity: 0; left: -999px; transition: margin .3s, opacity .3s, left 0s .3s, height .3s; width: 100%; }
@@ -696,11 +696,11 @@ nav.category .information dt button:after { content: ''; display: block; positio
 nav.category .information.on dt button { background-color: #0d624f; color: #fff; }
 nav.category .information.on dt button:after { transform: rotate(180deg); border-top-color: #fff; }
 nav.category .information dd ul { padding: 14px 20px; }
-nav.category .information dd button { color: #fff; background-image: url('/resources/skydash/images_renew/map/arrow-right-white.png'); background-position: right center; }
+nav.category .information dd button { color: #fff; background-image: url('../images_renew/map/arrow-right-white.png'); background-position: right center; }
 nav.category .information dd button strong { font-weight: 500; color: #fff; }
 nav.category .information dd .on button,
 nav.category .information dd .on button strong { color: #ff96a3; }
-nav.category .information dd .on button { background-image: url('/resources/skydash/images_renew/map/arrow-right-pink.png'); }
+nav.category .information dd .on button { background-image: url('../images_renew/map/arrow-right-pink.png'); }
 .mapList.infoHistory .wrap,
 .mapList.infoVideo  .wrap { margin-bottom: 0; }
 
@@ -739,7 +739,7 @@ section.mapList .filter.ea2 *+select,
 section.mapList .filter.ea2 *+input[type=text] { margin-left: 10px; }
 section.mapList .filter.range .dash { float: left; height: 35px; width: 10px; text-indent: -999px; overflow: hidden; position: relative; }
 section.mapList .filter.range .dash:before { content: ''; display: block; height: 1px; width: 6px; position: absolute; left: 0; top: 0; bottom: 0; right: 0; margin: auto; background: #e1e1e1; }
-section.mapList .filter button.filtering { position: absolute; right: 0; top: 0; height: 35px; border-radius: 3px; background: #F3797E url('/resources/skydash/images_renew/map/button-search.png') center no-repeat; text-indent: -999px; overflow: hidden; width: 40px; }
+section.mapList .filter button.filtering { position: absolute; right: 0; top: 0; height: 35px; border-radius: 3px; background: #F3797E url('../images_renew/map/button-search.png') center no-repeat; text-indent: -999px; overflow: hidden; width: 40px; }
 section.mapList header.title { font-size: 15px; color: #111; line-height: 16px; padding-bottom: 13px; }
 section.mapList header.title strong { color: #F3797E; }
 
@@ -756,22 +756,22 @@ ul.items>li:after { content: ''; display: block; clear: both; }
 ._accordion li:last-child ul.items>li:last-child { padding-bottom: 0; }
 ul.items label,
 ul.items .name { line-height: 18px; float: left; color: #333; padding: 3px 0; }
-ul.items label i.satellite { display: inline-block; vertical-align: middle; background: url('/resources/skydash/images_renew/map/legend-satellite.png') center no-repeat; width: 20px; height: 20px; margin-top: -2px; }
-ul.items label i.satellite.disabled { background-image: url('/resources/skydash/images_renew/map/legend-satellite-disabled.png'); }
+ul.items label i.satellite { display: inline-block; vertical-align: middle; background: url('../images_renew/map/legend-satellite.png') center no-repeat; width: 20px; height: 20px; margin-top: -2px; }
+ul.items label i.satellite.disabled { background-image: url('../images_renew/map/legend-satellite-disabled.png'); }
 ul.items .function { float: right; white-space: nowrap; }
 ul.items .function button { height: 26px; width: 26px; border-radius: 3px; background: #999 center no-repeat; position: relative; text-indent: -999px; overflow: hidden; display: inline-block; vertical-align: top; }
-ul.items .function button.preview { background-image: url('/resources/skydash/images_renew/map/items-preview.png'); }
-ul.items .function button.history { background-image: url('/resources/skydash/images_renew/map/items-history.png'); }
-ul.items .function button.video { background-image: url('/resources/skydash/images_renew/map/items-video.png'); }
-ul.items .function button.meta { background-image: url('/resources/skydash/images_renew/map/items-meta.png'); }
-ul.items .function button.record { background-image: url('/resources/skydash/images_renew/map/items-record.png'); }
-ul.items .function button.achievement { background-image: url('/resources/skydash/images_renew/map/items-achievement.png'); }
-ul.items .function button.imageSlide { background-image: url('/resources/skydash/images_renew/map/items-imageslide.png'); }
-ul.items .function button.print { background-image: url('/resources/skydash/images_renew/map/items-history.png'); }
-ul.items .function button.application { background-image: url('/resources/skydash/images_renew/map/items-application.png'); }
-ul.items .function button.download { background-image: url('/resources/skydash/images_renew/map/items-download.png'); }
-ul.items .function button.chrono { background-image: url('/resources/skydash/images_renew/map/items-chrono.png'); }
-ul.items .function button.quality { background-image: url('/resources/skydash/images_renew/map/items-quality.png'); }
+ul.items .function button.preview { background-image: url('../images_renew/map/items-preview.png'); }
+ul.items .function button.history { background-image: url('../images_renew/map/items-history.png'); }
+ul.items .function button.video { background-image: url('../images_renew/map/items-video.png'); }
+ul.items .function button.meta { background-image: url('../images_renew/map/items-meta.png'); }
+ul.items .function button.record { background-image: url('../images_renew/map/items-record.png'); }
+ul.items .function button.achievement { background-image: url('../images_renew/map/items-achievement.png'); }
+ul.items .function button.imageSlide { background-image: url('../images_renew/map/items-imageslide.png'); }
+ul.items .function button.print { background-image: url('../images_renew/map/items-history.png'); }
+ul.items .function button.application { background-image: url('../images_renew/map/items-application.png'); }
+ul.items .function button.download { background-image: url('../images_renew/map/items-download.png'); }
+ul.items .function button.chrono { background-image: url('../images_renew/map/items-chrono.png'); }
+ul.items .function button.quality { background-image: url('../images_renew/map/items-quality.png'); }
 ul.items .function button>span { position: absolute;top: -200vh;  }
 ul.items .function button span span { position: relative; left: -50%; background: #111; border-radius: 5px; padding: 4px 7px; line-height: 17px; color: #fff; font-size: 12px; opacity: 0; transition: opacity .3s; display: block; top: -33px; }
 ul.items .function button:after { content: ''; display: block; position: absolute; left: 0; right: 0; width: 0; height: 0; top: -8px; border: 5px solid transparent; border-top-color: #111; margin: 0 auto; opacity: 0; transition: opacity .3s; }
@@ -789,16 +789,16 @@ ul.items .info dd { display: inline-block; vertical-align: top; line-height: 22p
 ul.items .info li+li { margin-left: 10px; }
 ul.items .info dt { border-radius: 3px; background: #e1e1e1; color: #535353; padding: 0 5px; }
 ul.items i.legend { width: 16px; height: 17px; background: center no-repeat; display: inline-block; vertical-align: middle; text-indent: -999px; overflow: hidden; }
-ul.items i.legend.no1 { background-image: url('/resources/skydash/images_renew/map/items-legend-1.png'); }
-ul.items i.legend.no2 { background-image: url('/resources/skydash/images_renew/map/items-legend-2.png'); }
-ul.items i.legend.no3 { background-image: url('/resources/skydash/images_renew/map/items-legend-3.png'); }
-ul.items i.legend.no4 { background-image: url('/resources/skydash/images_renew/map/items-legend-4.png'); }
-ul.items i.legend.no5 { background-image: url('/resources/skydash/images_renew/map/items-legend-5.png'); }
-ul.items i.legend.no6 { background-image: url('/resources/skydash/images_renew/map/items-legend-6.png'); }
-ul.items i.legend.no7 { background-image: url('/resources/skydash/images_renew/map/items-legend-7.png'); }
-ul.items i.legend.no8 { background-image: url('/resources/skydash/images_renew/map/items-legend-8.png'); }
-ul.items i.legend.no9 { background-image: url('/resources/skydash/images_renew/map/items-legend-9.png'); }
-ul.items i.legend.no10 { background-image: url('/resources/skydash/images_renew/map/items-legend-10.html'); }
+ul.items i.legend.no1 { background-image: url('../images_renew/map/items-legend-1.png'); }
+ul.items i.legend.no2 { background-image: url('../images_renew/map/items-legend-2.png'); }
+ul.items i.legend.no3 { background-image: url('../images_renew/map/items-legend-3.png'); }
+ul.items i.legend.no4 { background-image: url('../images_renew/map/items-legend-4.png'); }
+ul.items i.legend.no5 { background-image: url('../images_renew/map/items-legend-5.png'); }
+ul.items i.legend.no6 { background-image: url('../images_renew/map/items-legend-6.png'); }
+ul.items i.legend.no7 { background-image: url('../images_renew/map/items-legend-7.png'); }
+ul.items i.legend.no8 { background-image: url('../images_renew/map/items-legend-8.png'); }
+ul.items i.legend.no9 { background-image: url('../images_renew/map/items-legend-9.png'); }
+ul.items i.legend.no10 { background-image: url('../images_renew/map/items-legend-10.html'); }
 ul.items .balloonContents { height: 0; overflow: hidden; }
 ul.items .divide,
 ul.items .divide li { display: inline-block; vertical-align: top; }
@@ -812,7 +812,7 @@ ul.items .info.divide li+li:before { left: 3px; }
 
 address { width: 388px; height: 40px; top: 20px; left: 370px; transition: height .3s; overflow: visible; z-index: 97; background: transparent; border: 0 none; box-shadow: none; }
 address>button { line-height: 38px; position: relative; display: block; height: 38px; text-align: left; padding: 0 32px 0 12px; box-sizing: border-box; background: #fff; border-radius: 5px; box-shadow: 0 0 10px rgba(0,0,0,.2); border: 1px solid #999; z-index: 1; }
-address>button:after { content: ''; display: block; position: absolute; top: 0; bottom: 0; width: 38px; right: 0; background: url('/resources/skydash/images_renew/map/select-arrow-pink.png') center no-repeat; transition: all .3s; }
+address>button:after { content: ''; display: block; position: absolute; top: 0; bottom: 0; width: 38px; right: 0; background: url('../images_renew/map/select-arrow-pink.png') center no-repeat; transition: all .3s; }
 address.on>button:after { transform: rotate(180deg); }
 address .option { position: relative; box-shadow: 0 0 10px rgba(0,0,0,.2); height: 0; transition: height .3s; overflow: hidden; top: -1px; border-radius: 5px; clear: both; }
 address .option ul { width: 128px; border: solid #999; border-width: 1px 0 1px 1px; overflow: auto; height: 140px; float: left; padding: 9px 0; word-break: break-all; background: #fff; }
@@ -847,56 +847,56 @@ div.index .select button:before { content: ''; display: block; position: absolut
 div.tools li:first-child button,
 div.index .select button { border-top-left-radius: 3px; border-top-right-radius: 3px; }
 div.tools li:last-child button { border-bottom-left-radius: 3px; border-bottom-right-radius: 3px; }
-div.tools li.map button:before { background-image: url('/resources/skydash/images_renew/map/control-map-c.png'); }
-div.tools li.map button:after { background-image: url('/resources/skydash/images_renew/map/control-map-w.png'); }
-div.tools li.grid button:before { background-image: url('/resources/skydash/images_renew/map/control-grid-c.png'); }
-div.tools li.grid button:after { background-image: url('/resources/skydash/images_renew/map/control-grid-w.png'); }
-div.tools li.export button:before { background-image: url('/resources/skydash/images_renew/map/control-export-c.png'); }
-div.tools li.export button:after { background-image: url('/resources/skydash/images_renew/map/control-export-w.png'); }
-div.tools li.bookmark button:before { background-image: url('/resources/skydash/images_renew/map/control-bookmark-c.png'); }
-div.tools li.bookmark button:after { background-image: url('/resources/skydash/images_renew/map/control-bookmark-w.png'); }
-div.tools li.sound button:before { background-image: url('/resources/skydash/images_renew/map/control-sound-c.png'); }
-div.tools li.sound button:after { background-image: url('/resources/skydash/images_renew/map/control-sound-w.png'); }
-div.tools li.move button:before { background-image: url('/resources/skydash/images_renew/map/control-move-c.png'); }
-div.tools li.move button:after { background-image: url('/resources/skydash/images_renew/map/control-move-w.png'); }
-div.tools li.range button:before { background-image: url('/resources/skydash/images_renew/map/control-range-c.png'); }
-div.tools li.range button:after { background-image: url('/resources/skydash/images_renew/map/control-range-w.png'); }
-div.tools li.distance button:before { background-image: url('/resources/skydash/images_renew/map/control-distance-c.png'); }
-div.tools li.distance button:after { background-image: url('/resources/skydash/images_renew/map/control-distance-w.png'); }
-div.tools li.area button:before { background-image: url('/resources/skydash/images_renew/map/control-area-c.png'); }
-div.tools li.area button:after { background-image: url('/resources/skydash/images_renew/map/control-area-w.png'); }
-div.tools li.erase button:before { background-image: url('/resources/skydash/images_renew/map/control-erase-c.png'); }
-div.tools li.erase button:after { background-image: url('/resources/skydash/images_renew/map/control-erase-w.png'); }
-div.tools li.countryName button:before { background-image: url('/resources/skydash/images_renew/map/control-countryname-c.png'); }
-div.tools li.countryName button:after { background-image: url('/resources/skydash/images_renew/map/control-countryname-w.png'); }
-div.tools li.landForm button:before { background-image: url('/resources/skydash/images_renew/map/control-landform-c.png'); }
-div.tools li.landForm button:after { background-image: url('/resources/skydash/images_renew/map/control-landform-w.png'); }
-div.tools li.allView button:before { background-image: url('/resources/skydash/images_renew/map/control-allview-c.png'); }
-div.tools li.allView button:after { background-image: url('/resources/skydash/images_renew/map/control-allview-w.png'); }
-div.tools li.northPole button:before { background-image: url('/resources/skydash/images_renew/map/control-northpole-c.png'); }
-div.tools li.northPole button:after { background-image: url('/resources/skydash/images_renew/map/control-northpole-w.png'); }
-div.tools li.southPole button:before { background-image: url('/resources/skydash/images_renew/map/control-southpole-c.png'); }
-div.tools li.southPole button:after { background-image: url('/resources/skydash/images_renew/map/control-southpole-w.png'); }
-div.tools li.legend button:before { background-image: url('/resources/skydash/images_renew/map/control-legend-c.png'); }
-div.tools li.legend button:after { background-image: url('/resources/skydash/images_renew/map/control-legend-w.png'); }
-div.tools li.zoomIn button:before { background-image: url('/resources/skydash/images_renew/map/control-zoomin-c.png'); }
-div.tools li.zoomIn button:after { background-image: url('/resources/skydash/images_renew/map/control-zoomin-w.png'); }
-div.tools li.zoomOut button:before { background-image: url('/resources/skydash/images_renew/map/control-zoomout-c.png'); }
-div.tools li.zoomOut button:after { background-image: url('/resources/skydash/images_renew/map/control-zoomout-w.png'); }
-div.tools li.reset button:before { background-image: url('/resources/skydash/images_renew/map/control-reset-c.png'); }
-div.tools li.reset button:after { background-image: url('/resources/skydash/images_renew/map/control-reset-w.png'); }
+div.tools li.map button:before { background-image: url('../images_renew/map/control-map-c.png'); }
+div.tools li.map button:after { background-image: url('../images_renew/map/control-map-w.png'); }
+div.tools li.grid button:before { background-image: url('../images_renew/map/control-grid-c.png'); }
+div.tools li.grid button:after { background-image: url('../images_renew/map/control-grid-w.png'); }
+div.tools li.export button:before { background-image: url('../images_renew/map/control-export-c.png'); }
+div.tools li.export button:after { background-image: url('../images_renew/map/control-export-w.png'); }
+div.tools li.bookmark button:before { background-image: url('../images_renew/map/control-bookmark-c.png'); }
+div.tools li.bookmark button:after { background-image: url('../images_renew/map/control-bookmark-w.png'); }
+div.tools li.sound button:before { background-image: url('../images_renew/map/control-sound-c.png'); }
+div.tools li.sound button:after { background-image: url('../images_renew/map/control-sound-w.png'); }
+div.tools li.move button:before { background-image: url('../images_renew/map/control-move-c.png'); }
+div.tools li.move button:after { background-image: url('../images_renew/map/control-move-w.png'); }
+div.tools li.range button:before { background-image: url('../images_renew/map/control-range-c.png'); }
+div.tools li.range button:after { background-image: url('../images_renew/map/control-range-w.png'); }
+div.tools li.distance button:before { background-image: url('../images_renew/map/control-distance-c.png'); }
+div.tools li.distance button:after { background-image: url('../images_renew/map/control-distance-w.png'); }
+div.tools li.area button:before { background-image: url('../images_renew/map/control-area-c.png'); }
+div.tools li.area button:after { background-image: url('../images_renew/map/control-area-w.png'); }
+div.tools li.erase button:before { background-image: url('../images_renew/map/control-erase-c.png'); }
+div.tools li.erase button:after { background-image: url('../images_renew/map/control-erase-w.png'); }
+div.tools li.countryName button:before { background-image: url('../images_renew/map/control-countryname-c.png'); }
+div.tools li.countryName button:after { background-image: url('../images_renew/map/control-countryname-w.png'); }
+div.tools li.landForm button:before { background-image: url('../images_renew/map/control-landform-c.png'); }
+div.tools li.landForm button:after { background-image: url('../images_renew/map/control-landform-w.png'); }
+div.tools li.allView button:before { background-image: url('../images_renew/map/control-allview-c.png'); }
+div.tools li.allView button:after { background-image: url('../images_renew/map/control-allview-w.png'); }
+div.tools li.northPole button:before { background-image: url('../images_renew/map/control-northpole-c.png'); }
+div.tools li.northPole button:after { background-image: url('../images_renew/map/control-northpole-w.png'); }
+div.tools li.southPole button:before { background-image: url('../images_renew/map/control-southpole-c.png'); }
+div.tools li.southPole button:after { background-image: url('../images_renew/map/control-southpole-w.png'); }
+div.tools li.legend button:before { background-image: url('../images_renew/map/control-legend-c.png'); }
+div.tools li.legend button:after { background-image: url('../images_renew/map/control-legend-w.png'); }
+div.tools li.zoomIn button:before { background-image: url('../images_renew/map/control-zoomin-c.png'); }
+div.tools li.zoomIn button:after { background-image: url('../images_renew/map/control-zoomin-w.png'); }
+div.tools li.zoomOut button:before { background-image: url('../images_renew/map/control-zoomout-c.png'); }
+div.tools li.zoomOut button:after { background-image: url('../images_renew/map/control-zoomout-w.png'); }
+div.tools li.reset button:before { background-image: url('../images_renew/map/control-reset-c.png'); }
+div.tools li.reset button:after { background-image: url('../images_renew/map/control-reset-w.png'); }
 div.tools li.divide button:before,
 div.tools li.divide button:after { background-position: center; }
-div.tools li.divide button:before { background-image: url('/resources/skydash/images_renew/map/mapfunction-divide.png'); }
-div.tools li.divide button:after { background-image: url('/resources/skydash/images_renew/map/mapfunction-divide-w.png'); }
-div.tools .measure li.bookmark button:before { background-image: url('/resources/skydash/images_renew/map/control-bookmark-c2.png'); }
-div.tools li.selection button:before { background-image: url('/resources/skydash/images_renew/map/control-selection-c.png'); }
-div.tools li.selection button:after { background-image: url('/resources/skydash/images_renew/map/control-selection-w.png'); }
+div.tools li.divide button:before { background-image: url('../images_renew/map/mapfunction-divide.png'); }
+div.tools li.divide button:after { background-image: url('../images_renew/map/mapfunction-divide-w.png'); }
+div.tools .measure li.bookmark button:before { background-image: url('../images_renew/map/control-bookmark-c2.png'); }
+div.tools li.selection button:before { background-image: url('../images_renew/map/control-selection-c.png'); }
+div.tools li.selection button:after { background-image: url('../images_renew/map/control-selection-w.png'); }
 div.tools li.unfullscreen button { padding: 0; }
 div.tools li.unfullscreen button:before,
 div.tools li.unfullscreen button:after { height: 100%; }
-div.tools li.unfullscreen button:before { background-image: url('/resources/skydash/images_renew/map/control-unfullscreen-c.png'); }
-div.tools li.unfullscreen button:after { background-image: url('/resources/skydash/images_renew/map/control-unfullscreen-w.png'); }
+div.tools li.unfullscreen button:before { background-image: url('../images_renew/map/control-unfullscreen-c.png'); }
+div.tools li.unfullscreen button:after { background-image: url('../images_renew/map/control-unfullscreen-w.png'); }
 div.tools li.on button { background: #333; color: #fff; }
 div.tools button:before { opacity: 1; }
 div.tools button:after { opacity: 0; }
@@ -949,25 +949,25 @@ div.tools .action._switchOn,
 div.tools li._switchOn.depth2 button { border-color: #F3797E; }
 div.tools ._switchOn button i { border-color: #F3797E; background: #fff; }
 div.tools ._switchOn button i:after { left: 7px; border-color: #F3797E; background: #F3797E; }
-div.tools li.countryName button i:before { background-image: url('/resources/skydash/images_renew/map/control-countryname-c2.png'); }
-div.tools li.landForm button i:before { background-image: url('/resources/skydash/images_renew/map/control-landform-c2.png'); }
+div.tools li.countryName button i:before { background-image: url('../images_renew/map/control-countryname-c2.png'); }
+div.tools li.landForm button i:before { background-image: url('../images_renew/map/control-landform-c2.png'); }
 div.tools li.allView { padding-top: 4px; }
 div.tools li.allView button { padding-bottom: 22px; }
 div.tools li.allView button i { bottom: 10px; }
 div.tools li.countryName._switchOn button:before,
-div.tools li.countryName._switchOn button:after { background-image: url('/resources/skydash/images_renew/map/control-countryname-c2.png'); }
+div.tools li.countryName._switchOn button:after { background-image: url('../images_renew/map/control-countryname-c2.png'); }
 div.tools li.landForm._switchOn button:before,
-div.tools li.landForm._switchOn button:after { background-image: url('/resources/skydash/images_renew/map/control-landform-c2.png'); }
+div.tools li.landForm._switchOn button:after { background-image: url('../images_renew/map/control-landform-c2.png'); }
 div.tools ._switchOn li.allView button:before,
-div.tools ._switchOn li.allView button:after { background-image: url('/resources/skydash/images_renew/map/control-allview-c2.png'); }
+div.tools ._switchOn li.allView button:after { background-image: url('../images_renew/map/control-allview-c2.png'); }
 div.tools li.northPole._switchOn button:before,
-div.tools li.northPole._switchOn button:after { background-image: url('/resources/skydash/images_renew/map/control-northpole-c2.png'); }
+div.tools li.northPole._switchOn button:after { background-image: url('../images_renew/map/control-northpole-c2.png'); }
 div.tools li.southPole._switchOn button:before,
-div.tools li.southPole._switchOn button:after { background-image: url('/resources/skydash/images_renew/map/control-southpole-c2.png'); }
+div.tools li.southPole._switchOn button:after { background-image: url('../images_renew/map/control-southpole-c2.png'); }
 div.tools li.legend._switchOn button:before,
-div.tools li.legend._switchOn button:after { background-image: url('/resources/skydash/images_renew/map/control-legend-c2.png'); }
+div.tools li.legend._switchOn button:after { background-image: url('../images_renew/map/control-legend-c2.png'); }
 
-div.index .select button:before { background-image: url('/resources/skydash/images_renew/map/control-index.png')}
+div.index .select button:before { background-image: url('../images_renew/map/control-index.png')}
 div.index  { top: auto; bottom: 41px; width: 50px; }
 div.index .select,
 div.index .slider { position: static; width: 50px; }
@@ -979,15 +979,15 @@ div.index ul._option li { display: inline-block; vertical-align: top; font-size:
 div.tools ul._option li+li,
 div.index ul._option li+li { border-top: 0 none; border-left: 1px solid #e1e1e1; }
 div.index .slider button.zoom { height: 38px; width: 100%; text-indent: -999px; overflow: hidden; position: relative; background: #656565 center no-repeat; overflow: hidden; }
-div.index .slider button.zoom.in { background-image: url('/resources/skydash/images_renew/map/control-zoom-in.png'); border-radius: 3px 3px 0 0; }
-div.index .slider button.zoom.out { background-image: url('/resources/skydash/images_renew/map/control-zoom-out.png'); border-radius: 0 0 3px 3px; }
-div.index .slider .track { background: url('/resources/skydash/images_renew/map/control-index-track.png') center no-repeat; border: solid #e1e1e1; border-width: 1px 0;  height: 157px; padding: 12px 20px; position: relative; }
+div.index .slider button.zoom.in { background-image: url('../images_renew/map/control-zoom-in.png'); border-radius: 3px 3px 0 0; }
+div.index .slider button.zoom.out { background-image: url('../images_renew/map/control-zoom-out.png'); border-radius: 0 0 3px 3px; }
+div.index .slider .track { background: url('../images_renew/map/control-index-track.png') center no-repeat; border: solid #e1e1e1; border-width: 1px 0;  height: 157px; padding: 12px 20px; position: relative; }
 div.index .slider .track .bar { width: 100%; border: 1px solid #bbb; background: #ddd; box-sizing: border-box; overflow: visible; position: relative; }
-div.index .slider .track .handle { box-sizing: border-box; position: absolute; bottom: -8px; left : -10px; display: block; height: 16px; width: 24px; border: 1px solid #555; border-radius: 3px; background: #ff5949 url('/resources/skydash/images_renew/map/control-index-handle.png') center no-repeat; box-shadow: 0 1px 0 rgba(0,0,0,.2); }
+div.index .slider .track .handle { box-sizing: border-box; position: absolute; bottom: -8px; left : -10px; display: block; height: 16px; width: 24px; border: 1px solid #555; border-radius: 3px; background: #ff5949 url('../images_renew/map/control-index-handle.png') center no-repeat; box-shadow: 0 1px 0 rgba(0,0,0,.2); }
 button.mapController { display: none; }
 
 button.minimize { width: 22px; height: 22px; border: 1px solid #ccc; border-top-width: 0; background: #eee; text-indent: -999px; overflow: hidden; border-radius: 0 0 3px 3px; position: absolute; right: 14px; top: 0; z-index: 1; display: none; }
-button.minimize i { position: absolute; left: 0; right: 0; top: 1px; bottom: 0; background: url('/resources/skydash/images_renew/map/button-minimize.png') center no-repeat; transition: all .3s; }
+button.minimize i { position: absolute; left: 0; right: 0; top: 1px; bottom: 0; background: url('../images_renew/map/button-minimize.png') center no-repeat; transition: all .3s; }
 h2.minimize { line-height: 14px; font-size: 15px; color: #000; height: 0; overflow: hidden; opacity: 0; transition: opacity .3s, height 0s .3s; position: absolute; left: 14px; top: 14px; z-index: 1; }
 ._minimize h2.minimize { height: 14px; opacity: 1; transition-delay: 0s; }
 ._minimize button.minimize i { transform: rotate(180deg); }
@@ -1060,7 +1060,7 @@ section.mapList .filter+.wrap { max-height: calc(100vh - 145px - 50px - 95px - 5
 .map.interest section.search.helpOn .inputs.switch .pannel2 { display: none; }
 .map.interest section.search.helpOn .inputs.switch .pannel1.on,
 .map.interest section.search.helpOn .inputs.switch .pannel2.on { display: block; }
-.map.interest section.search .searchBannerBtn { padding-left: 80px; background-image: url('/resources/skydash/images_renew/interest/banner-poidownload.png'); background-position: 35px center; }
+.map.interest section.search .searchBannerBtn { padding-left: 80px; background-image: url('../images_renew/interest/banner-poidownload.png'); background-position: 35px center; }
 .map.interest section.result nav.tab { margin-bottom: 0; }
 /* 20211222 cbh 국가관심지역 원복*/
 /*.map.interest section.result header { height: 116px; }*/
@@ -1094,8 +1094,8 @@ section.mapList .filter+.wrap { max-height: calc(100vh - 145px - 50px - 95px - 5
 .condition li.selection .options select { background: #f5f5f5; }
 .condition li.selection .selected { float: right; }
 .condition li.selection button { height: 30px; width: 30px; border-width: 3px; background: #0d624f center no-repeat; text-indent: -999px; overflow: hidden; border-radius: 3px; position: absolute; left: 0; right: 0; margin: auto; }
-.condition li.selection button.add { bottom: 55px; background-image: url('/resources/skydash/images_renew/common/arrow-left.png'); }
-.condition li.selection button.remove { bottom: 15px; background-image: url('/resources/skydash/images_renew/common/arrow-right.png'); }
+.condition li.selection button.add { bottom: 55px; background-image: url('../images_renew/common/arrow-left.png'); }
+.condition li.selection button.remove { bottom: 15px; background-image: url('../images_renew/common/arrow-right.png'); }
 .condition.col2:after { content: ''; display: block; clear: both; }
 .condition.col2 li,
 .condition .col2 li { float: left; width: calc(50% - 5px); }
@@ -1193,9 +1193,9 @@ section.mapList .filter+.wrap { max-height: calc(100vh - 145px - 50px - 95px - 5
 .infoPannel footer.function button { height: 35px; width: 100px; border-radius: 3px; background: #999; color: #fff; font-size: 13px; margin: 0 5px; }
 .infoPannel footer.function strong button { background: #F3797E; }
 
-.infoPannel i.file { width: 18px; height: 18px; display: inline-block; vertical-align: middle; border-radius: 9px; background: #999 url('/resources/skydash/images_renew/common/icon-file.png') center no-repeat; background-size: 100%; text-indent: -999px; overflow: hidden; }
+.infoPannel i.file { width: 18px; height: 18px; display: inline-block; vertical-align: middle; border-radius: 9px; background: #999 url('../images_renew/common/icon-file.png') center no-repeat; background-size: 100%; text-indent: -999px; overflow: hidden; }
 .infoPannel button.fileName { border-radius: 3px; background: #eee; color: #555; padding: 0 3px; }
-.infoPannel button.fullscreen { width: 24px; height: 24px; text-indent: -999px; overflow: hidden; background: url('/resources/skydash/images_renew/map/button-fullscreen.png') center no-repeat; position: absolute; right: 0; top: 0; }
+.infoPannel button.fullscreen { width: 24px; height: 24px; text-indent: -999px; overflow: hidden; background: url('../images_renew/map/button-fullscreen.png') center no-repeat; position: absolute; right: 0; top: 0; }
 
 .subButton { position: absolute; left: 20px; transition: top .3s; }
 .subButton button { border-radius: 3px; border: 1px solid #999; float: left; box-shadow: 0 0 10px rgba(0,0,0,.2); background: #f2f2f2; color: #999; font-size: 13px; width: 165px; height: 40px; }
@@ -1208,7 +1208,7 @@ section.mapList .filter+.wrap { max-height: calc(100vh - 145px - 50px - 95px - 5
 .infoPannel table td { border-bottom: 1px solid #e1e1e1; padding: 5px 2px; height: 20px; }
 .infoPannel table th { background: #f5f5f5; color: #333; font-weight: 500; }
 .infoPannel table th+td { text-align: left; padding-left: 4px; }
-.infoPannel table caption { padding-left: 20px; background: url('/resources/skydash/images_renew/map/icon-detailinfo.png') left center no-repeat; line-height: 35px; font-size: 15px; color: #111; text-align: left; }
+.infoPannel table caption { padding-left: 20px; background: url('../images_renew/map/icon-detailinfo.png') left center no-repeat; line-height: 35px; font-size: 15px; color: #111; text-align: left; }
 .infoPannel table *[onclick] { cursor: pointer; }
 
 .infoPannel p { font-size: 12px; color: #888; padding-top: 2px; }
@@ -1246,32 +1246,32 @@ section.mapList .filter+.wrap { max-height: calc(100vh - 145px - 50px - 95px - 5
 .mapFunction li.blue > button.toggleOn { background: #103cf7; }
 .mapFunction li.red > button { color: #6ebca8; }
 .mapFunction li.red > button.toggleOn { background: #6ebca8; color: #fff; }
-.mapFunction .divide button:before { background-image: url('/resources/skydash/images_renew/map/mapfunction-divide.png'); }
-.mapFunction .divide button:after { background-image: url('/resources/skydash/images_renew/map/mapfunction-divide-w.png'); }
-.mapFunction .print button:before { background-image: url('/resources/skydash/images_renew/map/mapfunction-print.png'); }
-.mapFunction .print button:after { background-image: url('/resources/skydash/images_renew/map/mapfunction-print-w.png'); }
-.mapFunction .chart button:before { background-image: url('/resources/skydash/images_renew/map/mapfunction-chart.png'); }
-.mapFunction .chart button:after { background-image: url('/resources/skydash/images_renew/map/mapfunction-chart-w.png'); }
-.mapFunction .property button:before { background-image: url('/resources/skydash/images_renew/map/mapfunction-property.png'); }
-.mapFunction .property button:after { background-image: url('/resources/skydash/images_renew/map/mapfunction-property-w.png'); }
-.mapFunction .appearance button:before { background-image: url('/resources/skydash/images_renew/map/mapfunction-appearance.png'); }
-.mapFunction .appearance button:after { background-image: url('/resources/skydash/images_renew/map/mapfunction-appearance-w.png'); }
-.mapFunction .report button:before { background-image: url('/resources/skydash/images_renew/map/mapfunction-report.png'); }
-.mapFunction .report button:after { background-image: url('/resources/skydash/images_renew/map/mapfunction-report-w.png'); }
-.mapFunction .eye button:before { background-image: url('/resources/skydash/images_renew/map/mapfunction-eye.png'); }
-.mapFunction .eye button:after { background-image: url('/resources/skydash/images_renew/map/mapfunction-eye-w.png'); }
-.mapFunction .compare button:before { background-image: url('/resources/skydash/images_renew/map/mapfunction-compare.png'); }
-.mapFunction .compare button:after { background-image: url('/resources/skydash/images_renew/map/mapfunction-compare-w.png'); }
-.mapFunction .house button:before { background-image: url('/resources/skydash/images_renew/map/mapfunction-house.png'); }
-.mapFunction .house button:after { background-image: url('/resources/skydash/images_renew/map/mapfunction-house-w.png'); }
-.mapFunction .sejong button:before { background-image: url('/resources/skydash/images_renew/map/mapfunction-sejong.png'); }
-.mapFunction .sejong button:after { background-image: url('/resources/skydash/images_renew/map/mapfunction-sejong-w.png'); }
-.mapFunction .jangbogo button:before { background-image: url('/resources/skydash/images_renew/map/mapfunction-jangbogo.png'); }
-.mapFunction .jangbogo button:after { background-image: url('/resources/skydash/images_renew/map/mapfunction-jangbogo-w.png'); }
-.mapFunction .path button:before { background-image: url('/resources/skydash/images_renew/map/mapfunction-path.png'); }
-.mapFunction .path button:after { background-image: url('/resources/skydash/images_renew/map/mapfunction-path-w.png'); }
-.mapFunction .facility button:before { background-image: url('/resources/skydash/images_renew/map/sinfo-icon-1.png'); }
-.mapFunction .facility button:after { background-image: url('/resources/skydash/images_renew/map/sinfo-icon-1-w.png'); }
+.mapFunction .divide button:before { background-image: url('../images_renew/map/mapfunction-divide.png'); }
+.mapFunction .divide button:after { background-image: url('../images_renew/map/mapfunction-divide-w.png'); }
+.mapFunction .print button:before { background-image: url('../images_renew/map/mapfunction-print.png'); }
+.mapFunction .print button:after { background-image: url('../images_renew/map/mapfunction-print-w.png'); }
+.mapFunction .chart button:before { background-image: url('../images_renew/map/mapfunction-chart.png'); }
+.mapFunction .chart button:after { background-image: url('../images_renew/map/mapfunction-chart-w.png'); }
+.mapFunction .property button:before { background-image: url('../images_renew/map/mapfunction-property.png'); }
+.mapFunction .property button:after { background-image: url('../images_renew/map/mapfunction-property-w.png'); }
+.mapFunction .appearance button:before { background-image: url('../images_renew/map/mapfunction-appearance.png'); }
+.mapFunction .appearance button:after { background-image: url('../images_renew/map/mapfunction-appearance-w.png'); }
+.mapFunction .report button:before { background-image: url('../images_renew/map/mapfunction-report.png'); }
+.mapFunction .report button:after { background-image: url('../images_renew/map/mapfunction-report-w.png'); }
+.mapFunction .eye button:before { background-image: url('../images_renew/map/mapfunction-eye.png'); }
+.mapFunction .eye button:after { background-image: url('../images_renew/map/mapfunction-eye-w.png'); }
+.mapFunction .compare button:before { background-image: url('../images_renew/map/mapfunction-compare.png'); }
+.mapFunction .compare button:after { background-image: url('../images_renew/map/mapfunction-compare-w.png'); }
+.mapFunction .house button:before { background-image: url('../images_renew/map/mapfunction-house.png'); }
+.mapFunction .house button:after { background-image: url('../images_renew/map/mapfunction-house-w.png'); }
+.mapFunction .sejong button:before { background-image: url('../images_renew/map/mapfunction-sejong.png'); }
+.mapFunction .sejong button:after { background-image: url('../images_renew/map/mapfunction-sejong-w.png'); }
+.mapFunction .jangbogo button:before { background-image: url('../images_renew/map/mapfunction-jangbogo.png'); }
+.mapFunction .jangbogo button:after { background-image: url('../images_renew/map/mapfunction-jangbogo-w.png'); }
+.mapFunction .path button:before { background-image: url('../images_renew/map/mapfunction-path.png'); }
+.mapFunction .path button:after { background-image: url('../images_renew/map/mapfunction-path-w.png'); }
+.mapFunction .facility button:before { background-image: url('../images_renew/map/sinfo-icon-1.png'); }
+.mapFunction .facility button:after { background-image: url('../images_renew/map/sinfo-icon-1-w.png'); }
 .mapFunction li.on button:before,
 .mapFunction li button.on:before { opacity: 0; }
 .mapFunction li.on button:after,
@@ -1294,14 +1294,14 @@ section.mapList .filter+.wrap { max-height: calc(100vh - 145px - 50px - 95px - 5
 .mapFunction li button.on.path:focus { border-color: #F3797E; }
 .map.interest .mapFunction { width: 72px; }
 .map.interest .mapFunction li.sound button { padding-left: 30px; }
-.map.interest .mapFunction .sound button:before { content: ''; background-image: url('/resources/skydash/images_renew/map/mapfunction-sound-c.png'); width: 42px; }
-.map.interest .mapFunction .sound button:after { content: ''; background-image: url('/resources/skydash/images_renew/map/mapfunction-sound-w.png'); width: 42px; }
+.map.interest .mapFunction .sound button:before { content: ''; background-image: url('../images_renew/map/mapfunction-sound-c.png'); width: 42px; }
+.map.interest .mapFunction .sound button:after { content: ''; background-image: url('../images_renew/map/mapfunction-sound-w.png'); width: 42px; }
 .map.interest .mapFunction .sound.active button { color: #F3797E; }
-.map.interest .mapFunction .sound.active button:before { content: ''; background-image: url('/resources/skydash/images_renew/map/mapfunction-sound-c-on.png'); }
-.map.interest .mapFunction .sound.active button:after { content: ''; background-image: url('/resources/skydash/images_renew/map/mapfunction-sound-c-on.png'); }
+.map.interest .mapFunction .sound.active button:before { content: ''; background-image: url('../images_renew/map/mapfunction-sound-c-on.png'); }
+.map.interest .mapFunction .sound.active button:after { content: ''; background-image: url('../images_renew/map/mapfunction-sound-c-on.png'); }
 .map.interest .mapFunction .covidClinic button { padding-left: 32px; text-align: left; }
-.map.interest .mapFunction .covidClinic button:before { content: ''; background-image: url('/resources/skydash/images_renew/map/mapfunction-covidclinic-c.png')}
-.map.interest .mapFunction .covidClinic button:after { content: ''; background-image: url('/resources/skydash/images_renew/map/mapfunction-covidclinic-w.png')}
+.map.interest .mapFunction .covidClinic button:before { content: ''; background-image: url('../images_renew/map/mapfunction-covidclinic-c.png')}
+.map.interest .mapFunction .covidClinic button:after { content: ''; background-image: url('../images_renew/map/mapfunction-covidclinic-w.png')}
 .map.interest .mapFunction .covidClinic button.toggleOn:after { opacity: 1; }
 
 .map.interest .mapFunction.strong { border-color: rgb(4, 140, 252); width: 50px; }
@@ -1397,7 +1397,7 @@ div.tools li.map.on div.option { width: 160px; }
 .mapFunction li.legend.on div.option { width: 230px; }
 .mapFunction li.download.on div.option { width: 220px; }
 .mapFunction li.download button.fn+button.fn { margin-top: 10px; }
-.mapFunction li.download button.fn { border-radius: 4px; height: 25px; background: url('/resources/skydash/images_renew/common/icon-file.png') 2px center no-repeat; padding-left: 28px; text-align: left; }
+.mapFunction li.download button.fn { border-radius: 4px; height: 25px; background: url('../images_renew/common/icon-file.png') 2px center no-repeat; padding-left: 28px; text-align: left; }
 div.tools li.bookmark div.option { max-width: calc(100vw - 140px); }
 div.tools li.bookmark.on div.option { width: 230px; }
 div.tools li.bookmark div.option ul { max-height: 293px; overflow: auto; }
@@ -1442,13 +1442,13 @@ div.tools li.bookmark div.option .add input[type=text] { width: calc(100% - 65px
 .mapDivider .function label i:after { content: ''; display: block; position: absolute; top: 0; bottom: 0; left: 0; right: 0; background: center no-repeat; opacity: 1; transition: all .3s; border: 0 none; width: auto; height: auto; transform: none; }
 .mapDivider .function button:after,
 .mapDivider .function label i:after { opacity: 0; }
-.mapDivider .function .legend:before { background-image: url('/resources/skydash/images_renew/map/mapfunction-legend.png'); }
-.mapDivider .function .legend:after { background-image: url('/resources/skydash/images_renew/map/mapfunction-legend-w.png'); }
+.mapDivider .function .legend:before { background-image: url('../images_renew/map/mapfunction-legend.png'); }
+.mapDivider .function .legend:after { background-image: url('../images_renew/map/mapfunction-legend-w.png'); }
 .mapDivider .function .sync i:before,
-.mapDivider .function .sync:before { background-image: url('/resources/skydash/images_renew/map/mapfunction-sync.png'); }
+.mapDivider .function .sync:before { background-image: url('../images_renew/map/mapfunction-sync.png'); }
 .mapDivider .function .sync i:after,
-.mapDivider .function .sync:after { background-image: url('/resources/skydash/images_renew/map/mapfunction-sync-w.png'); }
-.mapDivider .function select { margin-left: 5px; background-color: #fff; height: 30px; padding-top: 0; padding-bottom: 0; float: left; border-color: #F3797E; color: #F3797E; background-image: url('/resources/skydash/images_renew/common/select-red.png'); }
+.mapDivider .function .sync:after { background-image: url('../images_renew/map/mapfunction-sync-w.png'); }
+.mapDivider .function select { margin-left: 5px; background-color: #fff; height: 30px; padding-top: 0; padding-bottom: 0; float: left; border-color: #F3797E; color: #F3797E; background-image: url('../images_renew/common/select-red.png'); }
 .mapDivider .wrap._legendOn .function button.legend { background: #F3797E; }
 .mapDivider .wrap._legendOn .function button.legend:before { opacity: 0; }
 .mapDivider .wrap._legendOn .function button.legend:after { opacity: 1; }
@@ -1507,7 +1507,7 @@ section.search nav.tab.map.ea4 button { width: calc(25% - 6px); }
 .map.statistics.divided.indicator .infoPannel.legend .wrap { height: calc(300px + 16px); }
 .map.statistics .search .action button { width: calc((100% - 10px - 40px) / 2); margin-right: 5px; }
 .map.statistics .search .action button.green { background: #0d624f; }
-.map.statistics .search .action button.reset { width: 35px; text-indent: -999px; overflow: hidden; margin-right: 0; background: #999 url('/resources/skydash/images_renew/map/button-reset.png') center no-repeat; }
+.map.statistics .search .action button.reset { width: 35px; text-indent: -999px; overflow: hidden; margin-right: 0; background: #999 url('../images_renew/map/button-reset.png') center no-repeat; }
 .map.statistics .infoPannel.legend { left: 20px; }
 .map.statistics .infoPannel.chart,
 body.noResponsive .map.statistics .infoPannel.chart { width: 440px; left: calc(100vw - 80px - 520px); margin: 0 0 -10px 10px; top: auto; bottom: 100vh; transition: bottom 0s .3s, opacity .3s, margin .3s; border-radius: 5px; border-width: 1px; }
@@ -1582,10 +1582,10 @@ body.noResponsive .map.statistics._chartOn .infoPannel.chart { bottom: 41px;  op
 .map.change .legendPOI ul { padding: 14px; line-height: 26px; font-size: 13px; color: #888; }
 .map.change .legendPOI li { padding: 2px 0 2px 32px; background: left center no-repeat; height: 30px; }
 .map.change .legendPOI li+li { margin-top: 8px; }
-.map.change .legendPOI li.new { background-image: url('/resources/skydash/images_renew/common/poi-new.png'); }
-.map.change .legendPOI li.modify { background-image: url('/resources/skydash/images_renew/common/poi-modify.png'); }
-.map.change .legendPOI li.remove { background-image: url('/resources/skydash/images_renew/common/poi-remove.png'); }
-.map.change .legendPOI li.etc { background-image: url('/resources/skydash/images_renew/common/poi-etc.png'); }
+.map.change .legendPOI li.new { background-image: url('../images_renew/common/poi-new.png'); }
+.map.change .legendPOI li.modify { background-image: url('../images_renew/common/poi-modify.png'); }
+.map.change .legendPOI li.remove { background-image: url('../images_renew/common/poi-remove.png'); }
+.map.change .legendPOI li.etc { background-image: url('../images_renew/common/poi-etc.png'); }
 .map.change._resultOn .legendPOI { bottom: 41px; opacity: 1; margin: 0; transition-delay: 0s; }
 
 .map.statistics section.search .action { padding-top: 5px; }
@@ -1714,7 +1714,7 @@ body.noResponsive .map.statistics .infoPannel.chart { margin: 0 -10px -10px 0; }
 .map.change .search .condition *+input[type=text] { margin-left: 5px; }
 .map.change .search .condition select:first-child:last-child { width: 100%; }
 .map.change .search .condition label *+input[type=text] { margin-left: 0; width: calc(100% - 60px); }
-.map.change .result table i.file { text-indent: -999px; overflow: hidden; display: block; border-radius: 50%; width: 24px; height: 24px; background: #ccc url('/resources/skydash/images_renew/common/icon-file.png') center no-repeat; }
+.map.change .result table i.file { text-indent: -999px; overflow: hidden; display: block; border-radius: 50%; width: 24px; height: 24px; background: #ccc url('../images_renew/common/icon-file.png') center no-repeat; }
 
 .map.change.notice .infoPannel.changeResult td { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .map.change.notice .subButton { top: 302px; }
@@ -1761,12 +1761,12 @@ body.noResponsive .map.statistics .infoPannel.chart { margin: 0 -10px -10px 0; }
 }
 
 .drawing { display: inline-block; vertical-align: middle; width: 17px; height: 17px; background: center no-repeat; text-indent: -999px; overflow: hidden; }
-.drawing.place { background-image: url('/resources/skydash/images_renew/map/icon-drawing-1.png'); }
-.drawing.start { background-image: url('/resources/skydash/images_renew/map/icon-drawing-2.png'); }
-.drawing.end { background-image: url('/resources/skydash/images_renew/map/icon-drawing-3.png'); }
-.drawing.on.place { background-image: url('/resources/skydash/images_renew/map/icon-drawing-1-on.png'); }
-.drawing.on.start { background-image: url('/resources/skydash/images_renew/map/icon-drawing-2-on.png'); }
-.drawing.on.end { background-image: url('/resources/skydash/images_renew/map/icon-drawing-3-on.png'); }
+.drawing.place { background-image: url('../images_renew/map/icon-drawing-1.png'); }
+.drawing.start { background-image: url('../images_renew/map/icon-drawing-2.png'); }
+.drawing.end { background-image: url('../images_renew/map/icon-drawing-3.png'); }
+.drawing.on.place { background-image: url('../images_renew/map/icon-drawing-1-on.png'); }
+.drawing.on.start { background-image: url('../images_renew/map/icon-drawing-2-on.png'); }
+.drawing.on.end { background-image: url('../images_renew/map/icon-drawing-3-on.png'); }
 
 .map.change.organization .infoPannel.changeResult td { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .map.change.organization .infoPannel.changeResult .action strong button { width: 150px; }
@@ -1862,18 +1862,18 @@ body.noResponsive .map.statistics .infoPannel.chart { margin: 0 -10px -10px 0; }
     button.stepControl { display: block; position: absolute; left: 361px; top: -40px; width: 80px; height: 40px; background: #333; color: #fff; font-size: 11px; line-height: 40px; border-radius: 0 0 5px 5px; opacity: 0; transition-duration: .3s; padding-left: 19px; box-shadow: 0 0 10px rgba(0,0,0,.2); margin-left: 340px; transition: opacity .3s, left.3s, margin .3s, top .3s, color .3s; z-index: 10; }
     button.stepControl:before,
     button.stepControl:after { content: ''; display: block; position: absolute; left: 0; width: 36px; top: 0; bottom: 0; background: center no-repeat; transition: opacity .3s; }
-    button.stepControl.prev:before { background-image: url('/resources/skydash/images_renew/map/icon-backstep.png'); }
-    button.stepControl.prev:after { background-image: url('/resources/skydash/images_renew/map/icon-backstep-c.png'); opacity: 0; }
+    button.stepControl.prev:before { background-image: url('../images_renew/map/icon-backstep.png'); }
+    button.stepControl.prev:after { background-image: url('../images_renew/map/icon-backstep-c.png'); opacity: 0; }
     button.stepControl.prev:hover,
     button.stepControl.prev:focus { color: #f7919e; }
     button.stepControl.prev:hover:before,
     button.stepControl.prev:focus:before { opacity: 0; }
     button.stepControl.prev:hover:after,
     button.stepControl.prev:focus:after { opacity: 1; }
-    button.stepControl.reset:before { background-image: url('/resources/skydash/images_renew/map/icon-resetstep.png'); }
-    button.stepControl.reset:after { background-image: url('/resources/skydash/images_renew/map/icon-resetstep-c.png'); opacity: 0; }
-    button.stepControl.viewMap:before { background-image: url('/resources/skydash/images_renew/map/icon-viewmap.png'); }
-    button.stepControl.viewMap:after { background-image: url('/resources/skydash/images_renew/map/icon-viewmap-c.png'); opacity: 0; }
+    button.stepControl.reset:before { background-image: url('../images_renew/map/icon-resetstep.png'); }
+    button.stepControl.reset:after { background-image: url('../images_renew/map/icon-resetstep-c.png'); opacity: 0; }
+    button.stepControl.viewMap:before { background-image: url('../images_renew/map/icon-viewmap.png'); }
+    button.stepControl.viewMap:after { background-image: url('../images_renew/map/icon-viewmap-c.png'); opacity: 0; }
     ._viewMap button.stepControl.viewMap { color: #f7919e; left: 11px !important; }
     ._viewMap button.stepControl.viewMap:before { opacity: 0; }
     ._viewMap button.stepControl.viewMap:after { opacity: 1; }
@@ -1886,8 +1886,8 @@ body.noResponsive .map.statistics .infoPannel.chart { margin: 0 -10px -10px 0; }
     button.mapController { position: absolute; display: block; right: 10px; bottom: 41px; background: #333; font-size: 12px; color: #fff; border-radius: 5px; width: 50px; height: 60px; z-index: 10; padding-top: 33px; font-size: 11px; box-shadow: 0 0 10px rgba(0,0,0,.2); }
     button.mapController:before,
     button.mapController:after { content: ''; display: block; position: absolute; left: 0; right: 0; top: 0; height: 40px; background: center no-repeat; transition: opacity .3s; }
-    button.mapController:before { background-image: url('/resources/skydash/images_renew/map/icon-mapcontrol.png'); }
-    button.mapController:after { background-image: url('/resources/skydash/images_renew/map/icon-mapcontrol-c.png'); opacity: 0; }
+    button.mapController:before { background-image: url('../images_renew/map/icon-mapcontrol.png'); }
+    button.mapController:after { background-image: url('../images_renew/map/icon-mapcontrol-c.png'); opacity: 0; }
     ._mapControllerOn button.mapController { color: #f7919e; }
     ._mapControllerOn button.mapController:before { opacity: 0; }
     ._mapControllerOn button.mapController:after { opacity: 1; }
@@ -2319,7 +2319,7 @@ body.noResponsive .section.popup { max-width: none; max-height: none; }
 .popup.mapCompare .list .filter select+select { margin-left: 10px; }
 .popup.mapCompare .list .filter .dash { float: left; height: 100%; width: 10px; text-indent: -999px; overflow: hidden; position: relative; }
 .popup.mapCompare .list .filter .dash:before { content: ''; display: block; height: 1px; width: 6px; position: absolute; left: 0; top: 0; bottom: 0; right: 0; margin: auto; background: #e1e1e1; }
-.popup.mapCompare .list .filter button.filtering { position: absolute; right: 0; top: 0; bottom: 0; border-radius: 3px; background: #F3797E url('/resources/skydash/images_renew/map/button-search.png') center no-repeat; text-indent: -999px; overflow: hidden; width: 40px; }
+.popup.mapCompare .list .filter button.filtering { position: absolute; right: 0; top: 0; bottom: 0; border-radius: 3px; background: #F3797E url('../images_renew/map/button-search.png') center no-repeat; text-indent: -999px; overflow: hidden; width: 40px; }
 .popup.mapCompare .list .videoList { border-radius: 3px; border: 1px solid #e1e1e1; background: #f5f5f5; box-sizing: border-box; position: absolute; top: 110px; bottom: 0; left: 0; right: 0; padding: 2px 0; overflow: auto; }
 .popup.mapCompare .list .videoList button { padding: 8px; line-height: 14px; font-size: 13px; color: #888; text-align: left; }
 .popup.mapCompare .videos { overflow: hidden; height: 100%; margin-top: 0; position: relative; }
@@ -2339,10 +2339,10 @@ body.noResponsive .section.popup { max-width: none; max-height: none; }
 .popup.mapCompare .videos .video header .fn:after { content: ''; display: block; clear: both; }
 .popup.mapCompare .videos .video header .fn button { float: left; width: 26px; height: 26px; border-radius: 3px; background: #999 center no-repeat; text-indent: -999px; overflow: hidden; }
 .popup.mapCompare .videos .video header .fn button+button { margin-left: 5px; }
-.popup.mapCompare .videos .video header .fn button.reset { background-image: url('/resources/skydash/images_renew/map/icon-reset.png'); }
-.popup.mapCompare .videos .video header .fn button.zoomIn { background-image: url('/resources/skydash/images_renew/map/icon-zoomin.png'); }
-.popup.mapCompare .videos .video header .fn button.zoomOut { background-image: url('/resources/skydash/images_renew/map/icon-zoomout.png'); }
-.popup.mapCompare .videos .video header .fn button.move { background-image: url('/resources/skydash/images_renew/map/icon-move.png'); }
+.popup.mapCompare .videos .video header .fn button.reset { background-image: url('../images_renew/map/icon-reset.png'); }
+.popup.mapCompare .videos .video header .fn button.zoomIn { background-image: url('../images_renew/map/icon-zoomin.png'); }
+.popup.mapCompare .videos .video header .fn button.zoomOut { background-image: url('../images_renew/map/icon-zoomout.png'); }
+.popup.mapCompare .videos .video header .fn button.move { background-image: url('../images_renew/map/icon-move.png'); }
 .popup.mapCompare .videos .video header .fn label { float: right; margin-top: 4px; }
 .popup.mapCompare .videos .video .map { position: absolute; top: 70px; bottom: 0; left: 0; right: 0; }
 @media (max-width: 899px){
@@ -2367,7 +2367,7 @@ body.noResponsive .section.popup { max-width: none; max-height: none; }
 
 .popup.mapCompare.simple .section.popup,
 .popup.mapCompare.simple section.popup { width: 1180px; height: 853px; padding-bottom: 0; }
-.popup.mapCompare.simple main header { padding-left: 21px; background: url('/resources/skydash/images_renew/map/icon-focus.png') left center no-repeat; line-height: 16px; margin-bottom: 15px; }
+.popup.mapCompare.simple main header { padding-left: 21px; background: url('../images_renew/map/icon-focus.png') left center no-repeat; line-height: 16px; margin-bottom: 15px; }
 .popup.mapCompare.simple main header p { display: inline-block; font-size: 15px; color: #333; margin-right: 21px; vertical-align: middle; }
 .popup.mapCompare.simple .videos { height: calc(100% - 33px); }
 .popup.mapCompare.simple .video header { height: 45px; box-sizing: border-box; padding: 9px; }
@@ -2422,8 +2422,8 @@ body.noResponsive .section.popup { max-width: none; max-height: none; }
 .popup.mapImageSlide .thumb li.on:before { width: 20px; opacity: .8; }
 .popup.mapImageSlide .thumb li.on:after { height: 20px; opacity: .8; }
 .popup.mapImageSlide nav button { width: 45px; height: 63px; background: center no-repeat; top: 0; bottom: 0; margin: auto 0; text-indent: -999px; overflow: hidden; position: absolute; }
-.popup.mapImageSlide nav button.prev { left: 29px; background: url('/resources/skydash/images_renew/map/imageslide-prev.png'); }
-.popup.mapImageSlide nav button.next { right: 29px; background: url('/resources/skydash/images_renew/map/imageslide-next.png'); }
+.popup.mapImageSlide nav button.prev { left: 29px; background: url('../images_renew/map/imageslide-prev.png'); }
+.popup.mapImageSlide nav button.next { right: 29px; background: url('../images_renew/map/imageslide-next.png'); }
 
 /* info */
 .info nav.member,
@@ -2546,13 +2546,13 @@ body.noResponsive .section.popup { max-width: none; max-height: none; }
 .polar .map.sInfo .result .filter button.action { position: absolute; right: 9px; top: 9px; bottom: 9px; width: 70px; border-radius: 3px; background: #F3797E; color: #fff; height: auto; font-size: 15px; padding: 0; }
 .polar .map.sInfo .result .filter .slider { background: #ddd; margin-top: 2px; height: 10px; position: relative; }
 .polar .map.sInfo .result .filter .slider .ui-slider-range { background: #0d624f; position: absolute; top: 0; bottom: 0; height: auto; }
-.polar .map.sInfo .result .filter .slider .ui-slider-handle { background: url('/resources/skydash/images_renew/map/slider-picker.png') center no-repeat; width: 13px; height: 20px; position: absolute; margin-left: -6.5px; margin-top: -2px; }
+.polar .map.sInfo .result .filter .slider .ui-slider-handle { background: url('../images_renew/map/slider-picker.png') center no-repeat; width: 13px; height: 20px; position: absolute; margin-left: -6.5px; margin-top: -2px; }
 .polar .map.sInfo .result .filter .year { position: absolute; color: #999; font-size: 12px; bottom: 9px; line-height: 9px; }
 .polar .map.sInfo .result .filter .year.maximum { right: 89px; }
 .polar .map.sInfo .result .filter .year.selection { left: 0; right: 89px; text-align: center; font-size: 13px; color: #F3797E; line-height: 10px; }
 .polar .map.sInfo .result .find { padding: 0 94px 0 14px; height: 35px; position: relative; margin-bottom: 10px; }
 .polar .map.sInfo .result .find input[type=text] { border-color: #F3797E; border-right: 0 none; border-radius: 3px 0 0 3px; width: calc(100% - 35px); float: left; }
-.polar .map.sInfo .result .find button.search { width: 35px; height: 35px; background: #F3797E url('/resources/skydash/images_renew/map/button-search.png') center no-repeat; border-radius: 0 3px 3px 0; text-indent: -999px; overflow: hidden; }
+.polar .map.sInfo .result .find button.search { width: 35px; height: 35px; background: #F3797E url('../images_renew/map/button-search.png') center no-repeat; border-radius: 0 3px 3px 0; text-indent: -999px; overflow: hidden; }
 .polar .map.sInfo .result .find button.allView { position: absolute; right: 14px; top: 0; bottom: 0; background: #aaa; color: #fff; font-size: 13px; border-radius: 3px; width: 70px; }
 .polar .map.sInfo .axis,
 .polar .map.sState .axis { left: 480px; }
@@ -2837,13 +2837,13 @@ body.noResponsive .section.popup { max-width: none; max-height: none; }
 .info .download .list li button { display: block; float: left; margin: 0 10px 10px 0; border-radius: 3px; box-sizing: border-box; background: #fff 110px center no-repeat; padding: 1px 14px 0; height: 60px; width: 150px; text-align: left; border: 1px solid; }
 .info .download .list li button { font-size: 13px; color: #888; }
 .info .download .list li button strong { font-size: 15px; color: #333; display: block; font-weight: 600; }
-.info .download .list li button.paper { border-color: #F3797E; background-image: url('/resources/skydash/images_renew/map/download-paper.png'); }
+.info .download .list li button.paper { border-color: #F3797E; background-image: url('../images_renew/map/download-paper.png'); }
 .info .download .list li button.paper strong { font-size: 24px; color: #F3797E; font-weight: 900; }
 .info .download .list li button.paper strong .sub { font-size: 20px; }
-.info .download .list li button.pdf { border-color: #e57e7c; background-image: url('/resources/skydash/images_renew/map/download-pdf.png'); }
-.info .download .list li button.jpg { border-color: #54bca1; background-image: url('/resources/skydash/images_renew/map/download-jpg.png'); }
-.info .download .list li button.dxf { border-color: #815aac; background-image: url('/resources/skydash/images_renew/map/download-dxf.png'); }
-.info .download .list li button.shp { border-color: #1b74ff; background-image: url('/resources/skydash/images_renew/map/download-shp.png'); }
+.info .download .list li button.pdf { border-color: #e57e7c; background-image: url('../images_renew/map/download-pdf.png'); }
+.info .download .list li button.jpg { border-color: #54bca1; background-image: url('../images_renew/map/download-jpg.png'); }
+.info .download .list li button.dxf { border-color: #815aac; background-image: url('../images_renew/map/download-dxf.png'); }
+.info .download .list li button.shp { border-color: #1b74ff; background-image: url('../images_renew/map/download-shp.png'); }
 
 @media (max-width: 910px) {
     .info main.download { padding: 10px 0 0; }
@@ -2888,7 +2888,7 @@ body.noResponsive .desktopOnly { display: block !important; }
 body.noResponsive aside.control { position: static; opacity: 1; }
 
 .aerial h1,
-.customMap h1 { text-indent: -9999px; overflow: hidden; position: absolute; left: 20px; top: 20px; background: #fff url('/resources/skydash/images_renew/map/aerial-home-small.png') center no-repeat; width: 50px; height: 50px; border: 1px solid #999; box-sizing: border-box; box-shadow: 0 0 10px rgba(0,0,0,.2); border-radius: 5px; }
+.customMap h1 { text-indent: -9999px; overflow: hidden; position: absolute; left: 20px; top: 20px; background: #fff url('../images_renew/map/aerial-home-small.png') center no-repeat; width: 50px; height: 50px; border: 1px solid #999; box-sizing: border-box; box-shadow: 0 0 10px rgba(0,0,0,.2); border-radius: 5px; }
 ol.step { position: absolute; left: 80px; top: 20px; right: 20px; }
 ol.step li { float: left; width: 16.66%; box-sizing: border-box; border: 1px solid #999; border-right-width: 0; height: 50px; line-height: 48px; text-align: center; background: #fff; font-weight: 700; color: #999; font-size: 16px; overflow: visible; position: relative; }
 ol.step li:first-child { border-radius: 5px 0 0 5px; }
@@ -2991,7 +2991,7 @@ body.noResponsive .map.customMap address { left: 20px; }
 .map.hdmap section.search .pannel1 input[type=text] { display: block; width: 100%; box-sizing: border-box; padding: 4px 33px 6px 10px; line-height: 21px; border: 0 none; border-radius: 3px 0 0 3px; height: 33px; color: #111; }
 .map.hdmap section.search .pannel1 select { border: 0 none; padding-top: 2px; padding-bottom: 2px; width: 75px; min-width: 0; float: left; }
 .map.hdmap section.search .pannel1 select+input[type=text] { width: calc(100% - 75px); }
-.map.hdmap section.search .pannel1 button.search { position: absolute; right: 0; bottom: 0; top: 0; width: 34px; background: #F3797E url('/resources/skydash/images_renew/map/button-search.png') center no-repeat; text-indent: -999px; border-radius: 0 2px 2px 0; overflow: hidden; }
+.map.hdmap section.search .pannel1 button.search { position: absolute; right: 0; bottom: 0; top: 0; width: 34px; background: #F3797E url('../images_renew/map/button-search.png') center no-repeat; text-indent: -999px; border-radius: 0 2px 2px 0; overflow: hidden; }
 /* 211109 수정 */
 /* .map.hdmap section.search .pannel2 */
 .map.hdmap section.search .pannel3 { padding-top: 0; }
@@ -3132,65 +3132,65 @@ body.noResponsive .map.customMap address { left: 20px; }
 }
 
 .nlip-hdmap-left-toolbar #nlip_hdmap_index_control {
-    background-image: url(/resources/skydash/img/process/ms/map/map_l_iconMenu01_off.png);
+    background-image: url(../img/process/ms/map/map_l_iconMenu01_off.png);
     width: 75px;
     height: 61px;
     font-size:0;
 }
 .nlip-hdmap-left-toolbar .nlip-search-control-wapper:hover #nlip_hdmap_index_control,
 .nlip-hdmap-left-toolbar #nlip_hdmap_index_control.activate{
-    background-image: url(/resources/skydash/img/process/ms/map/map_l_iconMenu01_on.png);
+    background-image: url(../img/process/ms/map/map_l_iconMenu01_on.png);
 }
 
 .nlip-hdmap-left-toolbar #nlip_hdmap_area_control {
-    background-image: url(/resources/skydash/img/process/ms/map/map_l_iconMenu02_off.png) ;
+    background-image: url(../img/process/ms/map/map_l_iconMenu02_off.png) ;
     width: 75px;
     height: 60px;
     font-size:0;
 }
 .nlip-hdmap-left-toolbar .nlip-search-control-wapper:hover #nlip_hdmap_area_control,
 .nlip-hdmap-left-toolbar #nlip_hdmap_area_control.activate{
-    background-image: url(/resources/skydash/img/process/ms/map/map_l_iconMenu02_on.png);
+    background-image: url(../img/process/ms/map/map_l_iconMenu02_on.png);
 }
 
 .nlip-hdmap-left-toolbar #nlip_hdmap_buffer_control {
-    background-image: url(/resources/skydash/img/process/ms/map/map_l_iconMenu03_off.png);
+    background-image: url(../img/process/ms/map/map_l_iconMenu03_off.png);
     width: 75px;
     height: 60px;
     font-size:0;
 }
 .nlip-hdmap-left-toolbar .nlip-search-control-wapper:hover #nlip_hdmap_buffer_control {
-    background-image: url(/resources/skydash/img/process/ms/map/map_l_iconMenu03_on.png);
+    background-image: url(../img/process/ms/map/map_l_iconMenu03_on.png);
 }
 .nlip-hdmap-left-toolbar #nlip_hdmap_address_control {
-    background-image: url(/resources/skydash/img/process/ms/map/map_l_iconMenu04_off.png);
+    background-image: url(../img/process/ms/map/map_l_iconMenu04_off.png);
     width: 75px;
     height: 60px;
     font-size:0;
 }
 .nlip-hdmap-left-toolbar .nlip-search-control-wapper:hover #nlip_hdmap_address_control,
 .nlip-hdmap-left-toolbar #nlip_hdmap_address_control.activate {
-    background-image: url(/resources/skydash/img/process/ms/map/map_l_iconMenu04_on.png);
+    background-image: url(../img/process/ms/map/map_l_iconMenu04_on.png);
 }
 
 .nlip-hdmap-left-toolbar #nlip_hdmap_detail_control {
-	background: url(/resources/skydash/img/process/ms/map/map_l_iconMenu06_off.png) no-repeat;
+	background: url(../img/process/ms/map/map_l_iconMenu06_off.png) no-repeat;
 	width:75px;
 	height:60px;
 	font-size:0;
 }
 .nlip-hdmap-left-toolbar .nlip-search-control-wapper:hover #nlip_hdmap_detail_control{
-	background-image:url(/resources/skydash/img/process/ms/map/map_l_iconMenu06_on.png);
+	background-image:url(../img/process/ms/map/map_l_iconMenu06_on.png);
 }
 
 .nlip-hdmap-left-toolbar #nlip_hdmap_sector_control {
-	background: url(/resources/skydash/img/process/ms/map/map_l_iconMenu07_off.png) no-repeat;
+	background: url(../img/process/ms/map/map_l_iconMenu07_off.png) no-repeat;
 	width:75px;
 	height:60px;
 	font-size:0;
 }
 .nlip-hdmap-left-toolbar .nlip-search-control-wapper:hover #nlip_hdmap_sector_control{
-	background-image:url(/resources/skydash/img/process/ms/map/map_l_iconMenu07_on.png);
+	background-image:url(../img/process/ms/map/map_l_iconMenu07_on.png);
 }
 
 .nlip-hdmap-left-toolbar .nlip-search-control,
@@ -3262,7 +3262,7 @@ body.noResponsive .map.customMap address { left: 20px; }
 .hdmap .hide{display: none;}
 
 .hdmap .roadmap_search_wrap{ box-sizing: border-box; /*padding: 0 15px 15px;*/}
-.hdmap .roadmap_search_wrap h1{font-size: 14px; color: #06a6e1; background: url("/resources/skydash/img/process/ms/map/hdmap/icon_maps.png") no-repeat 0 6px; padding-left: 7px; margin: 15px;}
+.hdmap .roadmap_search_wrap h1{font-size: 14px; color: #06a6e1; background: url("../img/process/ms/map/hdmap/icon_maps.png") no-repeat 0 6px; padding-left: 7px; margin: 15px;}
 .hdmap .list_info{height: 50px; border: solid #eaeaea; border-width: 1px 0; margin: 15px;}
 .hdmap .list_info span{font-size: 14px; line-height: 50px; color: #666; }
 .hdmap .list_info span b{color: #0000ff; font-weight: 800;}
@@ -3280,26 +3280,26 @@ body.noResponsive .map.customMap address { left: 20px; }
 .hdmap ol.list_icon{}
 .hdmap ol.list_icon li.wrap_con{padding-top: 12px; background:no-repeat 15px 10px;}
 .hdmap ol.list_icon li.wrap_con+li.wrap_con{border-top: 1px solid #ccc; }
-.hdmap ol.list_icon li.wrap_con:nth-child(1){background-image:url(/resources/skydash/img/process/ms/map/hdmap/num/icon_course_1.png);}
-.hdmap ol.list_icon li.wrap_con:nth-child(2){background-image:url(/resources/skydash/img/process/ms/map/hdmap/num/icon_course_2.png);}
-.hdmap ol.list_icon li.wrap_con:nth-child(3){background-image:url(/resources/skydash/img/process/ms/map/hdmap/num/icon_course_3.png);}
-.hdmap ol.list_icon li.wrap_con:nth-child(4){background-image:url(/resources/skydash/img/process/ms/map/hdmap/num/icon_course_4.png);}
-.hdmap ol.list_icon li.wrap_con:nth-child(5){background-image:url(/resources/skydash/img/process/ms/map/hdmap/num/icon_course_5.png);}
-.hdmap ol.list_icon li.wrap_con:nth-child(6){background-image:url(/resources/skydash/img/process/ms/map/hdmap/num/icon_course_6.png);}
-.hdmap ol.list_icon li.wrap_con:nth-child(7){background-image:url(/resources/skydash/img/process/ms/map/hdmap/num/icon_course_7.png);}
-.hdmap ol.list_icon li.wrap_con:nth-child(8){background-image:url(/resources/skydash/img/process/ms/map/hdmap/num/icon_course_8.png);}
-.hdmap ol.list_icon li.wrap_con:nth-child(9){background-image:url(/resources/skydash/img/process/ms/map/hdmap/num/icon_course_9.png);}
-.hdmap ol.list_icon li.wrap_con:nth-child(10){background-image:url(/resources/skydash/img/process/ms/map/hdmap/num/icon_course_10.png);}
-.hdmap ol.list_icon#pointCloudPreRoadList li.wrap_con:nth-child(1){background-image:url(/resources/skydash/img/process/ms/map/hdmap/pointcloud/icon_course_1.png);}
-.hdmap ol.list_icon#pointCloudPreRoadList li.wrap_con:nth-child(2){background-image:url(/resources/skydash/img/process/ms/map/hdmap/pointcloud/icon_course_2.png);}
-.hdmap ol.list_icon#pointCloudPreRoadList li.wrap_con:nth-child(3){background-image:url(/resources/skydash/img/process/ms/map/hdmap/pointcloud/icon_course_3.png);}
-.hdmap ol.list_icon#pointCloudPreRoadList li.wrap_con:nth-child(4){background-image:url(/resources/skydash/img/process/ms/map/hdmap/pointcloud/icon_course_4.png);}
-.hdmap ol.list_icon#pointCloudPreRoadList li.wrap_con:nth-child(5){background-image:url(/resources/skydash/img/process/ms/map/hdmap/pointcloud/icon_course_5.png);}
-.hdmap ol.list_icon#pointCloudPreRoadList li.wrap_con:nth-child(6){background-image:url(/resources/skydash/img/process/ms/map/hdmap/pointcloud/icon_course_6.png);}
-.hdmap ol.list_icon#pointCloudPreRoadList li.wrap_con:nth-child(7){background-image:url(/resources/skydash/img/process/ms/map/hdmap/pointcloud/icon_course_7.png);}
-.hdmap ol.list_icon#pointCloudPreRoadList li.wrap_con:nth-child(8){background-image:url(/resources/skydash/img/process/ms/map/hdmap/pointcloud/icon_course_8.png);}
-.hdmap ol.list_icon#pointCloudPreRoadList li.wrap_con:nth-child(9){background-image:url(/resources/skydash/img/process/ms/map/hdmap/pointcloud/icon_course_9.png);}
-.hdmap ol.list_icon#pointCloudPreRoadList li.wrap_con:nth-child(10){background-image:url(/resources/skydash/img/process/ms/map/hdmap/pointcloud/icon_course_10.png);}
+.hdmap ol.list_icon li.wrap_con:nth-child(1){background-image:url(../img/process/ms/map/hdmap/num/icon_course_1.png);}
+.hdmap ol.list_icon li.wrap_con:nth-child(2){background-image:url(../img/process/ms/map/hdmap/num/icon_course_2.png);}
+.hdmap ol.list_icon li.wrap_con:nth-child(3){background-image:url(../img/process/ms/map/hdmap/num/icon_course_3.png);}
+.hdmap ol.list_icon li.wrap_con:nth-child(4){background-image:url(../img/process/ms/map/hdmap/num/icon_course_4.png);}
+.hdmap ol.list_icon li.wrap_con:nth-child(5){background-image:url(../img/process/ms/map/hdmap/num/icon_course_5.png);}
+.hdmap ol.list_icon li.wrap_con:nth-child(6){background-image:url(../img/process/ms/map/hdmap/num/icon_course_6.png);}
+.hdmap ol.list_icon li.wrap_con:nth-child(7){background-image:url(../img/process/ms/map/hdmap/num/icon_course_7.png);}
+.hdmap ol.list_icon li.wrap_con:nth-child(8){background-image:url(../img/process/ms/map/hdmap/num/icon_course_8.png);}
+.hdmap ol.list_icon li.wrap_con:nth-child(9){background-image:url(../img/process/ms/map/hdmap/num/icon_course_9.png);}
+.hdmap ol.list_icon li.wrap_con:nth-child(10){background-image:url(../img/process/ms/map/hdmap/num/icon_course_10.png);}
+.hdmap ol.list_icon#pointCloudPreRoadList li.wrap_con:nth-child(1){background-image:url(../img/process/ms/map/hdmap/pointcloud/icon_course_1.png);}
+.hdmap ol.list_icon#pointCloudPreRoadList li.wrap_con:nth-child(2){background-image:url(../img/process/ms/map/hdmap/pointcloud/icon_course_2.png);}
+.hdmap ol.list_icon#pointCloudPreRoadList li.wrap_con:nth-child(3){background-image:url(../img/process/ms/map/hdmap/pointcloud/icon_course_3.png);}
+.hdmap ol.list_icon#pointCloudPreRoadList li.wrap_con:nth-child(4){background-image:url(../img/process/ms/map/hdmap/pointcloud/icon_course_4.png);}
+.hdmap ol.list_icon#pointCloudPreRoadList li.wrap_con:nth-child(5){background-image:url(../img/process/ms/map/hdmap/pointcloud/icon_course_5.png);}
+.hdmap ol.list_icon#pointCloudPreRoadList li.wrap_con:nth-child(6){background-image:url(../img/process/ms/map/hdmap/pointcloud/icon_course_6.png);}
+.hdmap ol.list_icon#pointCloudPreRoadList li.wrap_con:nth-child(7){background-image:url(../img/process/ms/map/hdmap/pointcloud/icon_course_7.png);}
+.hdmap ol.list_icon#pointCloudPreRoadList li.wrap_con:nth-child(8){background-image:url(../img/process/ms/map/hdmap/pointcloud/icon_course_8.png);}
+.hdmap ol.list_icon#pointCloudPreRoadList li.wrap_con:nth-child(9){background-image:url(../img/process/ms/map/hdmap/pointcloud/icon_course_9.png);}
+.hdmap ol.list_icon#pointCloudPreRoadList li.wrap_con:nth-child(10){background-image:url(../img/process/ms/map/hdmap/pointcloud/icon_course_10.png);}
 .hdmap ul.list_contents{}
 .hdmap ul.list_contents li{margin-left: 55px; letter-spacing: -0.05em;font-size: 12px; line-height: 20px;padding-left: 10px;}
 .hdmap ul.list_contents li span.title{font-size: 15px; color: #005aab; font-weight: 700; line-height: 20px; margin-bottom: 5px; width: 100%;}
@@ -3307,11 +3307,11 @@ body.noResponsive .map.customMap address { left: 20px; }
 .hdmap ul.list_contents li b{color: #363636;}
 .hdmap ul.list_contents li strong{color: #eb012b;}
 .hdmap ul.list_contents li.detail_con{margin-left: 0; background: #f1f1f1; box-shadow:inset #e7e7e7 0px 0px 10px 5px; margin-bottom: 15px; padding: 15px 0; max-height: 210px; overflow-x: hidden; overflow-y: auto;}
-.hdmap ul.list_contents li.detail_view{color: #363636; font-weight: 700; background: url("/resources/skydash/img/process/ms/map/hdmap/icon_maps.png") no-repeat 55px -43px; cursor: pointer; margin-bottom: 10px; margin-top: 10px;}
+.hdmap ul.list_contents li.detail_view{color: #363636; font-weight: 700; background: url("../img/process/ms/map/hdmap/icon_maps.png") no-repeat 55px -43px; cursor: pointer; margin-bottom: 10px; margin-top: 10px;}
 .hdmap ul.list_contents li.detail_view.active{ background-position: 55px -93px;}
 
-.hdmap ul.detail_list{margin-bottom: 5px; background: url("/resources/skydash/img/process/ms/map/hdmap/icon_detail.png") no-repeat 25px 0; padding-right: 10px;}
-.hdmap ul.detail_list:last-child{background: url("/resources/skydash/img/process/ms/map/hdmap/icon_detail_last.png") no-repeat 25px 0;}
+.hdmap ul.detail_list{margin-bottom: 5px; background: url("../img/process/ms/map/hdmap/icon_detail.png") no-repeat 25px 0; padding-right: 10px;}
+.hdmap ul.detail_list:last-child{background: url("../img/process/ms/map/hdmap/icon_detail_last.png") no-repeat 25px 0;}
 .hdmap ul.detail_list li.title{font-size: 13px; color: #000; font-weight: 700; cursor: pointer;}
 /* .hdmap ul.detail_list li.active, */
 /* .hdmap ul.detail_list li.active~li { background: #fff; } */
@@ -3321,9 +3321,9 @@ body.noResponsive .map.customMap address { left: 20px; }
 
 
 /** 211201, KSH **/
-.hdmap ol.list_icon#pointCloudPreRoadList ul.detail_list{background-image:url(/resources/skydash/img/process/ms/map/hdmap/pointcloud/icon_detail.png); padding: 10px 0px 10px 15px;margin-bottom:0; background-position: 25px center; background-repeat: no-repeat; background-size: 16px;}
+.hdmap ol.list_icon#pointCloudPreRoadList ul.detail_list{background-image:url(../img/process/ms/map/hdmap/pointcloud/icon_detail.png); padding: 10px 0px 10px 15px;margin-bottom:0; background-position: 25px center; background-repeat: no-repeat; background-size: 16px;}
 .hdmap ol.list_icon#pointCloudPreRoadList ul.detail_list.active{background-color: rgba(0,90,171,0.2);}
-.hdmap ol.list_icon#pointCloudPreRoadList ul.detail_list:last-child{background-image:url(/resources/skydash/img/process/ms/map/hdmap/pointcloud/icon_detail_last.png);background-position: 25px 10px;}
+.hdmap ol.list_icon#pointCloudPreRoadList ul.detail_list:last-child{background-image:url(../img/process/ms/map/hdmap/pointcloud/icon_detail_last.png);background-position: 25px 10px;}
 .hdmap ol.list_icon#pointCloudPreRoadList ul.list_contents li.detail_view{
 	color: #363636;
     font-weight: 500;
@@ -3398,20 +3398,20 @@ body.noResponsive .map.customMap address { left: 20px; }
 .pointCloud ul.detail_list li.title b.active{font-size: 13px; color: #0089e0; text-decoration: underline; font-weight: 800;}
 
 /* 버튼 추가 */
-.hdmap ul.detail_list li.title button.info{width: 16px; height: 16px; background: url("/resources/skydash/img/process/ms/map/hdmap/icon_maps.png") no-repeat 0 -250px; text-indent: -100000px; float: right; margin-right: 10px; margin-top: 5px;}		
+.hdmap ul.detail_list li.title button.info{width: 16px; height: 16px; background: url("../img/process/ms/map/hdmap/icon_maps.png") no-repeat 0 -250px; text-indent: -100000px; float: right; margin-right: 10px; margin-top: 5px;}		
 .hdmap ul.detail_list li.title button.info:hover,
 .hdmap ul.detail_list li.title button.info.active{background-position: 0 -300px;}		
-.hdmap ul.detail_list li.title button.pop_3d{width: 20px; height: 20px; text-indent: -10000px; float: right; background:url("/resources/skydash/img/process/ms/map/hdmap/icon_maps.png") no-repeat 0 -400px; margin-right: 4px; margin-top: 1px;}
+.hdmap ul.detail_list li.title button.pop_3d{width: 20px; height: 20px; text-indent: -10000px; float: right; background:url("../img/process/ms/map/hdmap/icon_maps.png") no-repeat 0 -400px; margin-right: 4px; margin-top: 1px;}
 .hdmap ul.detail_list li.title button.pop_3d:hover,
 .hdmap ul.detail_list li.title button.pop_3d.active{background-position: 0 -450px;}
-.hdmap ul.detail_list li.title button.app{width: 20px; height: 20px; background: url("/resources/skydash/img/process/ms/map/hdmap/icon_detail_app.png") no-repeat center; text-indent: -100000px; float: right; margin-right: 5px; margin-top: 5px;}		
+.hdmap ul.detail_list li.title button.app{width: 20px; height: 20px; background: url("../img/process/ms/map/hdmap/icon_detail_app.png") no-repeat center; text-indent: -100000px; float: right; margin-right: 5px; margin-top: 5px;}		
 .hdmap ul.detail_list li.title button.app:hover,
-.hdmap ul.detail_list li.title button.app.active{background-image: url('/resources/skydash/img/process/ms/map/hdmap/icon_detail_app-on.png');}		
-.hdmap ul.detail_list li.title button.drag{width: 20px; height: 20px; text-indent: -10000px; float: right; background:url("/resources/skydash/img/process/ms/map/hdmap/icon_detail_drag.png") no-repeat center; margin-right: 10px; margin-top: 5px;}
+.hdmap ul.detail_list li.title button.app.active{background-image: url('../img/process/ms/map/hdmap/icon_detail_app-on.png');}		
+.hdmap ul.detail_list li.title button.drag{width: 20px; height: 20px; text-indent: -10000px; float: right; background:url("../img/process/ms/map/hdmap/icon_detail_drag.png") no-repeat center; margin-right: 10px; margin-top: 5px;}
 .hdmap ul.detail_list li.title button.drag:hover,
-.hdmap ul.detail_list li.title button.drag.active{background-image: url('/resources/skydash/img/process/ms/map/hdmap/icon_detail_drag-on.png');}
+.hdmap ul.detail_list li.title button.drag.active{background-image: url('../img/process/ms/map/hdmap/icon_detail_drag-on.png');}
 .hdmap .mapList { top: 640px; }
-.hdmap button.map_view{width: 19px; height: 19px; background: url("/resources/skydash/img/process/ms/map/hdmap/icon_maps.png") no-repeat 0 -150px; text-indent: -10000000000px; float: right; margin-right: 5px; margin-top: 3px;}
+.hdmap button.map_view{width: 19px; height: 19px; background: url("../img/process/ms/map/hdmap/icon_maps.png") no-repeat 0 -150px; text-indent: -10000000000px; float: right; margin-right: 5px; margin-top: 3px;}
 .hdmap button.map_view:hover, button.map_view.active{background-position: 0 -200px;}	
 
 
@@ -3419,7 +3419,7 @@ body.noResponsive .map.customMap address { left: 20px; }
 .pop_section_info{width: 335px; min-height: 330px; padding: 0 !important; }
 .ui-dialog{ background: #fff; border-radius: 10px; box-shadow:rgba(0,0,0,0.20) 2px 2px 6px; position: absolute !important;}
 .ui-dialog-titlebar{height: 50px; width: 335px; font-size: 16px; color: #fff; background: #0d624f; text-align: center; vertical-align: middle; display: table-cell; padding: 10px; box-sizing: border-box; border-radius: 5px 5px 0 0;}
-.ui-dialog-titlebar span.ui-dialog-title{background: url("/resources/skydash/img/process/ms/map/hdmap/icon_maps.png") no-repeat 0 -350px; padding-left: 23px; line-height: 21px; display: inline-block; /* float: none !important; */ float: left !important; width: auto !important;}		
+.ui-dialog-titlebar span.ui-dialog-title{background: url("../img/process/ms/map/hdmap/icon_maps.png") no-repeat 0 -350px; padding-left: 23px; line-height: 21px; display: inline-block; /* float: none !important; */ float: left !important; width: auto !important;}		
 .ui-dialog-titlebar span.multi_view{float: right; font-size: 12px;}
 .ui-dialog-titlebar .ui-dialog-titlebar-close { display: block; text-indent: -999px; overflow: hidden; position: absolute; right: 0; top: 0; width: 59px; height: 50px; }		
 .ui-dialog-titlebar .ui-dialog-titlebar-close:before, .ui-dialog-titlebar .ui-dialog-titlebar-close:after {
@@ -3446,7 +3446,7 @@ body.noResponsive .map.customMap address { left: 20px; }
 /* 지형지물 속성정보 팝업 20190806 */
 #featureContents dl div dt{ float: left; /* width: 120px; */ padding-left: 10px;}
 #featureContents dl div dd{ display: table; margin-left: 97px;}
-#featureContents dl div h1{ font-size: 14px; color: #06a6e1; background: url("/resources/skydash/img/process/ms/map/hdmap/icon_maps.png") no-repeat 0 12px; padding-left: 7px; margin-bottom: 10px; margin-left: 10px; margin-right: 10xp; }
+#featureContents dl div h1{ font-size: 14px; color: #06a6e1; background: url("../img/process/ms/map/hdmap/icon_maps.png") no-repeat 0 12px; padding-left: 7px; margin-bottom: 10px; margin-left: 10px; margin-right: 10xp; }
 #featureContents dl hr { border: 0; height: 1px; background: #eaeaea; margin: 15px 0; }
 .hdmap .layerCode{font-weight: bold;}
 #infoPrePopupFeatureClose{text-align: center; margin-top: 10px; margin-bottom: 10px; height: 65px;}
@@ -3458,9 +3458,9 @@ body.noResponsive .map.customMap address { left: 20px; }
 #infoPrePopupConstructionClose{text-align: center; margin-top: 10px; margin-bottom: 10px; height: 65px;}
 #infoPrePopupConstructionCloseBtn{width: 130px; height: 30px; color: #fff; background: #06a6e1; margin-top: 18px;}
 
-button.pop_prev{width: 20px; height: 20px; background: url(/resources/skydash/img/process/ms/map/hdmap/icon_page.png) no-repeat 0 0; text-indent: -100000000px;}
+button.pop_prev{width: 20px; height: 20px; background: url(../img/process/ms/map/hdmap/icon_page.png) no-repeat 0 0; text-indent: -100000000px;}
 button.pop_prev:hover{background-position: 0px -20px; background-color: #03a9f4!important; border-radius: 10px;}
-button.pop_next{width: 20px; height: 20px; background: url(/resources/skydash/img/process/ms/map/hdmap/icon_page.png) no-repeat -20px 0; text-indent: -100000000px;}
+button.pop_next{width: 20px; height: 20px; background: url(../img/process/ms/map/hdmap/icon_page.png) no-repeat -20px 0; text-indent: -100000000px;}
 button.pop_next:hover{background-position: -20px -20px; background-color: #03a9f4!important; border-radius: 10px;}
 
 /* 상세 검색 팝업 20190903 */
@@ -3474,7 +3474,7 @@ button.pop_next:hover{background-position: -20px -20px; background-color: #03a9f
 
 /* 부속구간 유형 표시  hdmapAGrp04 - 부속구간 - v_hdm2019_a4_subsidiarysection*/
 ul.facilities{width: 285px; clear: both; padding-top: 15px; margin-left: 7px; height: 70px; }
-ul.facilities li{float: left; margin-right: 10px; font-size: 12px; width: 63px; word-break: keep-all; padding-top: 45px; text-align: center; background: url("/resources/skydash/img/process/ms/map/hdmap/pop_icons.png") no-repeat; color: #494949; line-height: 12px;}
+ul.facilities li{float: left; margin-right: 10px; font-size: 12px; width: 63px; word-break: keep-all; padding-top: 45px; text-align: center; background: url("../img/process/ms/map/hdmap/pop_icons.png") no-repeat; color: #494949; line-height: 12px;}
 ul.facilities li.f_1{background-position: 0 0}
 ul.facilities li.f_1.off{background-position: 0 -70px; color: #C4C4C4;}
 ul.facilities li.f_2{background-position: 0 -140px}
@@ -3490,9 +3490,9 @@ ul.facilities li:last-child{margin-right: 0px;}
 .hdmap .s_paging{font-family: "Arial"; font-size: 11px; color: #5C6777; display: inline-block;}
 .hdmap .s_paging li{float: left; text-align: center; width: 20px; height: 20px; margin-left: 5px; line-height: 20px; cursor: pointer;}
 .hdmap .s_paging li:hover{background-color: #03a9f4!important; color: #fff; border-radius: 10px;}
-.hdmap .s_paging li:first-child{background: url(/resources/skydash/img/process/ms/map/hdmap/icon_page.png) no-repeat 0 0; text-indent: -100000000px;}
+.hdmap .s_paging li:first-child{background: url(../img/process/ms/map/hdmap/icon_page.png) no-repeat 0 0; text-indent: -100000000px;}
 .hdmap .s_paging li:first-child:hover{background-position: 0px -20px;}
-.hdmap .s_paging li:last-child{background: url(/resources/skydash/img/process/ms/map/hdmap/icon_page.png) no-repeat -20px 0; text-indent: -100000000px;}
+.hdmap .s_paging li:last-child{background: url(../img/process/ms/map/hdmap/icon_page.png) no-repeat -20px 0; text-indent: -100000000px;}
 .hdmap .s_paging li:last-child:hover{background-position: -20px -20px;}
 .hdmap .s_paging a{font-family: "Arial"; font-size: 11px; color: #5C6777; display: inline-block; float: left; text-align: center; width: 20px; height: 20px; margin-left: 5px; line-height: 20px; cursor: pointer;}
 .hdmap .s_paging a:hover, .s_paging a.selected{background-color: #03a9f4!important; color: #fff; border-radius: 10px;}
@@ -3500,13 +3500,13 @@ ul.facilities li:last-child{margin-right: 0px;}
 /* 190701_검색결과없음 */
 .hdmap .search_not_found{width: 370px; text-align: center; margin-top: 50px; max-width: 100%;}
 .hdmap .search_not_found li{color: #666; font-size: 16px; font-weight: 700;}
-.hdmap .search_not_found li.search_word{color: #06a6e1; font-size: 20px; font-weight: 700; background: url("/resources/skydash/img/process/ms/map/hdmap/search_not_found.png") no-repeat center; padding-top: 110px; margin-bottom: 10px;}
+.hdmap .search_not_found li.search_word{color: #06a6e1; font-size: 20px; font-weight: 700; background: url("../img/process/ms/map/hdmap/search_not_found.png") no-repeat center; padding-top: 110px; margin-bottom: 10px;}
 .hdmap .search_not_found li.tip{color: #9e9d9d; font-size: 14px; margin-top: 3px; font-weight: 500}
 		
 /* 레이어 목록창 */
 .hdmap .right_layer{ position: absolute; right: 80px; top: 70px; width: 400px; height: 50px; max-height: 620px; }
 .hdmap .right_layer._layerOn{ height: calc(100% - 20px); }
-.hdmap .right_layer button.layer{float: right; width: 50px; height: 50px; background: url("/resources/skydash/img/process/ms/map/hdmap/btn_layer.png") no-repeat 0 0; text-indent: -10000000px;}
+.hdmap .right_layer button.layer{float: right; width: 50px; height: 50px; background: url("../img/process/ms/map/hdmap/btn_layer.png") no-repeat 0 0; text-indent: -10000000px;}
 .hdmap .right_layer button.layer:hover, .right_layer button.layer.active{background-position: 0 -50px;}
 .hdmap .ctrl_layer{width: 400px; height: calc(100% - -90px); background: #fff; float: left; border-radius: 3px; box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.5)}
 .hdmap .hdmap_legend .tab{float: left;}
@@ -3516,7 +3516,7 @@ ul.facilities li:last-child{margin-right: 0px;}
 .hdmap .hdmap_legend .tab li.active{background: #fff; border-bottom: 1px solid #fff; color: #06a6e1; text-decoration: underline; cursor: default;}
 .hdmap .ctrl_layer h4{font-size: 13px; color: #575757; float: left; margin: 20px 10px; width: 320px; line-height: 120%;}
 .hdmap .ctrl_layer ul.btns{float: left; margin: 0 20px 0px 10px; text-align: center; font-size: 12px; border-bottom: 1px solid #e4e4e4; padding: 0 0 0px 10px; width: 360px;}									
-.hdmap .ctrl_layer ul.btns li{width: 67px; margin-bottom: 8px; color: #676767; cursor: pointer; float: left; padding-top: 60px; margin-right: 5px; letter-spacing: -0.07em; font-size: 11px; background: url("/resources/skydash/img/process/ms/map/hdmap/icon_layer.png") no-repeat; margin-bottom: 15px; line-height: 120%;}
+.hdmap .ctrl_layer ul.btns li{width: 67px; margin-bottom: 8px; color: #676767; cursor: pointer; float: left; padding-top: 60px; margin-right: 5px; letter-spacing: -0.07em; font-size: 11px; background: url("../img/process/ms/map/hdmap/icon_layer.png") no-repeat; margin-bottom: 15px; line-height: 120%;}
 /* 레이어별 아이콘 */
 /* 주행경로노드 */
 .hdmap .ctrl_layer ul.btns li.layer_1{background-position: 0 0;}
@@ -3663,14 +3663,14 @@ ul.facilities li:last-child{margin-right: 0px;}
 
 /* 첫화면 */
 .hdmap .main_tab_wrap{ box-sizing: border-box; /*padding: 0 15px 15px;*/     width: 100%; background-color: #fff; border-top: 1px solid #eaeaea;}
-.hdmap .main_tab_wrap h1{font-size: 14px; color: #06a6e1; background: url("/resources/skydash/img/process/ms/map/hdmap/icon_maps.png") no-repeat 0 6px; padding-left: 7px; margin: 15px; clear: both;}
+.hdmap .main_tab_wrap h1{font-size: 14px; color: #06a6e1; background: url("../img/process/ms/map/hdmap/icon_maps.png") no-repeat 0 6px; padding-left: 7px; margin: 15px; clear: both;}
 .hdmap .wrap_roadmap_main{width: 375px; height: 145px; overflow-y:hidden; overflow-x: hidden; position: absolute; box-sizing: border-box;}
 .hdmap .main_tab_wrap_line{margin: 15px; border: solid #eaeaea; border-width: 0.5px 0;}
 .hdmap .wrap_roadmap_main div.download{height: 150px; overflow-x: hidden; margin: 0 15px; border: 1px solid #d2d7dd; clear: both!important;}
 .hdmap .wrap_roadmap_main div.download ul{ padding: 10px;}
 .hdmap .wrap_roadmap_main div.download ul li{height: 30px; width: 320px; color: #383838}
 .hdmap .wrap_roadmap_main div.download ul li:hover{background: #EDEDED;}
-.hdmap button.select_down{padding: 10px 10px 10px 30px; margin-top: 7px; font-size: 13px; background: #4ebde4 url("/resources/skydash/img/process/ms/map/hdmap/btn_check.png") no-repeat 8px 8px; color: #fff; font-weight: 600; margin-right: 15px;}
+.hdmap button.select_down{padding: 10px 10px 10px 30px; margin-top: 7px; font-size: 13px; background: #4ebde4 url("../img/process/ms/map/hdmap/btn_check.png") no-repeat 8px 8px; color: #fff; font-weight: 600; margin-right: 15px;}
 .hdmap button.select_down:hover{background-color: #39a7cd;}
 .hdmap .wrap_select_down{text-align: right; padding: 0 0  0 15px;}
 
@@ -3687,18 +3687,18 @@ ul.facilities li:last-child{margin-right: 0px;}
 .hdmap .m_paging{font-family: "Arial"; font-size: 11px; color: #5C6777; display: inline-block;}
 .hdmap .m_paging li{float: left; text-align: center; width: 20px; height: 20px; margin-left: 5px; line-height: 20px; cursor: pointer;}
 .hdmap .m_paging li:hover{background-color: #03a9f4!important; color: #fff; border-radius: 10px;}
-.hdmap .m_paging li:first-child{background: url("/resources/skydash/img/process/ms/map/hdmap/icon_page.png") no-repeat 0 0; text-indent: -100000000px;}
+.hdmap .m_paging li:first-child{background: url("../img/process/ms/map/hdmap/icon_page.png") no-repeat 0 0; text-indent: -100000000px;}
 .hdmap .m_paging li:first-child:hover{background-position: 0px -20px;}
-.hdmap .m_paging li:last-child{background: url("/resources/skydash/img/process/ms/map/hdmap/icon_page.png") no-repeat -20px 0; text-indent: -100000000px;}
+.hdmap .m_paging li:last-child{background: url("../img/process/ms/map/hdmap/icon_page.png") no-repeat -20px 0; text-indent: -100000000px;}
 .hdmap .m_paging li:last-child:hover{background-position: -20px -20px;}
 .hdmap .main_notice{padding: 0 15px 10px 15px; font-size: 12px; line-height: 19px;}
-.hdmap .main_notice li{margin-bottom: 5px; background: url("/resources/skydash/img/process/ms/map/hdmap/icon_maps.png") no-repeat 0 8px; padding-left: 8px;}
+.hdmap .main_notice li{margin-bottom: 5px; background: url("../img/process/ms/map/hdmap/icon_maps.png") no-repeat 0 8px; padding-left: 8px;}
 .hdmap .main_notice li a{color: black; text-decoration: none; cursor: pointer;}
-.hdmap .main_tab_wrap h1.notice{font-size: 14px; color: #06a6e1; background: url("/resources/skydash/img/process/ms/map/hdmap/icon_notice.png") no-repeat 0; padding-left: 20px; margin: 15px;}
+.hdmap .main_tab_wrap h1.notice{font-size: 14px; color: #06a6e1; background: url("../img/process/ms/map/hdmap/icon_notice.png") no-repeat 0; padding-left: 20px; margin: 15px;}
 .hdmap .main_tab_wrap h1.notice button.more{float: right; background: #fff; font-size: 11px; margin-top: 2px; color:#949494;}
 .hdmap .main_tab_wrap h1.notice button.more:hover{color: #06a6e1;}
-.hdmap .main_tab_wrap h1.route{background: url("/resources/skydash/img/process/ms/map/hdmap/icon_route.png") no-repeat; padding-left: 15px; height: 17px;}
-.hdmap .main_tab_wrap h1.layer{background: url("/resources/skydash/img/process/ms/map/hdmap/title_layer.png") no-repeat; padding-left: 20px; height: 17px;}
+.hdmap .main_tab_wrap h1.route{background: url("../img/process/ms/map/hdmap/icon_route.png") no-repeat; padding-left: 15px; height: 17px;}
+.hdmap .main_tab_wrap h1.layer{background: url("../img/process/ms/map/hdmap/title_layer.png") no-repeat; padding-left: 20px; height: 17px;}
 
 .hdmap .wrap_down_tab{margin: 15px 15px 0 15px;}
 .hdmap .wrap_down_tab ul.list_tab{ float: left; line-height: 32px; width: 100%;}
@@ -3707,7 +3707,7 @@ ul.facilities li:last-child{margin-right: 0px;}
 .hdmap ul.list_tab li.active{color: #fff; font-weight: 800; background: #617590!important; border-color: #54677e}
 .hdmap .wrap_down_tab ul.list_tab li:hover{background: #dbe2eb;} 
 
-.hdmap span.layer{background: url("/resources/skydash/img/process/ms/map/hdmap/layer_icon.png") no-repeat; display: inline-block; width: 22px; height: 21px; vertical-align: -6px; margin-right: 5px;}
+.hdmap span.layer{background: url("../img/process/ms/map/hdmap/layer_icon.png") no-repeat; display: inline-block; width: 22px; height: 21px; vertical-align: -6px; margin-right: 5px;}
 .hdmap span.layer.type_1{background-position: 0 0;}
 .hdmap span.layer.type_2{background-position: 0 -50px;}
 .hdmap span.layer.type_3{background-position: 0 -100px;}
@@ -3855,28 +3855,28 @@ section.population-search{
 
 
 section.result .list .mark_point { float: left; display: block; width: 26px; height: 32px; background-repeat: no-repeat; background-position: center; font-size: 0;margin-right: 9px; margin-bottom: 5px; background-size: contain;}
-section.result .list .mark_point.ico-0{background-image: url(/resources/skydash/images_renew/common/pin_1_1.png);}
-section.result .list .mark_point.ico-1{background-image: url(/resources/skydash/images_renew/daedong/ico_display1.png);}
-section.result .list .mark_point.ico-2{background-image: url(/resources/skydash/images_renew/daedong/ico_display2.png);}
-section.result .list .mark_point.ico-3{background-image: url(/resources/skydash/images_renew/daedong/ico_display3.png);}
-section.result .list .mark_point.ico-4{background-image: url(/resources/skydash/images_renew/daedong/ico_display4.png);}
-section.result .list .mark_point.ico-5{background-image: url(/resources/skydash/images_renew/daedong/ico_display5.png);}
-section.result .list .mark_point.ico-6{background-image: url(/resources/skydash/images_renew/daedong/ico_display6.png);}
-section.result .list .mark_point.ico-7{background-image: url(/resources/skydash/images_renew/daedong/ico_display7.png);}
-section.result .list .mark_point.ico-8{background-image: url(/resources/skydash/images_renew/daedong/ico_display8.png);}
-section.result .list .mark_point.ico-9{background-image: url(/resources/skydash/images_renew/daedong/ico_display9.png);}
-section.result .list .mark_point.ico-10{background-image: url(/resources/skydash/images_renew/daedong/ico_display10.png);}
-section.result .list .mark_point.ico-11{background-image: url(/resources/skydash/images_renew/daedong/ico_display11.png);}
-section.result .list .mark_point.ico-12{background-image: url(/resources/skydash/images_renew/daedong/ico_display12.png);}
-section.result .list .mark_point.ico-13{background-image: url(/resources/skydash/images_renew/daedong/ico_display13.png);}
-section.result .list .mark_point.ico-14{background-image: url(/resources/skydash/images_renew/daedong/ico_display14.png);}
-section.result .list .mark_point.ico-15{background-image: url(/resources/skydash/images_renew/daedong/ico_display15.png);}
-section.result .list .mark_point.ico-16{background-image: url(/resources/skydash/images_renew/daedong/ico_display16.png);}
-section.result .list .mark_point.ico-17{background-image: url(/resources/skydash/images_renew/daedong/ico_display17.png);}
-section.result .list .mark_point.ico-18{background-image: url(/resources/skydash/images_renew/daedong/ico_display18.png);}
-section.result .list .mark_point.ico-19{background-image: url(/resources/skydash/images_renew/daedong/ico_display19.png);}
-section.result .list .mark_point.ico-20{background-image: url(/resources/skydash/images_renew/daedong/ico_display20.png);}
-section.result .list .mark_point.ico-21{background-image: url(/resources/skydash/images_renew/daedong/ico_display21.png);}
+section.result .list .mark_point.ico-0{background-image: url(../images_renew/common/pin_1_1.png);}
+section.result .list .mark_point.ico-1{background-image: url(../images_renew/daedong/ico_display1.png);}
+section.result .list .mark_point.ico-2{background-image: url(../images_renew/daedong/ico_display2.png);}
+section.result .list .mark_point.ico-3{background-image: url(../images_renew/daedong/ico_display3.png);}
+section.result .list .mark_point.ico-4{background-image: url(../images_renew/daedong/ico_display4.png);}
+section.result .list .mark_point.ico-5{background-image: url(../images_renew/daedong/ico_display5.png);}
+section.result .list .mark_point.ico-6{background-image: url(../images_renew/daedong/ico_display6.png);}
+section.result .list .mark_point.ico-7{background-image: url(../images_renew/daedong/ico_display7.png);}
+section.result .list .mark_point.ico-8{background-image: url(../images_renew/daedong/ico_display8.png);}
+section.result .list .mark_point.ico-9{background-image: url(../images_renew/daedong/ico_display9.png);}
+section.result .list .mark_point.ico-10{background-image: url(../images_renew/daedong/ico_display10.png);}
+section.result .list .mark_point.ico-11{background-image: url(../images_renew/daedong/ico_display11.png);}
+section.result .list .mark_point.ico-12{background-image: url(../images_renew/daedong/ico_display12.png);}
+section.result .list .mark_point.ico-13{background-image: url(../images_renew/daedong/ico_display13.png);}
+section.result .list .mark_point.ico-14{background-image: url(../images_renew/daedong/ico_display14.png);}
+section.result .list .mark_point.ico-15{background-image: url(../images_renew/daedong/ico_display15.png);}
+section.result .list .mark_point.ico-16{background-image: url(../images_renew/daedong/ico_display16.png);}
+section.result .list .mark_point.ico-17{background-image: url(../images_renew/daedong/ico_display17.png);}
+section.result .list .mark_point.ico-18{background-image: url(../images_renew/daedong/ico_display18.png);}
+section.result .list .mark_point.ico-19{background-image: url(../images_renew/daedong/ico_display19.png);}
+section.result .list .mark_point.ico-20{background-image: url(../images_renew/daedong/ico_display20.png);}
+section.result .list .mark_point.ico-21{background-image: url(../images_renew/daedong/ico_display21.png);}
 
 
 
@@ -3891,7 +3891,7 @@ section.result .list .mark_point.ico-21{background-image: url(/resources/skydash
 
 /**	여기서부터 사용자지도와 별도로 쓰이는 대동여지도에만 쓰이는 부분!	**/
 .daedong_img_link{padding:10px 14px 0 14px}
-.daedong_img_down{display:block;width:100%;background: url(/resources/skydash/images_renew/daedong/daedong_img_down.png) no-repeat 52px 7px;height:48px;border: 1px solid #545454;color:#333333;font-size:14px;border-radius:5px;padding-left:100px;text-align:left}
+.daedong_img_down{display:block;width:100%;background: url(../images_renew/daedong/daedong_img_down.png) no-repeat 52px 7px;height:48px;border: 1px solid #545454;color:#333333;font-size:14px;border-radius:5px;padding-left:100px;text-align:left}
 .daedong_img_down span{display:block;color:#888888}
 
 /* 2020.11.05 */
@@ -3934,11 +3934,11 @@ section.result .list .mark_point.ico-21{background-image: url(/resources/skydash
 /*대동여지도 서비스 모달*/
 .service.flex{display:block;left:94px;top:360px;transform: inherit;}
 .service section.popup{width: 475px;padding-bottom:15px;}
-.service_info_top{background: url(/resources/skydash/images_renew/daedong/service_img.png) no-repeat 100% 0;margin-bottom: 5px;min-height:115px;}
+.service_info_top{background: url(../images_renew/daedong/service_img.png) no-repeat 100% 0;margin-bottom: 5px;min-height:115px;}
 .service_info_top h3{font-size: 21px;color: #393939;font-weight: 700;padding-bottom: 7px;}
 .service_info_top h3 span{color: #5f4307;}
 .service_info_top p{color: #575757;font-size: 14px;font-weight: 300;}
-.service_link {background:#f3f3f3 url(/resources/skydash/images_renew/three/db_img2.gif) no-repeat 20px 50%;padding: 20px 30px 20px 90px;margin: 15px 0;}
+.service_link {background:#f3f3f3 url(../images_renew/three/db_img2.gif) no-repeat 20px 50%;padding: 20px 30px 20px 90px;margin: 15px 0;}
 .service_link em{color:#126636;}
 .service_linkview{text-align: center;}
 .service_linkview a{display: inline-block;color: #fff;width: 215px;height: 45px;line-height: 45px;border-radius:3px;font-size: 14px;background: #F3797E;}
@@ -3959,8 +3959,8 @@ section.result .list .mark_point.ico-21{background-image: url(/resources/skydash
 
 /*devision*/
 .left .back_section{position: absolute; left: 370px; top: 20px;  box-shadow: 0 0 10px rgba(0,0,0,.2); box-sizing: border-box; z-index: 1;}
-.left .back_section ul li button{width: 130px;text-align: left;border-radius:5px;color:#888888;height: 44px;background: #fff url(/resources/skydash/images_renew/daedong/ico_prev.png) no-repeat 12px 13px;font-size: 14px;padding-left: 38px;}
-.left .back_section ul li button:hover{background: #333333 url(/resources/skydash/images_renew/daedong/ico_prev_over.png) no-repeat 12px 13px;color:#fff;}
+.left .back_section ul li button{width: 130px;text-align: left;border-radius:5px;color:#888888;height: 44px;background: #fff url(../images_renew/daedong/ico_prev.png) no-repeat 12px 13px;font-size: 14px;padding-left: 38px;}
+.left .back_section ul li button:hover{background: #333333 url(../images_renew/daedong/ico_prev_over.png) no-repeat 12px 13px;color:#fff;}
 
 .map.daedong .mapFunction{top:70px;}
 
@@ -4039,18 +4039,18 @@ section.result .list .mark_point.ico-21{background-image: url(/resources/skydash
 
 .map.daedong .infoPannel .wrap .Theme{position:relative;padding-left:40px}
 .map.daedong .infoPannel .wrap .Theme:after{position:absolute;left:13px;top:6px;display:block;content:'';width:20px;height:20px;background-repeat:no-repeat}
-.map.daedong .infoPannel .wrap .Theme_map01:after{background-image: url(/resources/skydash/images_renew/daedong/ico_Theme_map01.png)}
-.map.daedong .infoPannel .wrap .Theme_map02:after{background-image: url(/resources/skydash/images_renew/daedong/ico_Theme_map02.png)}
-.map.daedong .infoPannel .wrap .Theme_map03:after{background-image: url(/resources/skydash/images_renew/daedong/ico_Theme_map03.png)}
-.map.daedong .infoPannel .wrap .Theme_map04:after{background-image: url(/resources/skydash/images_renew/daedong/ico_Theme_map04.png)}
-.map.daedong .infoPannel .wrap .Theme_map05:after{background-image: url(/resources/skydash/images_renew/daedong/ico_Theme_map05.png)}
-.map.daedong .infoPannel .wrap .Theme_map06:after{background-image: url(/resources/skydash/images_renew/daedong/ico_Theme_map06.png)}
-.map.daedong .infoPannel .wrap .Theme_map07:after{background-image: url(/resources/skydash/images_renew/daedong/ico_Theme_map07.png)}
-.map.daedong .infoPannel .wrap .Theme_map08:after{background-image: url(/resources/skydash/images_renew/daedong/ico_Theme_map08.png)}
+.map.daedong .infoPannel .wrap .Theme_map01:after{background-image: url(../images_renew/daedong/ico_Theme_map01.png)}
+.map.daedong .infoPannel .wrap .Theme_map02:after{background-image: url(../images_renew/daedong/ico_Theme_map02.png)}
+.map.daedong .infoPannel .wrap .Theme_map03:after{background-image: url(../images_renew/daedong/ico_Theme_map03.png)}
+.map.daedong .infoPannel .wrap .Theme_map04:after{background-image: url(../images_renew/daedong/ico_Theme_map04.png)}
+.map.daedong .infoPannel .wrap .Theme_map05:after{background-image: url(../images_renew/daedong/ico_Theme_map05.png)}
+.map.daedong .infoPannel .wrap .Theme_map06:after{background-image: url(../images_renew/daedong/ico_Theme_map06.png)}
+.map.daedong .infoPannel .wrap .Theme_map07:after{background-image: url(../images_renew/daedong/ico_Theme_map07.png)}
+.map.daedong .infoPannel .wrap .Theme_map08:after{background-image: url(../images_renew/daedong/ico_Theme_map08.png)}
 
 .map.daedong .infoPannel.legendArea .households_Total{margin-top:15px}
 .map.daedong .infoPannel.legendArea .households_Total h3{position:relative;color:#333333;padding-left:28px;font-size:16px;}
-.map.daedong .infoPannel.legendArea .households_Total h3:after{position:absolute;left:5px;top:9px;display:block;content:'';width:20px;height:20px;background: url(/resources/skydash/images_renew/daedong/ico_Total_number.png) no-repeat}
+.map.daedong .infoPannel.legendArea .households_Total h3:after{position:absolute;left:5px;top:9px;display:block;content:'';width:20px;height:20px;background: url(../images_renew/daedong/ico_Total_number.png) no-repeat}
 .map.daedong .infoPannel.legendArea .households_Total .households_con{border-top: 2px solid #000; padding:10px;line-height:1.5;color:#888888;font-size:13px;background:#f5f5f5;overflow: auto;height: 150px}
 .map.daedong .infoPannel.legendArea .households_Total .households_con strong{display:block;color:#333333}
 
@@ -4082,11 +4082,11 @@ section.result .list .mark_point.ico-21{background-image: url(/resources/skydash
 }
 /*하단 바로가기*/
 div.quick{position: absolute;right: 80px;bottom: 41px; z-index: 98; }
-div.quick .Gyujanggak{width: 195px;padding-left: 88px;background: #333333 url(/resources/skydash/images_renew/daedong/ico_Gyujanggak.png) no-repeat 7px center;height: 50px;border-radius:5px;}
+div.quick .Gyujanggak{width: 195px;padding-left: 88px;background: #333333 url(../images_renew/daedong/ico_Gyujanggak.png) no-repeat 7px center;height: 50px;border-radius:5px;}
 div.quick .Gyujanggak strong{display: block;text-align: left;font-size:12px;color:#fff;}
 div.quick .Gyujanggak span{display: block;text-align: left;font-size: 12px;}
 div.quick .Gyujanggak span img{display: inline-block;margin-left: 5px;vertical-align: middle}
-div.quick .To_movement{width: 215px;padding-left: 145px;background: #333333 url(/resources/skydash/images_renew/daedong/ico_tomovement.png) no-repeat 12px center;height: 50px;border-radius:5px;}
+div.quick .To_movement{width: 215px;padding-left: 145px;background: #333333 url(../images_renew/daedong/ico_tomovement.png) no-repeat 12px center;height: 50px;border-radius:5px;}
 div.quick .To_movement strong{display: inline-block;text-indent: -9999px;}
 div.quick .To_movement span{display: block;text-align: left;}
 
@@ -4144,11 +4144,11 @@ section.result header .ww.blue{color: #0070c0;margin-bottom: 10px;}
 
 
 .threeDB section.popup{width: 475px;padding-bottom:15px;}
-.db_info_top{background: url(/resources/skydash/images_renew/three/db_img.png) no-repeat 100% 0;margin-bottom: 5px;}
+.db_info_top{background: url(../images_renew/three/db_img.png) no-repeat 100% 0;margin-bottom: 5px;}
 .db_info_top h3{font-size: 21px;color: #393939;font-weight: 700;padding-bottom: 7px;}
 .db_info_top h3 span{color: #5f4307;}
 .db_info_top p{color: #575757;font-size: 14px;font-weight: 300;}
-.db_link {background:#f3f3f3 url(/resources/skydash/images_renew/three/db_img2.gif) no-repeat 20px 50%;padding: 20px 30px 20px 90px;margin: 15px 0;}
+.db_link {background:#f3f3f3 url(../images_renew/three/db_img2.gif) no-repeat 20px 50%;padding: 20px 30px 20px 90px;margin: 15px 0;}
 .db_linkview{text-align: center;}
 .db_linkview a{display: inline-block;color: #fff;width: 215px;height: 45px;line-height: 45px;border-radius:3px;font-size: 14px;background: #F3797E;}
 
@@ -4231,18 +4231,18 @@ section.result header .ww.blue{color: #0070c0;margin-bottom: 10px;}
 .satlitAir .search_type1{position: relative; margin-right: 15px; height:35px;}
 .satlitAir .search_type1 div{position: relative; display: block;}
 .satlitAir .search_type1 div ul.condition{position: absolute;width: calc(100% - 60px); top: 0;}
-.satlitAir .search_type1 button {position: absolute;right: 0;top: 0;height: 35px;border-radius: 3px;background: #F3797E url(/resources/skydash/images_renew/map/button-search.png) center no-repeat;text-indent: -999px;overflow: hidden;width: 40px;}
+.satlitAir .search_type1 button {position: absolute;right: 0;top: 0;height: 35px;border-radius: 3px;background: #F3797E url(../images_renew/map/button-search.png) center no-repeat;text-indent: -999px;overflow: hidden;width: 40px;}
 .satlitAir .search_type1 input._datepicker{max-width: 260px;}
 .satlitAir .search_type3 {position: relative;padding: 0 15px;}
-.satlitAir .search_type3 button {border-radius: 0 3px 3px 0;padding: 0 15px 0 30px;background: #0d624f url(/resources/skydash/images_renew/map/search-switch-arrow-left.png) left center no-repeat;color: #fff;height: 32px;line-height: 32px;position: relative;width: 100%;}
+.satlitAir .search_type3 button {border-radius: 0 3px 3px 0;padding: 0 15px 0 30px;background: #0d624f url(../images_renew/map/search-switch-arrow-left.png) left center no-repeat;color: #fff;height: 32px;line-height: 32px;position: relative;width: 100%;}
 
 .satlitAir section.notice {box-sizing: border-box;border: 1px solid #999;border-radius: 5px;background: #fff;width: 340px;left: 20px;position: absolute;box-shadow: 0 0 10px rgb(0 0 0 / 20%);padding-bottom: 15px;} 
 .satlitAir section.notice article{display:none;}
 .satlitAir section.notice article.on{display:block;}
 .satlitAir section.notice header{font-size: 15px;line-height: 18px;color: #000;border-bottom: 2px solid #000;box-sizing: border-box;}
 .satlitAir section.notice h1{font-size: 14px;padding-left: 20px;height:17px;margin: 15px;clear: both;}
-.satlitAir section.notice h1.layer{color: #06a6e1;background: url(/resources/skydash/img/process/ms/map/hdmap/title_layer.png) no-repeat;}
-.satlitAir section.notice header h1{color: #0d624f;background: url(/resources/skydash/img/process/ms/map/hdmap/icon_maps.png) no-repeat 0 6px;padding-left: 7px;}
+.satlitAir section.notice h1.layer{color: #06a6e1;background: url(../img/process/ms/map/hdmap/title_layer.png) no-repeat;}
+.satlitAir section.notice header h1{color: #0d624f;background: url(../img/process/ms/map/hdmap/icon_maps.png) no-repeat 0 6px;padding-left: 7px;}
 .satlitAir section.notice p{color: gray;padding: 5px 20px;}
 .satlitAir section.notice p strong{color:#F3797E;}
 .satlitAir section.notice p strong.blue{color:#3181bd;}
@@ -4258,7 +4258,7 @@ section.result header .ww.blue{color: #0070c0;margin-bottom: 10px;}
 .buble {display:block; position: absolute; z-index: 100; bottom: 40px; left: 4px; transition: all 0.25s ease-in; }
 .buble .wrap_cnt { position: relative; background: #223b37; padding: 5px 10px; width: 310px; border-radius: 10px; -webkit-box-shadow: 1px 1px 25px 0 rgba(0, 0, 0, 0.5); box-shadow: 1px 1px 25px 0 rgba(0, 0, 0, 0.5); }
 .buble .wrap_cnt p { word-break: break-all; color: #fff; font-size: 11px; }
-.buble .wrap_cnt .btn_close { position: absolute; right: 6px; top: 11px; background: url(/resources/skydash/images_renew/map/btn_tooltip.png) no-repeat 0 0; width: 9px; height: 7px; text-indent: -9999px; background-size: contain;}		
+.buble .wrap_cnt .btn_close { position: absolute; right: 6px; top: 11px; background: url(../images_renew/map/btn_tooltip.png) no-repeat 0 0; width: 9px; height: 7px; text-indent: -9999px; background-size: contain;}		
 .buble .wrap_cnt:after { content: ""; display: block; position: absolute; left: 48%; top: -8px; transform: translatey(-50%); border-top: 8px solid transparent; border-bottom: 8px solid #223b37; border-right: 8px solid transparent; border-left: 8px solid  transparent; }
 .buble.off{display:none;}
 
@@ -4324,11 +4324,11 @@ nav.category.satellite,
     overflow: hidden;
 }
 #totalSearch .simple .method .mi_btn ul li button.mi_btn_reset{
-    background: #999 url(/resources/skydash/images_renew/map/button-reset.png) center no-repeat;
+    background: #999 url(../images_renew/map/button-reset.png) center no-repeat;
 }
 #totalSearch .simple .method .mi_btn ul li button.mi_btn_search{
     margin-right: 5px;
-    background: #F3797E url(/resources/skydash/images_renew/map/button-search.png) center no-repeat;
+    background: #F3797E url(../images_renew/map/button-search.png) center no-repeat;
 }
 
 /* 구지도 타임슬라이드 */
@@ -4383,3 +4383,78 @@ ol.progress.article.api p.note { color: #F3797E; font-size: 12px; line-height: 1
 .online_step_info li{position:relative;font-size:14px;color:#575757;padding-left:10px; margin-top: 20px;}
 .online_step_info li:first-child{margin-top:0}
 .online_step_info li:after{position:absolute;left:0;top:9px;display:block;content:'';width:3px;height:3px;background:#0d624f;}
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+main, article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video, hr, textarea,
+input
+	/*input[type=text], input[type=radio], input[type=checkbox],
+    input[type=button], input[type=image], input[type=password],
+    input[type=reset], input[type=submit],
+    input[type=email], input[type=color], input[type=date], input[type=datetime],input[type=datetime-local], input[type=month], input[type=number], input[type=range], input[type=search], input[type=tel], input[type=time], input[type=url], inpuyt[type=week]*/
+{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	/*vertical-align: baseline;*/
+}
+/* HTML5 display-role reset for older browsers */
+main, article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+a { color: inherit; }
+a:link { text-decoration: none; color: inherit; }
+
+/* custome */
+input[type=button], button, label { cursor: pointer; }
+input, button, img, select { outline: none; }
+button { border: none; background: none; padding: 0; margin: 0; outline: none; }
+li { list-style: none; }
+input[type=radio],
+input[type=checkbox] { margin-right: 2px; }
+textarea { resize: none; outline: none; }
+
+button,
+a,
+select,
+input,
+textarea { font: inherit; color: inherit; letter-spacing: inherit; }
+
+iframe { display: block; }
