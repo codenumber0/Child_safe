@@ -11,6 +11,7 @@
 	select * from t_member
 	</select>
 	
+<!-- member관련 -->
     <!-- 회원가입  -->
 	<insert id="join" parameterType="kr.childsafe.domain.TMember">
 		insert into t_member(mem_id,mem_pw,mem_name,mem_birthdate,mem_phone, mem_email, mem_addr, mem_joindate, admin_yn) 
@@ -31,7 +32,34 @@
 	    mem_phone=#{mem_phone},
 	    mem_email=#{mem_email},
 	    mem_addr=#{mem_addr} where mem_id=#{mem_id}
-	    
-	    
 	</update>
+	
+<!-- 유아/어린이 밀도 관련 -->
+	<!-- [Ajax] 위도경도 select -->
+    <select id="cDensityAjax" resultType = "kr.childsafe.domain.TPopulationDensity_wll">
+        select population_density, latitude, longitude from T_POPULATION_DENSITY
+    </select>   
+    
+<!-- 스쿨존 사고 다발지점 관련 -->
+    <!-- [Ajax]모든정보 불러오기 -->    
+    <select id="szAccidentAjax" resultType = "kr.childsafe.domain.SzAccident">
+        select * from t_sz_accident        
+    </select>
+    
+    <!-- [Ajax]광주정보만 모든정보 불러오기 -->
+      <select id="szAccidentGwangjuAjax" resultType = "kr.childsafe.domain.SzAccident">
+        select * from t_sz_accident where sa_spot like '광주광역시%'      
+    </select>
+    
+<!-- 스쿨존 현황 관련 -->
+    <!-- [Ajax]모든정보 불러오기 -->  
+    <select id="schoolZoneAjax" resultType = "kr.childsafe.domain.TSchoolZone">
+        select * from t_school_zone
+    </select>
+    
+    <!-- [Ajax]광주정보만 모든정보 불러오기 -->
+    <select id="schoolZoneGwangjuAjax" resultType = "kr.childsafe.domain.TSchoolZone">
+     select * from t_school_zone where sz_addr like '광주광역시%'
+    </select>
+	
 </mapper>
